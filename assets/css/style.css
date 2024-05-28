@@ -28781,6 +28781,19 @@ ul a.rsswidget:hover {
   }
 }
 
+.offer__launch-1 {
+  position: relative;
+  z-index: 1;
+}
+
+.offer__launch-1 img {
+  width: 500px;
+  height: 500px;
+  bottom: 30px;
+  left: -220px;
+  position: absolute;
+}
+
 .main-thumb2-area {
   display: -webkit-box;
   display: -ms-flexbox;
