@@ -2,11 +2,11 @@
 <section class="section-wrapper-4 content-inner overflow-hidden bg-parallax" style="background-image:url('assets/images/background/back_02.png'); background-attachment: fixed; background-size: 800px;">
     <div class="container">
         <div class="section-head text-center">
-            <h2 class="title wow flipInX" data-wow-delay="0.2s">Мы в цифрах</h2>
+           <h2 class="title">Мы в цифрах</h2>
             <p>Тут будет подзаголовок</p>
         </div>
         <div class="row icon-wrapper2 gx-lg-5">
-            <div class="col-lg-4 col-md-6 m-b30 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <div class="col-lg-4 col-md-6 m-b30">
                 <div class="icon-bx-wraper style-2">
                     <div class="icon-bx radius">
                         <div>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 m-b30 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+            <div class="col-lg-4 col-md-6 m-b30">
                 <div class="icon-bx-wraper style-2">
                     <div class="icon-bx radius">
                         <div>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 m-b30 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+            <div class="col-lg-4 col-md-6 m-b30">
                 <div class="icon-bx-wraper style-2">
                     <div class="icon-bx radius">
                         <div>

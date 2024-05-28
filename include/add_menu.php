@@ -2,7 +2,7 @@
 <section class="content-inner-4 section-wrapper-6">
     <div class="container inner-section-wrapper">
         <div class="section-head text-center">
-            <h2 class="title wow flipInX" data-wow-delay="0.2s">Добавьте к заказу</h2>
+           <h2 class="title">Добавьте к заказу</h2>
             <p>Тут будет подзаголовок</p>
         </div>
         <div class="row">

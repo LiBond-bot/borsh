@@ -2,13 +2,13 @@
 <section class="content-inner-4 overflow-hidden">
     <div class="container">
         <div class="section-head text-center">
-            <h2 class="title wow flipInX" data-wow-delay="0.2s">Акции</h2>
+           <h2 class="title">Акции</h2>
             <p>Тут будет подзаголовок</p>
         </div>
         <div class="swiper blog-swiper swiper-visible swiper-btn-lr">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="dz-card style-1 blog-half overlay-shine dz-img-effect zoom wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="dz-card style-1 blog-half overlay-shine dz-img-effect zoom">
                         <div class="dz-media">
                             <img src="/assets/images/blog/grid/pic1.jpg" alt="/">
                         </div>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="dz-card style-1 blog-half overlay-shine dz-img-effect zoom wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="dz-card style-1 blog-half overlay-shine dz-img-effect zoom">
                         <div class="dz-media">
                             <img src="/assets/images/blog/grid/pic1.jpg" alt="/">
                         </div>

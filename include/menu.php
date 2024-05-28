@@ -2,7 +2,7 @@
 <section class="menu content-inner bg-white overflow-hidden section-wrapper-2">
     <div class="container">
         <div class="section-head text-center">
-            <h2 class="title wow flipInX" data-wow-delay="0.2s">Наши обеды</h2>
+            <h2 class="title">Наши обеды</h2>
             <p>Блюда не повторяются в течении 2х недель</p>
         </div>
         <div class="swiper-btn-lr">
