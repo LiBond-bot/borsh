@@ -1,5 +1,5 @@
 <!-- Are Menu-->
-<section class="content-inner-4 section-wrapper-6">
+<section class="content-inner-4 section-wrapper-6 section-wrapper-2 right">
     <div class="container inner-section-wrapper">
         <div class="section-head text-center">
            <h2 class="title">Добавьте к заказу</h2>
@@ -15,9 +15,6 @@
                     </ul>
                 </div>
             </div>
-            <!-- <div class="col-xl-2 col-lg-3 col-md-12 text-lg-end d-lg-block d-none wow fadeInUp" data-wow-delay="0.4s">
-                <a href="our-menu-1.html" class="btn btn-outline-primary btn-hover-3"><span class="btn-text" data-text="View All">View All</span></a>
-            </div> -->
         </div>
         <div class="clearfix">
             <ul id="masonry" class="row dlab-gallery-listing gallery">
@@ -83,5 +80,6 @@
             </div>
         </div>
     </div>
+    <img class="bg bg4 dz-move-down" src="/assets/images/menu/back_03.png" alt="/">
 </section>
 <!-- Are Menu-->

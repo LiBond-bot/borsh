@@ -87,7 +87,7 @@
 					</div>
 				</div>
 			</div>
-			<img class="bg1 dz-move" src="/assets/images/background/pic5.png" alt="/">
+			<img class="bg bg1 dz-move" src="/assets/images/background/pic5.png" alt="/">
 		</footer>
 		
 	<!-- Footer -->

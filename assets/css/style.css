@@ -13712,6 +13712,10 @@ fieldset:disabled .wp-block-button__link {
   padding: 0;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   line-height: 1.6;
   color: #666666;
@@ -36516,7 +36520,7 @@ pre {
   position: relative;
 }
 
-.section-wrapper-2 .bg1, .section-wrapper-2 .bg2 {
+.section-wrapper-2 .bg {
   position: absolute;
 }
 
@@ -36530,9 +36534,25 @@ pre {
   right: 40px;
 }
 
+.section-wrapper-2 .bg3 {
+  top: 0;
+  left: -120px;
+}
+
+.section-wrapper-2 .bg4 {
+  bottom: 0;
+  left: -275px;
+}
+
 .section-wrapper-2.right .bg1 {
   bottom: 0;
-  right: -355px;
+  right: -100px;
+  left: auto;
+}
+
+.section-wrapper-2.right .bg4 {
+  bottom: 0;
+  right: -150px;
   left: auto;
 }
 
@@ -36542,7 +36562,16 @@ pre {
   }
   .section-wrapper-2 .bg2 {
     top: 90px;
-    right: 15px;
+    left: 15px;
+  }
+  .section-wrapper-2 .bg3 {
+    top: 0;
+    left: -100px;
+  }
+  .section-wrapper-2 .bg4 {
+    bottom: 0;
+    right: -150px;
+    left: auto;
   }
 }
 

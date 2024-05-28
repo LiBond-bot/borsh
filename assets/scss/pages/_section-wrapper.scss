@@ -16,7 +16,7 @@
 
 .section-wrapper-2{
 	position:relative;
-	.bg1,.bg2{
+	.bg{
 		position:absolute;
 	}
 	.bg1{
@@ -27,10 +27,26 @@
 		top:100px;
 		right:40px;
 	}
+	.bg3{
+		top:0;
+		left:-120px;
+	}
+
+	.bg4{
+		bottom:0;
+		left:-275px;
+	}
+
 	&.right{
 		.bg1{
 			bottom:0;
-			right:-355px;
+			right:-100px;
+			left:auto;
+		}
+
+		.bg4{
+			bottom:0;
+			right:-150px;
 			left:auto;
 		}
 	}
@@ -40,7 +56,18 @@
 		}
 		.bg2{
 			top: 90px;
-			right: 15px;
+			left: 15px;
+		}
+
+		.bg3{
+			top:0;
+			left:-100px;
+		}
+
+		.bg4{
+			bottom:0;
+			right:-150px;
+			left:auto;
 		}
 	}
 	@include respond('laptop'){

@@ -1,5 +1,5 @@
 <!-- Image Box-1  -->
-<section class="menu content-inner bg-white overflow-hidden section-wrapper-2">
+<section class="menu content-inner bg-white overflow-hidden section-wrapper-2 right">
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title">Наши обеды</h2>
@@ -36,8 +36,8 @@
             </div>
         </div>
     </div>
-    <img class="bg1 dz-move-down" src="/assets/images/menu/back_01.png" alt="/">
-    <!-- <img class="bg2 dz-parallax" data-parallax-speed="0.05" src="/assets/images/background/pic3.png" alt="/"> -->
+    <!-- <img class="bg bg1 dz-move-down" src="/assets/images/menu/back_02.png" alt="/"> -->
+    <!-- <img class="bg bg2 dz-parallax" data-parallax-speed="0.05" src="/assets/images/background/pic3.png" alt="/"> -->
 </section>
 <!-- Image Box-1 -->
 

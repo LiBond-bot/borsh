@@ -1,4 +1,4 @@
-<section class="content-inner-4">
+<section class="content-inner-4 section-wrapper-2">
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title">Вкусно кормим с 2018 года</h2>
@@ -82,4 +82,5 @@
             </div>
         </div>
     </div>
+    <img class="bg bg3 dz-move-down" src="/assets/images/about/back_01.png" alt="/">
 </section>
