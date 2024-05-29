@@ -46,9 +46,9 @@
 						</div>
 						<div class="col-xl-6 col-lg-5 col-md-5">
 							<div class="banner-media">
-								<img src="/assets/images/main-slider/slider3/bg_1.png" class="item-bg" alt="/">									
+							<img src="/assets/images/offer/back_03.png" class="item-bg" alt="/">									
 								<div class="item-media wow fadeInRight dz-move-down" data-wow-delay="1s" data-speed-x="-2" data-speed-scale="-1">
-									<img src="/assets/images/main-slider/slider3/offer.png" class="img2" alt="/">
+								<img src="/assets/images/offer/back_02.png" class="img2" alt="/">
 								</div>
 							</div>
 						</div>

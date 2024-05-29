@@ -10,7 +10,7 @@
 						<div class="icon-bx-wraper style-3">
 							<div class="icon-bx">
 								<div>
-									<img src="/assets/images/icons/delivery-man.png" alt="">
+								<img src="/assets/images/icons/licensing.png" alt="">
 								</div>
 							</div>
 							<div class="icon-content">
@@ -23,7 +23,7 @@
 						<div class="icon-bx-wraper style-3">
 							<div class="icon-bx">
 								<div>
-									<img src="/assets/images/icons/delivery-man.png" alt="">
+									<img src="/assets/images/icons/individual-personality.png" alt="">
 								</div>
 							</div>
 							<div class="icon-content">
@@ -36,7 +36,7 @@
 						<div class="icon-bx-wraper style-3">
 							<div class="icon-bx">
 								<div>
-									<img src="/assets/images/icons/delivery-man.png" alt="">
+									<img src="/assets/images/icons/tasting.png" alt="">
 								</div>
 							</div>
 							<div class="icon-content">
@@ -49,7 +49,7 @@
 						<div class="icon-bx-wraper style-3">
 							<div class="icon-bx">
 								<div>
-									<img src="/assets/images/icons/delivery-man.png" alt="">
+									<img src="/assets/images/icons/contract.png" alt="">
 								</div>
 							</div>
 							<div class="icon-content">
