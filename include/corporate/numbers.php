@@ -23,7 +23,7 @@
                 <div class="icon-bx-wraper style-2">
                     <div class="icon-bx radius">
                         <div>
-                            <img src="/assets/images/icons/experience.png" alt="">
+                            <img src="/assets/images/icons/healthy-food.png" alt="">
                         </div>
                     </div>
                     <div class="icon-content">
@@ -36,7 +36,7 @@
                 <div class="icon-bx-wraper style-2">
                     <div class="icon-bx radius">
                         <div>
-                            <img src="/assets/images/icons/experience.png" alt="">
+                            <img src="/assets/images/icons/employees.png" alt="">
                         </div>
                     </div>
                     <div class="icon-content">
