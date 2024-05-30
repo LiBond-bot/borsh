@@ -169,14 +169,14 @@
 							<a href="#" class="btn btn-outline-primary btn-md shadow-primary btn-hover-3"><span class="btn-text" data-text="Обратный звонок">Обратный звонок</span></a>
 
 							
-							<div class="dz-social-icon">
+							<!-- <div class="dz-social-icon">
 								<ul>
 									<li><a target="_blank" class="fab fa-facebook-f" href="https://www.facebook.com/"></a></li>
 									<li><a target="_blank" class="fab fa-twitter" href="https://twitter.com/"></a></li>
 									<li><a target="_blank" class="fab fa-linkedin-in" href="https://www.linkedin.com/"></a></li>
 									<li><a target="_blank" class="fab fa-instagram" href="https://www.instagram.com/"></a></li>
 								</ul>
-							</div>	
+							</div>	 -->
 						</div>
 						
 					</div>

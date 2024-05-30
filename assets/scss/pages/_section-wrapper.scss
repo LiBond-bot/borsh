@@ -37,6 +37,11 @@
 		left:-275px;
 	}
 
+	.bg5{
+		bottom:0;
+		left:-275px;
+	}
+
 	&.right{
 		.bg1{
 			bottom:0;
@@ -45,6 +50,12 @@
 		}
 
 		.bg4{
+			bottom:0;
+			right:-150px;
+			left:auto;
+		}
+
+		.bg5{
 			bottom:0;
 			right:-150px;
 			left:auto;
@@ -60,14 +71,21 @@
 		}
 
 		.bg3{
-			top:0;
-			left:-100px;
+			top: 0;
+			left: -250px;
 		}
 
 		.bg4{
 			bottom:0;
 			right:-150px;
 			left:auto;
+		}
+
+		.bg5{
+			bottom: 0;
+			right: -200px;
+			left: auto;
+			width: 400px;
 		}
 	}
 	@include respond('laptop'){
@@ -78,15 +96,95 @@
 			top: 28px;
 			right: 0px;
 		}
+
+		.bg3{
+			top: -130px;
+			left: -100px;
+			width: 300px;
+		}
+
+		&.right{
+			.bg1{
+				display:none;
+			}
+
+			.bg5{
+				bottom: 0;
+				right: -140px;
+				left: auto;
+				width: 300px;
+			}
+		}
+		
+	}
+
+	@include respond('tab-land'){
+
 		&.right{
 			.bg1{
 				display:none;
 			}
 		}
-		@include respond('tab-land'){
-			.bg2{
-				display:none;
+
+		&.right{
+			.bg4{
+				right: -50px !important;
+				width: 300px;
 			}
+
+			.bg5{
+				right: -200px;
+			}
+		}
+
+		.bg3{
+			top: -150px;
+			left: -115px;
+			width: 300px;
+		}
+	}
+
+	@include respond('tab-port'){
+		.bg3{
+			top: -84px;
+			left: -112px;
+			width: 250px;
+		}
+	}
+
+	@include respond('phone-land'){
+		.bg3{
+			top: -84px;
+			left: -138px;
+			width: 250px;
+		}
+
+		&.right{
+			.bg5{
+				right: -170px;
+				width: 250px;
+			}
+		}
+	}
+
+	@include respond('phone'){
+		&.right{
+			.bg4{
+				right: -80px !important;
+				width: 250px;
+			}
+
+			.bg5{
+				right: -120px;
+				width: 200px;
+				bottom: -62px;
+			}
+		}
+
+		.bg3{
+			top: -190px;
+			left: -97px;
+			width: 220px;
 		}
 	}
 }

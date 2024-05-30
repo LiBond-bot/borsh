@@ -76,7 +76,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center mt-5">
-                <a href="contact-us.html" class="btn btn-primary btn-md shadow-primary m-r30 btn-hover-3"><span class="btn-text" data-text="Узнать меню">Узнать меню</span></a>
+                <a href="contact-us.html" class="btn btn-primary btn-md shadow-primary btn-hover-3"><span class="btn-text" data-text="Узнать меню">Узнать меню</span></a>
             </div>
         </div>
     </div>

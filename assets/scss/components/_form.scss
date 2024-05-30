@@ -591,6 +591,11 @@ label.error {
 			font-size: 45px;
 			line-height: 56px;
 			color:#fff;
+
+			@include respond('phone'){
+				font-size: 32px;
+				line-height: 32px;
+			}
 		}
 		p{
 			font-weight: 400;

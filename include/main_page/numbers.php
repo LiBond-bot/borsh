@@ -1,12 +1,12 @@
 <!-- Service Section -->
-<section class="section-wrapper-4 content-inner overflow-hidden bg-parallax" style="background-image:url('assets/images/background/back_02.png'); background-attachment: fixed; background-size: 800px;">
+<section class="section-wrapper-4 content-inner-1 overflow-hidden bg-parallax" style="background-image:url('assets/images/background/back_02.png'); background-attachment: fixed; background-size: 800px;">
     <div class="container">
         <div class="section-head text-center">
            <h2 class="title">Мы в цифрах</h2>
             <p>Тут будет подзаголовок</p>
         </div>
-        <div class="row icon-wrapper2 gx-lg-5">
-            <div class="col-lg-4 col-md-6 m-b30">
+        <div class="row icon-wrapper2 gx-lg-5 flex-lg-row flex-column align-items-center">
+            <div class="col-lg-4 col-10 col-sm-7 col-md-5 mb-5 mb-lg-0">
                 <div class="icon-bx-wraper style-2">
                     <div class="icon-bx radius">
                         <div>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 m-b30">
+            <div class="col-lg-4 col-10 col-sm-7 col-md-5 mb-5 mb-lg-0">
                 <div class="icon-bx-wraper style-2">
                     <div class="icon-bx radius">
                         <div>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 m-b30">
+            <div class="col-lg-4 col-10 col-sm-7 col-md-5 mb-0">
                 <div class="icon-bx-wraper style-2">
                     <div class="icon-bx radius">
                         <div>
