@@ -275,3 +275,13 @@
 		right:auto;
 	}
 }
+
+body .add-menu {
+	.swiper-free-mode>.swiper-wrapper {
+		transition-timing-function:inherit !important;
+	}
+
+	.swiper-visible .swiper-slide {
+		transition: none !important;
+	}
+}

@@ -22,24 +22,31 @@
 
 // Tabs style 1
 .tabs-style-1{
-	border-bottom: 2px solid #EAEAEA;
 	margin: 0 0 30px;
 	
 	li{
-		margin: 0 3px -1px 0;
+		margin: 0 10px 0px 0;
 	}
 	.nav-link{
-		border: 2px solid rgba(255,255,255,0);
-		border-width: 2px 2px 0;
+		border: none;
 		color: var(--title);
+		border-radius: 6px;
+		outline: none;
+
+		& i {
+			font-size: 26px;
+		}
+
+		& span {
+			font-weight: 500;
+		}
 		
 		&.active,
 		&:hover,
 		&:active,
 		&:focus{
-			border: 2px solid #EAEAEA;
-			background-color: #EAEAEA;
-			color: var(--title);
+			color: #fff;
+			background: var(--primary);
 		}
 	}
 }

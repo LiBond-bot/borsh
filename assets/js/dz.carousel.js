@@ -327,6 +327,43 @@ jQuery(window).on('load', function() {
 		});
 	}
 
+	// img slider
+	if(jQuery('.menu-swiper').length > 0){
+		var swiper = new Swiper('.menu-swiper', {
+			spaceBetween: 30,
+			speed: 0,
+			parallax: true,
+			loop:true,
+			navigation: {
+				nextEl: '.img-button-next',
+				prevEl: '.img-button-prev',
+			},
+			breakpoints: {
+				1200: {
+					slidesPerView: 3,
+				},
+				1024: {
+					slidesPerView: 3,
+				},
+				768: {
+					slidesPerView: 2,
+				},
+				600: {
+					slidesPerView: 2,
+				},
+				320: {
+					slidesPerView: 1,
+				},
+			}
+		});
+
+		// jQuery('.tab-pane').map((i,el)=>{
+		// 	jQuery(el).on('click', function(){
+		// 		console.log(22)
+		// 	})
+		// })
+	}
+
 	
 });
 /* Document .ready END */

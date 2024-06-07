@@ -117,7 +117,7 @@
 <script src="/assets/vendor/lightgallery/dist/lightgallery.min.js"></script>
 <script src="/assets/vendor/lightgallery/dist/plugins/thumbnail/lg-thumbnail.min.js"></script>
 <script src="/assets/vendor/lightgallery/dist/plugins/zoom/lg-zoom.min.js"></script>
-<script src="/assets/js/dz.carousel.min.js"></script><!-- OWL-CAROUSEL -->
+<script src="/assets/js/dz.carousel.js"></script><!-- OWL-CAROUSEL -->
 <script src="/assets/js/dz.ajax.js"></script><!-- AJAX -->
 <script src="/assets/js/custom.js"></script><!-- CUSTOM JS -->
 <script src="/assets/js/dznav-init.js"></script><!-- DZNAV INIT -->
