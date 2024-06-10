@@ -19,7 +19,7 @@
 						<div class="banner-media">
 							<img src="/assets/images/offer/back_03.png" class="item-bg" alt="/">									
 							<div class="item-media wow fadeInRight dz-move-down" data-wow-delay="1s" data-speed-x="-2" data-speed-scale="-1">
-								<img src="/assets/images/offer/back_02.png" class="img2" alt="/">
+								<img src="/assets/images/offer/back_04.png" class="img2" alt="/">
 							</div>
 						</div>
 					</div>

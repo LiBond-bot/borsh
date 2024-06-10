@@ -59,12 +59,12 @@
                 <div class="icon-bx-wraper style-3">
                     <div class="icon-bx">
                         <div>
-                            <img src="/assets/images/icons/opinions.png" alt="">
+                            <img src="/assets/images/icons/healthy-food.png" alt="">
                         </div>
                     </div>
                     <div class="icon-content">
-                        <h5 class="title">Открыты к пожеланиям</h5>
-                        <p>Всегда готовы выслушать ваши кулинарные предпочтения.</p>
+                        <h5 class="title">Разнообразное<br>меню</h5>
+                        <p>Более 300 блюд<br>в ассортименте.</p>
                     </div>
                 </div>
             </div>

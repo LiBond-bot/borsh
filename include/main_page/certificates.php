@@ -1,7 +1,7 @@
 <section class="certificates content-inner-1 section-wrapper-2 right">
     <div class="container">
         <div class="section-head text-center">
-            <h2 class="title">Сертификаты</h2>
+            <h2 class="title">Сертификаты качества</h2>
             <p class="about-p">Тут будет подзаголовок</p>
         </div>
         <div class="row">

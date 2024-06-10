@@ -2,7 +2,7 @@
 <section id="partners" class="partners section-wrapper-4 content-inner-1 overflow-hidden bg-parallax" style="background-image:url('assets/images/background/back_02.png'); background-attachment: fixed; background-size: 800px;">
     <div class="container">
         <div class="section-head text-center">
-           <h2 class="title">БОРЩ — ваш надежный поставщик готовых обедов</h2>
+           <h2 class="title">"БОРЩ" — ваш надежный поставщик готовых обедов</h2>
             <p>Производим и доставляем блюда для дальнейшей реализации</p>
         </div>
         <div class="row">

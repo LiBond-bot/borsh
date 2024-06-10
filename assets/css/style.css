@@ -18002,7 +18002,6 @@ section {
   display: inline-block;
   position: relative;
   border-width: 0 0 0 1px;
-  text-transform: capitalize;
   line-height: 1.1;
 }
 
@@ -25159,7 +25158,6 @@ body .add-menu .swiper-visible .swiper-slide {
 .widget_recent_entries ul li a,
 .widget_services ul li a {
   color: inherit;
-  text-transform: capitalize;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   font-size: 15px;
@@ -28939,16 +28937,16 @@ ul a.rsswidget:hover {
 }
 
 .offer__launch-1 img {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   bottom: 30px;
-  left: -220px;
+  left: -270px;
   position: absolute;
 }
 
 @media (max-width: 1800px) {
   .offer__launch-1 img {
-    left: -300px;
+    left: -350px;
   }
 }
 

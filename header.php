@@ -75,7 +75,7 @@
 								<a href="/"><img src="/assets/images/logo3.png" alt="/"></a>
 							</div>
 							<ul class="nav navbar-nav navbar">
-								<li class="sub-menu-down"><a href="javascript:void(0);">Home</a>
+								<!-- <li class="sub-menu-down"><a href="javascript:void(0);">Home</a>
 									<ul class="sub-menu">
 										<li><a href="/">Home 01</a></li>
 										<li><a href="index-2.html">Home 02</a></li>
@@ -162,8 +162,14 @@
 										</li>
 									</ul>
 								</li>
-								<li><a href="contact-us.html">Contact Us</a></li>
-								<li><a href="templates/page-corporate.php">Коорпоративная</a></li>
+								<li><a href="contact-us.html">Contact Us</a></li> -->
+								<li><a href="templates/page-corporate.php">Главная</a></li>
+								<li><a href="templates/page-corporate.php">Корпоративное питание</a></li>
+								<!-- <li><a href="templates/page-corporate.php">О компании</a></li>
+								<li><a href="templates/page-corporate.php">Производство</a></li>
+								<li><a href="templates/page-corporate.php">Благодарственные письма</a></li>
+								<li><a href="templates/page-corporate.php">Блог</a></li>
+								<li><a href="templates/page-corporate.php">Контакты</a></li> -->
 							</ul>
 
 							<a href="#" class="btn btn-outline-primary btn-md shadow-primary btn-hover-3"><span class="btn-text" data-text="Обратный звонок">Обратный звонок</span></a>

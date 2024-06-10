@@ -245,14 +245,14 @@
     	z-index: 1;	
 
 		& img {
-			width: 500px;
-			height: 500px;
+			width: 600px;
+			height: 600px;
 			bottom: 30px;
-			left: -220px;
+			left: -270px;
 			position: absolute;
 
 			@media (max-width:1800px){
-				left: -300px;
+				left: -350px;
 			}
 
 			@include respond('wide-desktop'){
