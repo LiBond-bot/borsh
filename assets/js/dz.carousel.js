@@ -119,43 +119,43 @@ jQuery(window).on('load', function() {
 	}
 	
 	// browser-menu
-	if(jQuery('.menu-swiper').length > 0){
-		var swiper = new Swiper(".menu-swiper", {
-			spaceBetween: 30,
-			speed: 1000,
-			//parallax: true,
-			loop: true,
-			centeredSlides: false,
-			freeMode: true,
-			watchSlidesVisibility: true,
+	// if(jQuery('.menu-swiper').length > 0){
+	// 	var swiper = new Swiper(".menu-swiper", {
+	// 		spaceBetween: 30,
+	// 		speed: 1000,
+	// 		//parallax: true,
+	// 		loop: true,
+	// 		centeredSlides: false,
+	// 		freeMode: true,
+	// 		watchSlidesVisibility: true,
 			
-			autoplay: {
-			   delay: 1000,
-			},
-			navigation: {
-				nextEl: '.menu-button-next1',
-				prevEl: '.menu-button-prev1',
-			},
-			breakpoints: {
-				1280: {
-					slidesPerView: 4,
-          			spaceBetween: 20,
-				},
-				991: {
-					slidesPerView: 3,
-          			spaceBetween: 30,
-				},
-				591: {
-					slidesPerView: 2,
-          			spaceBetween: 40,
-				},
-				0:{
-					slidesPerView: 1,
-          			spaceBetween: 50,
-				},
-			}
-		});
-	}
+	// 		autoplay: {
+	// 		   delay: 1000,
+	// 		},
+	// 		navigation: {
+	// 			nextEl: '.menu-button-next1',
+	// 			prevEl: '.menu-button-prev1',
+	// 		},
+	// 		breakpoints: {
+	// 			1280: {
+	// 				slidesPerView: 4,
+    //       			spaceBetween: 20,
+	// 			},
+	// 			991: {
+	// 				slidesPerView: 3,
+    //       			spaceBetween: 30,
+	// 			},
+	// 			591: {
+	// 				slidesPerView: 2,
+    //       			spaceBetween: 40,
+	// 			},
+	// 			0:{
+	// 				slidesPerView: 1,
+    //       			spaceBetween: 50,
+	// 			},
+	// 		}
+	// 	});
+	// }
 	
 	// blog-slider-full
 	if(jQuery('.blog-swiper').length > 0){
