@@ -224,14 +224,33 @@
 			right:-60px;
 		}
 	}
+	
+	@include respond('laptop'){
+		.btn-prev-long,
+		.btn-next-long{
+			position: static;
+			transform: translate(0);
+			margin: 40px 50px 0;
+		}
+	}
+
 	@include respond('tab-land'){
 		.btn-prev-long,
 		.btn-next-long{
 			position: static;
 			transform: translate(0);
-			margin: -10px 50px 0;
+			margin: 40px 50px 0;
 		}
 	}
+
+	@include respond('tab-port'){
+		.btn-prev-long,
+		.btn-next-long{
+			margin: 0px 50px 0;
+		}
+	}
+	
+	
 	.btn-prev-1,.btn-next-1{
 		top: 50%;
 		position:absolute;
@@ -254,5 +273,15 @@
 	.btn-prev-1{
 		left:0;
 		right:auto;
+	}
+}
+
+body .add-menu {
+	.swiper-free-mode>.swiper-wrapper {
+		transition-timing-function:inherit !important;
+	}
+
+	.swiper-visible .swiper-slide {
+		transition: none !important;
 	}
 }

@@ -266,7 +266,10 @@
 	transition: .5s ease-in-out;
 	cursor: pointer;
 	border-radius: 6px;
-	
+	position: absolute;
+	right: 16px;
+	top: 16px;
+
 	span{
 		display: block;
 		position: absolute;
@@ -301,7 +304,7 @@
 		
 	}
 	
-	&.open span:nth-child(1) {
+	& span:nth-child(1) {
 		top: 25px;
 		-webkit-transform: rotate(135deg);
 		-moz-transform: rotate(135deg);
@@ -313,12 +316,13 @@
 			width: 25px;
 		}
 	}
-	&.open span:nth-child(2) {
+
+	& span:nth-child(2) {
 		opacity: 0;
 		left: -60px;
 		
 	}
-	&.open span:nth-child(3) {
+	& span:nth-child(3) {
 		top: 25px;
 		width: 26px;
 		-webkit-transform: rotate(-135deg);
@@ -331,6 +335,41 @@
 			width: 25px;
 		}
 	}
+
+	&.collapsed span{
+		display: block;
+		position: absolute;
+		height: 2px;
+		width: 100%;
+		border-radius: 1px;
+		opacity: 1;
+		background: var(--theme-text-color);
+		left:10px;
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		-webkit-transition: .25s ease-in-out;
+		-moz-transition: .25s ease-in-out;
+		-o-transition: .25s ease-in-out;
+		transition: .25s ease-in-out;
+		
+		&:nth-child(1) {
+			top: 11px;
+			width: 26px;
+		}
+
+		&:nth-child(2) {
+			top: 20px;
+			width: 22px;
+		}
+		&:nth-child(3) {
+			top: 30px;
+			width: 17px;
+		}
+		
+	}
+
 	&.style-2{
 		span{
 			background: #fff;
@@ -479,7 +518,6 @@
 				display: inline-block;
 				position: relative;
 				border-width: 0 0 0 1px;
-				text-transform: capitalize;
 				line-height: 1.1;
 				@include custommq ($max:1200px){
 					font-size: 15px;
@@ -906,6 +944,15 @@
 				-o-transition:all 0.8s;
 				margin:0;
 				width: 280px;
+
+				.logo-header {
+					padding: 25px 20px;
+				}
+
+				& > a {
+					margin-left: 68px;
+					margin-top: 48px;
+				}
 			}
 			.logo-header {
 				display: block;

@@ -22,6 +22,7 @@ body {
 	color:$body-color;
 	font-size: 1rem;
 	font-family: var(--font-family-base);
+	overflow-x: hidden;
 	
 	@include respond('phone'){
 		font-size: 15px;
@@ -223,7 +224,7 @@ strong,
 	}
 	@include respond('phone'){
 		padding-top: 50px;
-		padding-bottom: 20px;
+		padding-bottom: 50px;
 	}
 }
 .content-inner-1{

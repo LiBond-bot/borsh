@@ -20,7 +20,7 @@
                     </div>
                     <div class="delivery__item">
                         <div class="delivery__number">3</div>
-                        <div class="delivery__text">Заказы принимаются накануне или до 11:00 в день доставки</div>
+                        <div class="delivery__text">Принимаем заказы накануне или до 11:00 в день доставки</div>
                     </div>
                     <div class="delivery__item">
                         <div class="delivery__number">4</div>

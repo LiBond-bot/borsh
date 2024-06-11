@@ -3,7 +3,7 @@
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title">Наши обеды</h2>
-            <p>Блюда не повторяются в течении 2х недель</p>
+            <p>Первое и второе блюдо, хлеб, напиток, и приборы</p>
         </div>
         <div class="swiper-btn-lr">
             <div class="swiper portfolio-swiper">
@@ -36,7 +36,6 @@
             </div>
         </div>
     </div>
-    <!-- <img class="bg bg1 dz-move-down" src="/assets/images/menu/back_02.png" alt="/"> -->
     <!-- <img class="bg bg2 dz-parallax" data-parallax-speed="0.05" src="/assets/images/background/pic3.png" alt="/"> -->
 </section>
 <!-- Image Box-1 -->

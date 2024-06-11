@@ -36,7 +36,7 @@
 								</form>
 							</div>
 						</div>
-						<div class="col-xl-4 col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.5s">
+						<div class="col-xl-4 col-lg-3 col-md-6  col-12 wow fadeInUp" data-wow-delay="0.5s">
 							<div class="widget widget_getintuch">
 								<h5 class="footer-title">Контакты</h5>
 								<ul>
@@ -57,7 +57,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="col-xl-3 col-lg-2 col-md-3 col-6 wow fadeInUp" data-wow-delay="0.6s">
+						<div class="col-xl-3 col-lg-2 col-md-6 col-12 mt-md-0 mt-3 wow fadeInUp" data-wow-delay="0.6s">
 							<div class="widget widget_services">
 								<h5 class="footer-title">Меню</h5>
 								<ul>
@@ -117,7 +117,7 @@
 <script src="/assets/vendor/lightgallery/dist/lightgallery.min.js"></script>
 <script src="/assets/vendor/lightgallery/dist/plugins/thumbnail/lg-thumbnail.min.js"></script>
 <script src="/assets/vendor/lightgallery/dist/plugins/zoom/lg-zoom.min.js"></script>
-<script src="/assets/js/dz.carousel.min.js"></script><!-- OWL-CAROUSEL -->
+<script src="/assets/js/dz.carousel.js"></script><!-- OWL-CAROUSEL -->
 <script src="/assets/js/dz.ajax.js"></script><!-- AJAX -->
 <script src="/assets/js/custom.js"></script><!-- CUSTOM JS -->
 <script src="/assets/js/dznav-init.js"></script><!-- DZNAV INIT -->

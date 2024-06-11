@@ -119,43 +119,43 @@ jQuery(window).on('load', function() {
 	}
 	
 	// browser-menu
-	if(jQuery('.menu-swiper').length > 0){
-		var swiper = new Swiper(".menu-swiper", {
-			spaceBetween: 30,
-			speed: 1000,
-			//parallax: true,
-			loop: true,
-			centeredSlides: false,
-			freeMode: true,
-			watchSlidesVisibility: true,
+	// if(jQuery('.menu-swiper').length > 0){
+	// 	var swiper = new Swiper(".menu-swiper", {
+	// 		spaceBetween: 30,
+	// 		speed: 1000,
+	// 		//parallax: true,
+	// 		loop: true,
+	// 		centeredSlides: false,
+	// 		freeMode: true,
+	// 		watchSlidesVisibility: true,
 			
-			autoplay: {
-			   delay: 1000,
-			},
-			navigation: {
-				nextEl: '.menu-button-next1',
-				prevEl: '.menu-button-prev1',
-			},
-			breakpoints: {
-				1280: {
-					slidesPerView: 4,
-          			spaceBetween: 20,
-				},
-				991: {
-					slidesPerView: 3,
-          			spaceBetween: 30,
-				},
-				591: {
-					slidesPerView: 2,
-          			spaceBetween: 40,
-				},
-				0:{
-					slidesPerView: 1,
-          			spaceBetween: 50,
-				},
-			}
-		});
-	}
+	// 		autoplay: {
+	// 		   delay: 1000,
+	// 		},
+	// 		navigation: {
+	// 			nextEl: '.menu-button-next1',
+	// 			prevEl: '.menu-button-prev1',
+	// 		},
+	// 		breakpoints: {
+	// 			1280: {
+	// 				slidesPerView: 4,
+    //       			spaceBetween: 20,
+	// 			},
+	// 			991: {
+	// 				slidesPerView: 3,
+    //       			spaceBetween: 30,
+	// 			},
+	// 			591: {
+	// 				slidesPerView: 2,
+    //       			spaceBetween: 40,
+	// 			},
+	// 			0:{
+	// 				slidesPerView: 1,
+    //       			spaceBetween: 50,
+	// 			},
+	// 		}
+	// 	});
+	// }
 	
 	// blog-slider-full
 	if(jQuery('.blog-swiper').length > 0){
@@ -325,6 +325,43 @@ jQuery(window).on('load', function() {
 				el: ".swiper-pagination",
 			},
 		});
+	}
+
+	// img slider
+	if(jQuery('.menu-swiper').length > 0){
+		var swiper = new Swiper('.menu-swiper', {
+			spaceBetween: 30,
+			speed: 0,
+			parallax: true,
+			loop:true,
+			navigation: {
+				nextEl: '.img-button-next',
+				prevEl: '.img-button-prev',
+			},
+			breakpoints: {
+				1200: {
+					slidesPerView: 3,
+				},
+				1024: {
+					slidesPerView: 3,
+				},
+				768: {
+					slidesPerView: 2,
+				},
+				600: {
+					slidesPerView: 2,
+				},
+				320: {
+					slidesPerView: 1,
+				},
+			}
+		});
+
+		// jQuery('.tab-pane').map((i,el)=>{
+		// 	jQuery(el).on('click', function(){
+		// 		console.log(22)
+		// 	})
+		// })
 	}
 
 	

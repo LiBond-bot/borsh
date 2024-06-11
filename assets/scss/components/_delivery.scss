@@ -34,4 +34,17 @@
             margin-bottom: 0;
         }
     }
+
+    @include respond('phone-land'){
+		&__number {
+            width: 48px;
+            height: 48px;
+            font-size: 28px;
+        }
+
+        &__text {
+            font-size: 16px;
+            margin-left: 16px;
+        }
+	}
 }

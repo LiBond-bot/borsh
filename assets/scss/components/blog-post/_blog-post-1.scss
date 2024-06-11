@@ -43,7 +43,10 @@
 			.dz-media {
 				min-width: 240px;
 				width: 240px;
-				height: auto;;
+				height: auto;
+				background-color: var(--primary);
+				background-image: url('/assets/images/background/back_05.png');
+				background-size: 280px;
 			}
 			.dz-info{
 				padding: 25px 30px;
