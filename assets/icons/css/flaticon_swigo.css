@@ -1,10 +1,8 @@
-@charset "UTF-8";
 @font-face {
   font-family: "flaticon_swigo";
   src: url("./flaticon_swigo.ttf?64497de560921368cd586e6c5ea1ea6e") format("truetype"), url("./flaticon_swigo.woff?64497de560921368cd586e6c5ea1ea6e") format("woff"), url("./flaticon_swigo.woff2?64497de560921368cd586e6c5ea1ea6e") format("woff2"), url("./flaticon_swigo.eot?64497de560921368cd586e6c5ea1ea6e#iefix") format("embedded-opentype"), url("./flaticon_swigo.svg?64497de560921368cd586e6c5ea1ea6e#flaticon_swigo") format("svg");
 }
-
-i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
   font-family: flaticon_swigo !important;
   font-style: normal;
   font-weight: normal !important;
@@ -16,213 +14,213 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 
 .flaticon-wine:before {
-  content: "";
+  content: "\f101";
 }
 
 .flaticon-mirror-ball:before {
-  content: "";
+  content: "\f102";
 }
 
 .flaticon-party:before {
-  content: "";
+  content: "\f103";
 }
 
 .flaticon-play-button:before {
-  content: "";
+  content: "\f104";
 }
 
 .flaticon-restaurant:before {
-  content: "";
+  content: "\f105";
 }
 
 .flaticon-coffee-cup:before {
-  content: "";
+  content: "\f106";
 }
 
 .flaticon-dessert:before {
-  content: "";
+  content: "\f107";
 }
 
 .flaticon-cake:before {
-  content: "";
+  content: "\f108";
 }
 
 .flaticon-email:before {
-  content: "";
+  content: "\f109";
 }
 
 .flaticon-telephone:before {
-  content: "";
+  content: "\f10a";
 }
 
 .flaticon-placeholder:before {
-  content: "";
+  content: "\f10b";
 }
 
 .flaticon-share:before {
-  content: "";
+  content: "\f10c";
 }
 
 .flaticon-right-quote:before {
-  content: "";
+  content: "\f10d";
 }
 
 .flaticon-user:before {
-  content: "";
+  content: "\f10e";
 }
 
 .flaticon-phone-call:before {
-  content: "";
+  content: "\f10f";
 }
 
 .flaticon-email-1:before {
-  content: "";
+  content: "\f110";
 }
 
 .flaticon-two-people:before {
-  content: "";
+  content: "\f111";
 }
 
 .flaticon-calendar-date:before {
-  content: "";
+  content: "\f112";
 }
 
 .flaticon-clock:before {
-  content: "";
+  content: "\f113";
 }
 
 .flaticon-shopping-cart:before {
-  content: "";
+  content: "\f114";
 }
 
 .flaticon-offer:before {
-  content: "";
+  content: "\f115";
 }
 
 .flaticon-hamburger:before {
-  content: "";
+  content: "\f116";
 }
 
 .flaticon-room-service:before {
-  content: "";
+  content: "\f117";
 }
 
 .flaticon-martini:before {
-  content: "";
+  content: "\f118";
 }
 
 .flaticon-burger:before {
-  content: "";
+  content: "\f119";
 }
 
 .flaticon-fast-food:before {
-  content: "";
+  content: "\f11a";
 }
 
 .flaticon-pizza-slice:before {
-  content: "";
+  content: "\f11b";
 }
 
 .flaticon-salad:before {
-  content: "";
+  content: "\f11c";
 }
 
 .flaticon-cupcake:before {
-  content: "";
+  content: "\f11d";
 }
 
 .flaticon-chili-pepper:before {
-  content: "";
+  content: "\f11e";
 }
 
 .flaticon-hamburger-1:before {
-  content: "";
+  content: "\f11f";
 }
 
 .flaticon-fast-delivery:before {
-  content: "";
+  content: "\f120";
 }
 
 .flaticon-clock-1:before {
-  content: "";
+  content: "\f121";
 }
 
 .flaticon-chef:before {
-  content: "";
+  content: "\f122";
 }
 
 .flaticon-pot:before {
-  content: "";
+  content: "\f123";
 }
 
 .flaticon-juice:before {
-  content: "";
+  content: "\f124";
 }
 
 .flaticon-burger-1:before {
-  content: "";
+  content: "\f125";
 }
 
 .flaticon-pizza:before {
-  content: "";
+  content: "\f126";
 }
 
 .flaticon-cake-slice:before {
-  content: "";
+  content: "\f127";
 }
 
 .flaticon-pizza-box:before {
-  content: "";
+  content: "\f128";
 }
 
 .flaticon-vegetable:before {
-  content: "";
+  content: "\f129";
 }
 
 .flaticon-chef-hat:before {
-  content: "";
+  content: "\f12a";
 }
 
 .flaticon-cocktail:before {
-  content: "";
+  content: "\f12b";
 }
 
 .flaticon-cuisine:before {
-  content: "";
+  content: "\f12c";
 }
 
 .flaticon-support:before {
-  content: "";
+  content: "\f12d";
 }
 
 .flaticon-dinner-table:before {
-  content: "";
+  content: "\f12e";
 }
 
 .flaticon-token:before {
-  content: "";
+  content: "\f12f";
 }
 
 .flaticon-furniture:before {
-  content: "";
+  content: "\f130";
 }
 
 .flaticon-team:before {
-  content: "";
+  content: "\f131";
 }
 
 .flaticon-scooter:before {
-  content: "";
+  content: "\f132";
 }
 
 .flaticon-shopping-bag:before {
-  content: "";
+  content: "\f133";
 }
 
 .flaticon-shopping-bag-1:before {
-  content: "";
+  content: "\f134";
 }
 
 .flaticon-chat-bubble:before {
-  content: "";
+  content: "\f135";
 }

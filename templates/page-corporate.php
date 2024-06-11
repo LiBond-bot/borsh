@@ -10,7 +10,7 @@
 
 	<? require_once '../include/add_menu.php' ?>
 
-	<div>Блок куда доставляем обеды</div>
+	<? require_once '../include/corporate/delivery.php' ?>
 
 	<? require_once '../include/corporate/numbers.php' ?>
 

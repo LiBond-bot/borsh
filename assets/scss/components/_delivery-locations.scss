@@ -1,0 +1,33 @@
+.delivery-area {
+	display: flex;
+	justify-content: center;
+	.delivery-area__column {
+		flex-direction: column;
+		align-content: center;
+		margin-top: 50px;
+	}
+}
+
+.delivery-area__column {
+	.item-delivery {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+		height: auto;
+		padding: 2vw 0 2vw 1.5vw;
+		.item-delivery__icon {
+			img {
+				max-width: 30%;
+				object-fit: cover;
+			}
+		}
+		.item-delivery__text {
+			position: absolute;
+			left: 40%;
+			font-size: 16px;
+			hyphens:auto;
+		}
+	}
+}
+ 
