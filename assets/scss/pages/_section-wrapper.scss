@@ -42,6 +42,11 @@
 		left:-275px;
 	}
 
+	.bg6{
+		top: -150px;
+		left: -220px;
+	}
+
 	&.right{
 		.bg1{
 			bottom:0;
@@ -75,6 +80,13 @@
 			left: -250px;
 		}
 
+		.bg6{
+			bottom: 0;
+			left: -220px;
+			width: 450px;
+		}
+
+
 		.bg4{
 			bottom:0;
 			right:-150px;
@@ -101,6 +113,12 @@
 			top: -130px;
 			left: -100px;
 			width: 300px;
+		}
+
+		.bg6{
+			bottom: 100px;
+			left: -210px;
+			width: 350px;
 		}
 
 		&.right{
@@ -142,6 +160,12 @@
 			left: -115px;
 			width: 300px;
 		}
+
+		.bg6{
+			bottom: 0;
+			left: -174px;
+			width: 300px;
+		}
 	}
 
 	@include respond('tab-port'){
@@ -150,6 +174,12 @@
 			left: -112px;
 			width: 250px;
 		}
+
+		.bg6{
+			bottom: 0;
+			left: -178px;
+			width: 270px;
+		}
 	}
 
 	@include respond('phone-land'){
@@ -157,6 +187,12 @@
 			top: -84px;
 			left: -138px;
 			width: 250px;
+		}
+
+		.bg6{
+			bottom: 0;
+			left: -137px;
+			width: 230px;
 		}
 
 		&.right{
@@ -185,6 +221,12 @@
 			top: -190px;
 			left: -97px;
 			width: 220px;
+		}
+
+		.bg6{
+			bottom: 0;
+			left: -100px;
+			width: 170px;
 		}
 	}
 }

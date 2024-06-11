@@ -210,6 +210,8 @@
             <a href="contact-us.html" class="btn btn-primary btn-md shadow-primary btn-hover-3"><span class="btn-text" data-text="Узнать меню">Узнать меню</span></a>
         </div>
     </div>
+    
+    <img class="bg bg6 dz-move-down" src="/assets/images/menu/back_04.png" alt="/">
     <img class="bg bg4 dz-move-down" src="/assets/images/menu/back_03.png" alt="/">
 </section>
 <!-- Are Menu-->
