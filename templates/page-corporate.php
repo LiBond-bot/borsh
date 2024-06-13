@@ -14,7 +14,7 @@
 
 	<? require_once '../include/corporate/numbers.php' ?>
 
-	<div>Блок наши клиенты</div>
+	<? require_once '../include/corporate/clients.php' ?>
 
 	<? require_once '../include/corporate/about.php' ?>
 
