@@ -2,8 +2,8 @@
 <section class="section-wrapper-4 content-inner overflow-hidden bg-parallax" style="background-image:url('/assets/images/background/back_02.png'); background-attachment: fixed; background-size: 800px;">
     <div class="container">
         <div class="section-head text-center">
-            <h2 class="title wow flipInX" data-wow-delay="0.2s">Мы в цифрах</h2>
-            <p>Тут будет подзаголовок</p>
+            <h2 class="title wow flipInX" data-wow-delay="0.2s">Мы в цифрах и фактах</h2>
+            <p>Показатели успеха на рынке общепита</p>
         </div>
         <div class="row icon-wrapper2 gx-lg-5">
             <div class="col-lg-4 col-md-6 m-b30 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">

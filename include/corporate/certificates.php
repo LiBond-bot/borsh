@@ -2,7 +2,7 @@
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title">Благодарственные письма</h2>
-            <p class="about-p">Тут будет подзаголовок</p>
+            <p class="about-p">Подтверждение профессионализма</p>
         </div>
         <div class="row">
             <div class="col-3 mb-5">

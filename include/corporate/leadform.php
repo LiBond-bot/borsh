@@ -2,8 +2,8 @@
     <div class="container">
         <div class="dz-form-card bg-primary">
             <div class="section-head">
-                <h4 class="title m-0">Принимаем заказы ежедневно</h4>
-                <p class="m-t10">Привезем вкусный обед для вас в любой день недели!</p>
+                <h4 class="title m-0">Накормим сотрудников<br>и выдадим документы для отчетности!</h4>
+                <p class="m-t10">Доставка от двух обедов БЕСПЛАТНО. Принимаем заказы ежедневно</p>
             </div>
             <form class="dzForm dezPlaceAni" method="POST" action="script/contact_smtp.php">
                 <div class="dzFormMsg"></div>

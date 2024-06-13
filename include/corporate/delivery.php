@@ -1,7 +1,7 @@
 <section class="delivery-locations content-inner-1">
     <div class="container">
         <div class="section-head text-center">
-            <h2 class="title">Предприятия, куда поставляем обеды</h2>
+            <h2 class="title">Предприятия,<br>куда поставляем обеды</h2>
             <p class="about-p">Завезем свежие блюда на рабочее место</p>
         </div>
             <div class="row">
