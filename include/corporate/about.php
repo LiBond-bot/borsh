@@ -6,132 +6,44 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-
                 <p>
                     С 2018 года мы сотрудничаем с компаниями, обеспечивая качественное питание для корпоративных клиентов. Понимая, как дорого стоит рабочее время, мы берем на себя приготовление и снабжение ваших сотрудников вкусной и проверенной едой. Помогаем сэкономить время и средства на  организации столовой, найме персонала и поиске точек питания. 
                 </p>
-
-                <h4>Что вы получаете при оформлении корпоративного питания:</h4>
-
             </div>
         </div>
-        <div class="row mb-3 mt-3">
-            <div class="col-lg-3 col-sm-6 m-b30">
-                <div class="icon-bx-wraper style-3">
-                    <div class="icon-bx">
-                        <div>
-                            <img src="/assets/images/icons/chef.png" alt="">
-                        </div>
-                    </div>
-                    <div class="icon-content">
-                        <h5 class="title">Работаем<br>каждый день</h5>
-                        <p>Насладитесь вкусным обедом в любой момент.</p>
-                    </div>
+        <div class="row mt-2 mb-4">
+            <div class="col-5">
+                <div class="dz-media rounded-md">
+                    <img src="/assets/images/delivery/back_01.jpg" alt="/">
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 m-b30">
-                <div class="icon-bx-wraper style-3">
-                    <div class="icon-bx">
-                        <div>
-                            <img src="/assets/images/icons/delivery-man.png" alt="">
-                        </div>
-                    </div>
-                    <div class="icon-content">
-                        <h5 class="title">Собственный<br>штат курьеров</h5>
-                        <p>Оперативно и аккуратно доставляем заказы.</p>
-                    </div>
+            <div class="col-7">
+                <h5 class="mb-4">Что вы получаете при оформлении <span class="text-primary">корпоративного питания</span>:</h5>
+                <div class="mb-3">
+                    <b class="fw-bold">1. Своевременную доставку</b> заказанных блюд, в назначенные дни, время и в нужном количестве. Для надежности у нас действует собственная курьерская служба.
                 </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 m-b30">
-                <div class="icon-bx-wraper style-3">
-                    <div class="icon-bx">
-                        <div>
-                            <img src="/assets/images/icons/ingredients.png" alt="">
-                        </div>
-                    </div>
-                    <div class="icon-content">
-                        <h5 class="title">Натуральные ингредиенты</h5>
-                        <p>Передаем пользу продуктов и сохраняем её в вашей тарелке.</p>
-                    </div>
+                <div class="mb-3">
+                    <b class="fw-bold">2. Каждое блюдо помещается в индивидуальную упаковку,</b> пригодную для разогрева в СВЧ. Приборы для трапезы также идут в комплекте. Безопасные и качественные продукты. Готовим в день заказа из свежих ингредиентов.
                 </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 m-b30">
-                <div class="icon-bx-wraper style-3">
-                    <div class="icon-bx">
-                        <div>
-                            <img src="/assets/images/icons/opinions.png" alt="">
-                        </div>
-                    </div>
-                    <div class="icon-content">
-                        <h5 class="title">Открыты к пожеланиям</h5>
-                        <p>Всегда готовы выслушать ваши кулинарные предпочтения.</p>
-                    </div>
+                <div class="mb-3">
+                    <b class="fw-bold">3. Разнообразный ассортимент,</b> чтобы поддерживать здоровый образ жизни и продуктивность на рабочем месте.
                 </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 m-b30">
-                <div class="icon-bx-wraper style-3">
-                    <div class="icon-bx">
-                        <div>
-                            <img src="/assets/images/icons/chef.png" alt="">
-                        </div>
-                    </div>
-                    <div class="icon-content">
-                        <h5 class="title">Работаем<br>каждый день</h5>
-                        <p>Насладитесь вкусным обедом в любой момент.</p>
-                    </div>
+                <div class="mb-3">
+                    <b class="fw-bold">4. Бесплатная дегустация понравившихся сетов.</b> Попробуйте интересующие или популярные блюда, чтобы определиться с меню.
                 </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 m-b30">
-                <div class="icon-bx-wraper style-3">
-                    <div class="icon-bx">
-                        <div>
-                            <img src="/assets/images/icons/delivery-man.png" alt="">
-                        </div>
-                    </div>
-                    <div class="icon-content">
-                        <h5 class="title">Собственный<br>штат курьеров</h5>
-                        <p>Оперативно и аккуратно доставляем заказы.</p>
-                    </div>
+                <div class="mb-3">
+                    <b class="fw-bold">5. Возможность определить формат оплаты,</b> количество позиций и расписание доставки. Всё прописываем в договоре.
                 </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 m-b30">
-                <div class="icon-bx-wraper style-3">
-                    <div class="icon-bx">
-                        <div>
-                            <img src="/assets/images/icons/ingredients.png" alt="">
-                        </div>
-                    </div>
-                    <div class="icon-content">
-                        <h5 class="title">Натуральные ингредиенты</h5>
-                        <p>Передаем пользу продуктов и сохраняем её в вашей тарелке.</p>
-                    </div>
+                <div class="mb-3">
+                    <b class="fw-bold">6. Обновление меню,</b> которое не повторяется в течение 14 дней.
                 </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 m-b30">
-                <div class="icon-bx-wraper style-3">
-                    <div class="icon-bx">
-                        <div>
-                            <img src="/assets/images/icons/opinions.png" alt="">
-                        </div>
-                    </div>
-                    <div class="icon-content">
-                        <h5 class="title">Открыты к пожеланиям</h5>
-                        <p>Всегда готовы выслушать ваши кулинарные предпочтения.</p>
-                    </div>
+                <div class="mb-3">
+                    <b class="fw-bold">7. Оригинальные блюда</b> собственного производства. 
                 </div>
             </div>
         </div>
-        <!-- <div class="row">
-            <div class="col-6">
-                <p>Наше меню сочетает в себе домашний вкус и ресторанное изобилие позиций. Мы постоянно обновляем наш ассортимент, чтобы каждый мог найти блюдо по своему вкусу и попробовать что-то новенькое!</p>
-                <p>Команда поваров «БОРЩ» — настоящие профессионалы своего дела. Под руководством опытного шеф-повара и су-шефа работает большая команда специалистов со стажем более 10 лет в сфере общественного питания. </p>
-                <p>Придерживаемся политики разумных цен, чтобы наши обеды были по карману всем. Стремимся предложить отличное качество по оптимальной стоимости, чтобы каждый мог насладиться нашей кулинарией!</p>
-            </div>
-            <div class="col-6">
-                <div class="about-media dz-media rounded-md">
-                    <img src="/assets/images/background/pic11.jpg" alt="/">
-                </div>
-            </div>
-        </div> -->
+        <div class="row">
+            <p>Гарантируем, что «БОРЩ» станет вашим надежным партнером в сфере организации корпоративного питания. Сосредоточьтесь на профессиональных задачах,  а мы позаботимся о вашей сытости и здоровье!</p>
+        </div>
     </div>
 </section>
