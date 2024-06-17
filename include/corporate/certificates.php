@@ -1,4 +1,4 @@
-<section class="certificates content-inner-1">
+<section class="certificates content-inner-4">
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title">Благодарственные письма</h2>

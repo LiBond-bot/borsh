@@ -1,4 +1,4 @@
-<section class="certificates content-inner-1">
+<section class="certificates">
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title">Наши сотрудники</h2>

@@ -1,4 +1,4 @@
-<section class="delivery-locations content-inner-1">
+<section class="delivery-locations content-inner-4">
     <div class="container">
 
         <div class="section-head text-center">
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6 d-flex align-items-center justify-content-center spicy wow fadeInUp">
-                    <div class="delivery-locations__column  delivery-locations_right">
+                    <div class="delivery-locations__column delivery-locations_right">
                         <div class="delivery-locations__item">
                             <div class="delivery-locations__icon"><img src="/assets/images/icons/government.png" alt=""></div>
                             <div class="delivery-locations__text">Госучреждения</div>
@@ -49,3 +49,5 @@
         </div>
     </div>
 </section>
+
+
