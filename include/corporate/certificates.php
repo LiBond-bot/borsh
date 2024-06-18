@@ -1,8 +1,8 @@
-<section class="certificates content-inner-4">
+<section class="section-wrapper-4 content-inner overflow-hidden bg-parallax" style="background-image:url('/assets/images/background/back_02.png'); background-attachment: fixed; background-size: 800px;">
     <div class="container">
         <div class="section-head text-center">
-            <h2 class="title">Благодарственные письма</h2>
-            <p class="about-p">Подтверждение профессионализма</p>
+            <h2 class="title wow flipInX" data-wow-delay="0.2s">Благодарственные письма</h2>
+            <p>Подтверждение профессионализма</p>
         </div>
         <div class="row">
             <div class="col-3 mb-5">

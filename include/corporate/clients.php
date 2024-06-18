@@ -1,4 +1,4 @@
-<section class="certificates content-inner-1">
+<section class="certificates content-inner-1 section-wrapper-2 section-wrapper-6 right">
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title">Наши клиенты</h2>
@@ -47,4 +47,5 @@
             </div>
         </div>
     </div>
+    <img class="bg bg4 dz-move-down" src="/assets/images/menu/back_05.png" alt="/">
 </section>

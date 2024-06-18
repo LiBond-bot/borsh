@@ -578,7 +578,14 @@ label.error {
 .dz-form-card{
 	padding: 40px 40px 50px;
     border-radius: 10px;
-	margin-top:-160px;
+
+	&_footer {
+		margin-top:-160px;
+
+		.input-group {
+			margin-bottom: 30px;
+		}
+	}
 
 	button {
 		width: 100%;
@@ -607,9 +614,7 @@ label.error {
 		}
 	}
 
-	.input-group {
-		margin-bottom: 30px;
-	}
+	
 	.input-line{
 		position: relative;
 		border: 0;

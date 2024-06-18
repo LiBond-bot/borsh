@@ -1,4 +1,4 @@
-<section class="content-inner-4">
+<section class="content-inner-4 section-wrapper-2">
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title">Наша компания</h2>
@@ -12,11 +12,6 @@
             </div>
         </div>
         <div class="row mt-2 mb-4">
-            <div class="col-5">
-                <div class="dz-media rounded-md">
-                    <img src="/assets/images/delivery/back_01.jpg" alt="/">
-                </div>
-            </div>
             <div class="col-7">
                 <h5 class="mb-4">Что вы получаете при оформлении <span class="text-primary">корпоративного питания</span>:</h5>
                 <div class="mb-3">
@@ -41,9 +36,15 @@
                     <b class="fw-bold">7. Оригинальные блюда</b> собственного производства. 
                 </div>
             </div>
+            <div class="col-5">
+                <div class="dz-media rounded-md">
+                    <img src="/assets/images/delivery/back_01.jpg" alt="/">
+                </div>
+            </div>
         </div>
         <div class="row">
             <p>Гарантируем, что «БОРЩ» станет вашим надежным партнером в сфере организации корпоративного питания. Сосредоточьтесь на профессиональных задачах,  а мы позаботимся о вашей сытости и здоровье!</p>
         </div>
     </div>
+    <img class="bg bg3 dz-move-down" src="/assets/images/about/back_01.png" alt="/">
 </section>

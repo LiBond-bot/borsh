@@ -5,7 +5,6 @@
            <h2 class="title">Добавьте к заказу</h2>
             <p>Тут будет подзаголовок</p>
         </div>
-
         <div class="row">
             <ul class="nav nav-tabs tabs-style-1">
                 <li class="nav-item">
@@ -228,6 +227,6 @@
     </div>
     
     <img class="bg bg6 dz-move-down" src="/assets/images/menu/back_04.png" alt="/">
-    <img class="bg bg4 dz-move-down" src="/assets/images/menu/back_03.png" alt="/">
+    <img class="bg bg4 dz-move-down" src="/assets/images/certificates/back_01.png" alt="/">
 </section>
 <!-- Are Menu-->

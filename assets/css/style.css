@@ -21125,7 +21125,14 @@ label.error {
 .dz-form-card {
   padding: 40px 40px 50px;
   border-radius: 10px;
+}
+
+.dz-form-card_footer {
   margin-top: -160px;
+}
+
+.dz-form-card_footer .input-group {
+  margin-bottom: 30px;
 }
 
 .dz-form-card button {
@@ -21156,10 +21163,6 @@ label.error {
   line-height: 24px;
   color: #FFFFFF;
   opacity: 0.8;
-}
-
-.dz-form-card .input-group {
-  margin-bottom: 30px;
 }
 
 .dz-form-card .input-line {
