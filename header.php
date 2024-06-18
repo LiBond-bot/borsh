@@ -82,7 +82,8 @@
 								<li><a href="/templates/contact-us.php">Контакты</a></li>
 							</ul>
 
-							<a href="#" class="btn btn-outline-primary btn-md shadow-primary btn-hover-3"><span class="btn-text" data-text="Обратный звонок">Обратный звонок</span></a>
+							<a href="tel:+79281440632" class="btn shadow-primary btn-secondary"><span class="btn-text" data-text="+7 (928) 144-06-32">+7 (928) 144-06-32</span></a>
+							<a href="#" class="btn btn-outline-primary shadow-primary"><span class="btn-text" data-text="Обратный звонок"><i class="fa fa-phone"></i></span></a>
 
 						</div>
 						

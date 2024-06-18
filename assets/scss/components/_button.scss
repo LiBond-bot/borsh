@@ -150,6 +150,13 @@ button:focus {
 	border-color:var(--secondary);	
 	background-color:var(--secondary);
 	color:#fff;
+	box-shadow: 0px 5px 30px 0px var(--rgba-title-5);
+
+	&:hover{
+		background-color:var(--primary);
+		border: 1px solid var(--primary);
+		box-shadow: 0px 5px 30px 0px var(--rgba-primary-2);
+	}
 	
 	.btn-icon-left{
 		color: var(--secondary);

@@ -7,6 +7,13 @@
 		.main-bar{
 			box-shadow: none;
 			padding:10px 0;
+
+			@include custommq ($max:1200px){
+				.btn.shadow-primary {
+					font-size: 14px;
+					padding: 11px 12px;
+				}
+			}
 			
 		}
 		.extra-nav {
@@ -33,7 +40,7 @@
 			.nav {
 				&>li {
 					&>a {
-						@include custommq ($min:1024px){			
+						@include custommq ($min:1180px){			
 							padding: 20px 12px;
 							font-weight: 400;
 							font-size: 16px;
@@ -131,8 +138,17 @@
 	.logo-header {
 		padding: 6px 0px;
 		width: 130px;
+
+		@include custommq ($max:1180px){
+			width: 110px;
+		}
+
 		img {
 			max-width: 140px;
+
+			@include custommq ($max:1180px){
+				max-width: 110px;
+			}
 		}
 	}
 }
