@@ -1,5 +1,4 @@
 </div>
-
 		<!--Footer-->
 		<footer class="site-footer  style-1 bg-dark" id="footer">
 			<div class="footer-top">
@@ -33,12 +32,13 @@
 							<div class="widget widget_services">
 								<h5 class="footer-title">Меню</h5>
 								<ul>
-									<li><a href="index.html"><span>Главная страница</span></a></li>
-									<li><a href="about-us.html"><span>Корпоративное питание</span></a></li>
-									<li><a href="services.html"><span>О компании</span></a></li>
-									<li><a href="team.html"><span>Производство</span></a></li>
-									<li><a href="blog-standard.html"><span>Благодарственные письма</span></a></li>
-									<li><a href="blog-standard.html"><span>Блог</span></a></li>
+									<li><a href="/"><span>Главная страница</span></a></li>
+									<li><a href="/templates/page-corporate.php"><span>Корпоративное питание</span></a></li>
+									<li><a href="/templates/about-us.php"><span>О компании</span></a></li>
+									<li><a href="/templates/production.php"><span>Производство</span></a></li>
+									<li><a href="/templates/certificates.php"><span>Благодарственные письма</span></a></li>
+									<li><a href="/templates/blog.php"><span>Блог</span></a></li>
+									<li><a href="/templates/contact-us.php">Контакты</a></li>
 								</ul>
 							</div>
 						</div>
