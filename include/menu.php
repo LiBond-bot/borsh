@@ -3,7 +3,7 @@
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title">Наши обеды</h2>
-            <p>Первое и второе блюдо, хлеб, напиток, и приборы</p>
+            <p>Вкусные, сытные, свежие</p>
         </div>
         <div class="swiper-btn-lr">
             <div class="swiper portfolio-swiper">

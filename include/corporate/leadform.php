@@ -45,8 +45,8 @@
 <section class="section-wrapper-4 content-inner-1 overflow-hidden bg-parallax" style="background-image:url('/assets/images/background/back_02.png'); background-attachment: fixed; background-size: 800px;">
     <div class="container">
         <div class="section-head text-center">
-            <h2 class="title wow flipInX" data-wow-delay="0.2s">Накормим сотрудников</h2>
-            <p>Доставка от двух обедов БЕСПЛАТНО. Принимаем заказы ежедневно</p>
+            <h2 class="title wow flipInX" data-wow-delay="0.2s">Накормим персонал<br>и выдадим чеки!</h2>
+            <p>Больше желающих — меньше оплата: доставка от двух обедов БЕСПЛАТНО. Принимаем заказы ежедневно</p>
         </div>
         <div class="row">
             <div class="col-12">

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title">Сертификаты качества</h2>
-            <p class="about-p">Тут будет подзаголовок</p>
+            <p class="about-p">Официальное подтверждение деятельности</p>
         </div>
         <div class="row">
             <div class="col-lg-3 col-sm-4 col-6 mb-5">
