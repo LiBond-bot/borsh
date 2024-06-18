@@ -9,14 +9,38 @@
 		display: flex;
 		flex-direction: column;
 		gap: 48px;
+
+		@include respond('phone'){ 
+			gap: 24px;
+		}
+
+		
 	}
 
 	&_left {
 		align-items: flex-end;
 		text-align: right;
 
+		@include respond('tab-land'){
+			text-align: left;
+			align-items: flex-start;
+
+			.delivery-locations__text {
+				order: 2;
+			}
+	
+			.delivery-locations__icon {
+				order: 1;
+			}
+		}
+
 		.delivery-locations__icon {
 			margin-left: 16px;
+
+			@include respond('tab-land'){
+				margin-left: 0;
+				margin-right: 8px;
+			}
 		}
 	}
 
@@ -26,6 +50,10 @@
 
 		.delivery-locations__icon {
 			margin-right: 16px;
+
+			@include respond('tab-land'){
+				margin-right: 12px;
+			}
 		}
 		
 	}
@@ -40,6 +68,11 @@
 		width:80px;
 		height:80px;
 
+		@include respond('tab-land'){
+			width: 64px;
+			height: 64px;
+		}
+
 		& img {
 			height:100%;
 			width:100%;
@@ -49,9 +82,13 @@
 
 	&__text {
 		font-weight: 700;
-		font-size: 20px;
+		font-size: 18px;
 		color: #000;
 		flex: 1;
 		line-height: 1.3;
+
+		@include respond('phone-land'){
+			font-size: 16px;
+		}
 	}
 }

@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="row mt-2 mb-4">
-            <div class="col-7">
+            <div class="col-lg-7 col-12">
                 <h5 class="mb-4">Что вы получаете при оформлении <span class="text-primary">корпоративного питания</span>:</h5>
                 <div class="mb-3">
                     <b class="fw-bold">1. Своевременную доставку</b> заказанных блюд, в назначенные дни, время и в нужном количестве. Для надежности у нас действует собственная курьерская служба.
@@ -36,7 +36,7 @@
                     <b class="fw-bold">7. Оригинальные блюда</b> собственного производства. 
                 </div>
             </div>
-            <div class="col-5">
+            <div class="col-lg-5 col-12">
                 <div class="dz-media rounded-md">
                     <img src="/assets/images/delivery/back_01.jpg" alt="/">
                 </div>

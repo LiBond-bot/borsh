@@ -420,6 +420,10 @@
 		font-size: 0;
 		padding: 0;
 		margin-left: 48px;
+
+		@include respond('tab-port'){
+			margin-left: 0px;
+		}
 		
 		&>li {
 			margin: 0px;
@@ -794,6 +798,7 @@
 				}
 			}
 		}
+
 		@include respond('laptop'){
 			&>li:nth-last-child(3),
 			&>li:nth-last-child(2),
@@ -950,8 +955,8 @@
 				}
 
 				& > a {
-					margin-left: 68px;
-					margin-top: 48px;
+					margin-left: 18px;
+					margin-top: 40px;
 				}
 			}
 			.logo-header {

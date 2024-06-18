@@ -600,6 +600,11 @@ label.error {
 		.input-group {
 			margin-bottom: 30px;
 		}
+
+		@include respond('tab-port'){
+			margin-bottom:40px;
+			margin-top:0;
+		}
 	}
 
 	button {
@@ -667,6 +672,10 @@ label.error {
 		textarea{
 			height: 120px !important;
 		}
+
+		@include respond('tab-port'){
+			margin-bottom: 32px;
+		}	
 	}
 
 	// select {
@@ -702,12 +711,8 @@ label.error {
 
 	@include respond('tab-land'){
 		padding: 30px;
-		margin-top: -160px;
 	}		
-	@include respond('tab-port'){
-		margin-bottom:40px;
-		margin-top:0;
-	}
+	
 }
 
 .leadform {

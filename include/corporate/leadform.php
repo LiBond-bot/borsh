@@ -42,7 +42,7 @@
     </div>
 </section> -->
 
-<section class="section-wrapper-4 content-inner overflow-hidden bg-parallax" style="background-image:url('/assets/images/background/back_02.png'); background-attachment: fixed; background-size: 800px;">
+<section class="section-wrapper-4 content-inner-1 overflow-hidden bg-parallax" style="background-image:url('/assets/images/background/back_02.png'); background-attachment: fixed; background-size: 800px;">
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title wow flipInX" data-wow-delay="0.2s">Накормим сотрудников</h2>
@@ -79,7 +79,7 @@
                                     <input name="dzEmail" required type="text" class="form-control" placeholder="Ваш адрес">
                                 </div>
                             </div>
-                            <div class="col-2">
+                            <div class="col-lg-2 col-12">
                                 <button type="submit" name="submit" value="submit" class="btn btn-md btn-white btn-hover-1"><span>Отправить</span></button>	
                             </div>
                         </div>
