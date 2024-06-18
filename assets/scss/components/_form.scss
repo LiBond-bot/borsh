@@ -457,6 +457,21 @@ label.error {
 		line-height: 24px;
 		color:#fff;
 	}
+
+	select::placeholder{
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 24px;
+		color:#fff;
+	}
+
+	// option::placeholder{
+	// 	font-weight: 400;
+	// 	font-size: 18px;
+	// 	line-height: 24px;
+	// 	color:#fff;
+	// }
+
 	.form-control::placeholder{
 		font-weight: 400;
 		font-size: 18px;
@@ -653,6 +668,22 @@ label.error {
 			height: 120px !important;
 		}
 	}
+
+	// select {
+	// 	// background: #fff;
+	// 	color: #ccc;
+	// 	// height: 48px;
+	// }
+
+	select option {
+		color: #ccc;
+	}
+
+	// select::placeholder{
+	// 	color: #fff;
+	// }
+
+
 	textarea::placeholder{
 		font-weight: 400;
 		font-size: 16px;
@@ -660,6 +691,7 @@ label.error {
 		color:#fff;
 		opacity:0.6;
 	}
+
 	.form-control::placeholder{
 		font-weight: 400;
 		font-size: 16px;
@@ -667,6 +699,7 @@ label.error {
 		color:#fff;
 		opacity:0.6;
 	}
+
 	@include respond('tab-land'){
 		padding: 30px;
 		margin-top: -160px;

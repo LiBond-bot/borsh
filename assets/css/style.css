@@ -20955,6 +20955,34 @@ label.error {
   color: #fff;
 }
 
+.input-line select::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.input-line select:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.input-line select::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.input-line select::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
 .input-line .form-control::-webkit-input-placeholder, .input-line .wp-block-categories-dropdown select::-webkit-input-placeholder, .wp-block-categories-dropdown .input-line select::-webkit-input-placeholder,
 .input-line .wp-block-archives-dropdown select::-webkit-input-placeholder, .wp-block-archives-dropdown .input-line select::-webkit-input-placeholder {
   font-weight: 400;
@@ -21203,6 +21231,10 @@ label.error {
 
 .dz-form-card .input-line textarea {
   height: 120px !important;
+}
+
+.dz-form-card select option {
+  color: #ccc;
 }
 
 .dz-form-card textarea::-webkit-input-placeholder {
