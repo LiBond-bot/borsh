@@ -26,7 +26,7 @@
                 <div class="swiper-slide">
                     <div class="dz-card style-1 blog-half overlay-shine dz-img-effect zoom">
                         <div class="dz-media">
-                            <img src="/assets/images/blog/grid/pic1.jpg" alt="/">
+                            <img src="/assets/images/sale/sale_02.png" alt="/">
                         </div>
                         <div class="dz-info">
                             <div class="dz-meta">
