@@ -25,6 +25,12 @@
 										<i class="flaticon-email-1"></i>
 										<p><a href="mailto:borsch-rostov@yandex.ru">borsch-rostov@yandex.ru</a></p>
 									</li>
+									<div class="mb-2 text-light fw-bold mt-5">Наш ТГ-канал<br>с ежедневным актуальным меню:</div>
+									<li>
+										
+										<i class="la la-telegram "></i>
+										<p><a href="https://t.me/borsch_rosrov">t.me/borsch_rosrov</a></p>
+									</li>
 								</ul>
 							</div>
 						</div>

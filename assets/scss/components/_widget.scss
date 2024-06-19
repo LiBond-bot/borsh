@@ -1113,9 +1113,9 @@ ul {
 		li{
 			position: relative;
 			margin-bottom: 25px;
-			padding-left: 40px;
 			color:#000;
 			display: flex;
+			align-items: center;
 			
 			@include custommq ($max:1199px){
 				margin-bottom: 25px;
@@ -1126,7 +1126,6 @@ ul {
 				margin-bottom: 5px;
 			}
 			i{
-				position: absolute;
 				font-size: 30px;
 				line-height: 1;
 				left: 0;
@@ -1135,6 +1134,7 @@ ul {
 				width: 30px;
 				height: 30px;
 				line-height: 30px;
+				margin-right: 10px;
 			}
 			
 			p {

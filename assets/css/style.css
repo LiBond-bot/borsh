@@ -26165,11 +26165,13 @@ ul a.rsswidget:hover {
 .widget_getintuch ul li {
   position: relative;
   margin-bottom: 25px;
-  padding-left: 40px;
   color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -26185,7 +26187,6 @@ ul a.rsswidget:hover {
 }
 
 .widget_getintuch ul li i {
-  position: absolute;
   font-size: 30px;
   line-height: 1;
   left: 0;
@@ -26194,6 +26195,7 @@ ul a.rsswidget:hover {
   width: 30px;
   height: 30px;
   line-height: 30px;
+  margin-right: 10px;
 }
 
 .widget_getintuch ul li p {
