@@ -1,14 +1,19 @@
 <? require_once '../header.php' ?>
 
-	<div class="dz-breadcrumb-bnr">
+	<div class="dz-bnr-inr style-1 text-center bg-parallax">
 		<div class="container">
-			<nav aria-label="breadcrumb" class="breadcrumb-row">
-				<ul class="breadcrumb">
-					<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-					<li class="breadcrumb-item">Blog</li>
-					<li class="breadcrumb-item active" aria-current="page">Blog Standard</li>
-				</ul>
-			</nav>
+			<div class="dz-bnr-inr-entry">
+				<h1>Название поста</h1>
+
+				<nav aria-label="breadcrumb" class="breadcrumb-row">
+					<ul class="breadcrumb">
+						<li class="breadcrumb-item"><a href="/">Главная</a></li>
+						<li class="breadcrumb-item"><a href="/">Блог</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Название поста</li>
+					</ul>
+				</nav>
+				
+			</div>
 		</div>
 	</div>
 

@@ -1,17 +1,17 @@
 <? require_once '../header.php' ?>
 
-	<div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/banner/bnr2.jpg'); background-size:cover; background-position:center;">
+	<div class="dz-bnr-inr style-1 text-center bg-parallax">
 		<div class="container">
 			<div class="dz-bnr-inr-entry">
-				<h1>Blog Grid 3</h1>
-				<!-- Breadcrumb Row -->
+				<h1>Блог</h1>
+
 				<nav aria-label="breadcrumb" class="breadcrumb-row">
 					<ul class="breadcrumb">
-						<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-						<li class="breadcrumb-item active" aria-current="page">Blog Grid 3</li>
+						<li class="breadcrumb-item"><a href="/">Главная</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Блог</li>
 					</ul>
 				</nav>
-				<!-- Breadcrumb Row End -->
+				
 			</div>
 		</div>
 	</div>

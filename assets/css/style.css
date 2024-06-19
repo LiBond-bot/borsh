@@ -19298,7 +19298,6 @@ section {
 .dz-bnr-inr h1, .dz-bnr-inr .h1 {
   margin-bottom: 0px;
   color: #fff;
-  text-transform: capitalize;
 }
 
 .dz-bnr-inr.dz-bnr-inr-sm {
@@ -19390,20 +19389,15 @@ section {
   color: var(--primary);
 }
 
-.dz-bnr-inr.style-1::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(34, 34, 34, 0.9);
+.dz-bnr-inr.style-1 {
+  background-image: url(/assets/images/background/back_03.png);
+  background-position: center;
+  background-size: 600px;
 }
 
 .dz-bnr-inr.style-1 h1, .dz-bnr-inr.style-1 .h1 {
-  color: #fff;
-  font-weight: 400;
+  color: var(--title);
+  font-weight: 700;
   font-size: 70px;
   line-height: 1.2;
   margin-bottom: 20px;

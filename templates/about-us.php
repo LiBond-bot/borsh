@@ -1,22 +1,20 @@
 <? require_once '../header.php' ?>
 
-	<!-- Banner  -->
-	<div class="dz-bnr-inr style-1 text-center bg-parallax bg-parallax" style="background-image:url('assets/images/banner/bnr1.jpg'); background-size:cover; background-position:center;">
+	<div class="dz-bnr-inr style-1 text-center bg-parallax">
 		<div class="container">
 			<div class="dz-bnr-inr-entry">
-				<h1>About Us</h1>
-				<!-- Breadcrumb Row -->
+				<h1>О компании</h1>
+
 				<nav aria-label="breadcrumb" class="breadcrumb-row">
 					<ul class="breadcrumb">
-						<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-						<li class="breadcrumb-item active" aria-current="page">About Us</li>
+						<li class="breadcrumb-item"><a href="/">Главная</a></li>
+						<li class="breadcrumb-item active" aria-current="page">О компании</li>
 					</ul>
 				</nav>
-				<!-- Breadcrumb Row End -->
+				
 			</div>
 		</div>
 	</div>
-	<!-- Banner End -->
 	
 	<!-- Visit Restaurant -->
 	<section class="content-inner pb-0">
