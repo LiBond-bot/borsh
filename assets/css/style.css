@@ -17760,7 +17760,7 @@ section {
   border-radius: 6px;
   position: absolute;
   right: 16px;
-  top: 16px;
+  top: 6px;
 }
 
 .navicon span {
@@ -31573,6 +31573,10 @@ ul a.rsswidget:hover {
   transition: all 0.5s;
 }
 
+.icon-bx-wraper.style-5 .icon-content p a {
+  color: #666666;
+}
+
 .icon-bx-wraper.style-5 .icon-content p:last-child {
   margin-bottom: 0;
 }
@@ -31600,6 +31604,10 @@ ul a.rsswidget:hover {
 }
 
 .icon-bx-wraper.style-5:hover .icon-content p, .icon-bx-wraper.style-5.active .icon-content p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.icon-bx-wraper.style-5:hover .icon-content p a, .icon-bx-wraper.style-5.active .icon-content p a {
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -31670,6 +31678,16 @@ ul a.rsswidget:hover {
   .icon-bx-wraper.style-5:hover .icon-bx .icon-cell, .icon-bx-wraper.style-5.active .icon-bx .icon-cell {
     color: #fff;
   }
+}
+
+.contacts__map {
+  overflow: hidden;
+  height: 400px;
+  border-radius: 16px;
+}
+
+.contacts__map .map-iframe {
+  padding-top: 0px;
 }
 
 .dz-team {
@@ -37358,14 +37376,14 @@ pre {
   border-radius: 30px;
   margin-left: 100px;
   margin-right: 100px;
-  margin-top: 270px;
-  margin-bottom: 100px;
+  margin-top: 170px;
+  margin-bottom: 150px;
   padding-left: 30px;
   padding-right: 30px;
 }
 
 .section-wrapper-8 .inner-section-wrapper {
-  margin-bottom: 80px;
+  margin-bottom: 24px;
   margin-top: -215px;
 }
 

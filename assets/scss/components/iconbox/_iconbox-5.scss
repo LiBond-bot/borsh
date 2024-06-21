@@ -46,6 +46,10 @@
 			}
 			p{
 				@include transitionMedium;
+
+				& a {
+					color: #666666;
+				}
 				
 				&:last-child{
 					margin-bottom: 0;
@@ -75,6 +79,11 @@
 					color: #fff;
 				}
 				p{
+
+					a{
+						color: rgba(255,255,255,0.8);
+					}
+
 					color: rgba(255,255,255,0.8);
 				}
 				.effect{
@@ -146,5 +155,18 @@
 				}
 			}
 		}
+	}
+}
+
+.contacts {
+	&__map {
+
+		& .map-iframe {
+			padding-top: 0px;
+		}
+
+		overflow: hidden;
+		height: 400px;
+		border-radius: 16px;
 	}
 }
