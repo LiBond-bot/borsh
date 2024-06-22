@@ -28390,6 +28390,62 @@ ul a.rsswidget:hover {
   }
 }
 
+.messenger-panel {
+  display: none;
+  -webkit-box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.15);
+          box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  height: 60px;
+}
+
+@media only screen and (max-width: 767px) {
+  .messenger-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.messenger-panel div {
+  position: relative;
+  background-size: auto 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  height: 100%;
+  width: calc(100vw/4);
+  background-color: var(--primary);
+}
+
+.messenger-panel div a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.messenger-panel__call {
+  background-image: url(/assets/images/icons/call.png);
+}
+
+.messenger-panel__callback {
+  background-image: url(/assets/images/icons/callback.png);
+}
+
+.messenger-panel__whatsapp {
+  background: #7acf47;
+  background-image: url(/assets/images/icons/whatsapp.png);
+}
+
+.messenger-panel__telegramm {
+  background-image: url(/assets/images/icons/tg.png);
+}
+
 .main-bnr-one {
   position: relative;
   -webkit-box-align: center;

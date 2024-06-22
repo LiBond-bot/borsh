@@ -1,75 +1,77 @@
 </div>
-		<!--Footer-->
-		<footer class="site-footer  style-1 bg-dark" id="footer">
-			<div class="footer-top">
-				<div class="container">
-					<div class="row">
-						<div class="col-xl-5 col-lg-5 col-md-12 wow fadeInUp" data-wow-delay="0.4s">
-							<?php require_once 'include/form_corporate.php' ?>
-						</div>
-						<div class="col-xl-4 col-lg-3 col-md-6  col-12 wow fadeInUp" data-wow-delay="0.5s">
-							<div class="widget widget_getintuch">
-								<h5 class="footer-title">Контакты</h5>
-								<ul>
-									<li>
-										<i class="flaticon-placeholder"></i>
-										<p> г. Ростов-на-Дону, пер. Жлобинский, д. 21</p>
-									</li>
-									<li>
-										<i class="flaticon-telephone"></i>
-										<p><a href="tel:+79281440632">+7(928) 144-06-32</a><br>
-											<a href="tel:+79281440660">+7(928) 144-06-60</a>
-										</p>
-									</li>
-									<li>
-										<i class="flaticon-email-1"></i>
-										<p><a href="mailto:borsch-rostov@yandex.ru">borsch-rostov@yandex.ru</a></p>
-									</li>
-									<li>
-										<i class="la la-whatsapp"></i>
-										<p><a href="https://t.me/borsch_rosrov">Whatsapp</a></p>
-									</li>
-									<div class="mb-2 text-light fw-bold mt-5">Наш ТГ-канал<br>с ежедневным актуальным меню:</div>
-									<li>
-										<i class="la la-telegram"></i>
-										<p><a href="https://t.me/borsch_rosrov">t.me/borsch_rosrov</a></p>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-xl-3 col-lg-2 col-md-6 col-12 mt-md-0 mt-3 wow fadeInUp" data-wow-delay="0.6s">
-							<div class="widget widget_services">
-								<h5 class="footer-title">Меню</h5>
-								<ul>
-									<li><a href="/"><span>Главная страница</span></a></li>
-									<li><a href="/templates/page-corporate.php"><span>Корпоративное питание</span></a></li>
-									<li><a href="/templates/about-us.php"><span>О компании</span></a></li>
-									<li><a href="/templates/production.php"><span>Производство</span></a></li>
-									<li><a href="/templates/certificates.php"><span>Благодарственные письма</span></a></li>
-									<li><a href="/templates/blog.php"><span>Блог</span></a></li>
-									<li><a href="/templates/contact-us.php">Контакты</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Footer Bottom Part -->
+	<!--Footer-->
+	<footer class="site-footer  style-1 bg-dark" id="footer">
+		<div class="footer-top">
 			<div class="container">
-				<div class="footer-bottom">
-					<div class="row">
-						<div class="col-xl-6 col-md-6 text-md-start">
-							<span class="copyright-text">Разработка и продвижение сайта <a href="https://flamingo.expert/" target="_blank">flamingo.expert</a></span>
+				<div class="row">
+					<div class="col-xl-5 col-lg-5 col-md-12 wow fadeInUp" data-wow-delay="0.4s">
+						<?php require_once 'include/form_corporate.php' ?>
+					</div>
+					<div class="col-xl-4 col-lg-3 col-md-6  col-12 wow fadeInUp" data-wow-delay="0.5s">
+						<div class="widget widget_getintuch">
+							<h5 class="footer-title">Контакты</h5>
+							<ul>
+								<li>
+									<i class="flaticon-placeholder"></i>
+									<p> г. Ростов-на-Дону, пер. Жлобинский, д. 21</p>
+								</li>
+								<li>
+									<i class="flaticon-telephone"></i>
+									<p><a href="tel:+79281440632">+7(928) 144-06-32</a><br>
+										<a href="tel:+79281440660">+7(928) 144-06-60</a>
+									</p>
+								</li>
+								<li>
+									<i class="flaticon-email-1"></i>
+									<p><a href="mailto:borsch-rostov@yandex.ru">borsch-rostov@yandex.ru</a></p>
+								</li>
+								<li>
+									<i class="la la-whatsapp"></i>
+									<p><a href="https://t.me/borsch_rosrov">Whatsapp</a></p>
+								</li>
+								<div class="mb-2 text-light fw-bold mt-5">Наш ТГ-канал<br>с ежедневным актуальным меню:</div>
+								<li>
+									<i class="la la-telegram"></i>
+									<p><a href="https://t.me/borsch_rosrov">t.me/borsch_rosrov</a></p>
+								</li>
+							</ul>
 						</div>
-						<div class="col-xl-6 col-md-6 text-md-end">
-							<p><a href="">Политика конфеденциальности</a></p>
+					</div>
+					<div class="col-xl-3 col-lg-2 col-md-6 col-12 mt-md-0 mt-3 wow fadeInUp" data-wow-delay="0.6s">
+						<div class="widget widget_services">
+							<h5 class="footer-title">Меню</h5>
+							<ul>
+								<li><a href="/"><span>Главная страница</span></a></li>
+								<li><a href="/templates/page-corporate.php"><span>Корпоративное питание</span></a></li>
+								<li><a href="/templates/about-us.php"><span>О компании</span></a></li>
+								<li><a href="/templates/production.php"><span>Производство</span></a></li>
+								<li><a href="/templates/certificates.php"><span>Благодарственные письма</span></a></li>
+								<li><a href="/templates/blog.php"><span>Блог</span></a></li>
+								<li><a href="/templates/contact-us.php">Контакты</a></li>
+							</ul>
 						</div>
-						
 					</div>
 				</div>
 			</div>
-			<img class="bg bg1 dz-move" src="/assets/images/background/pic5.png" alt="/">
-		</footer>
+		</div>
+		<!-- Footer Bottom Part -->
+		<div class="container">
+			<div class="footer-bottom">
+				<div class="row">
+					<div class="col-xl-6 col-md-6 text-md-start">
+						<span class="copyright-text">Разработка и продвижение сайта <a href="https://flamingo.expert/" target="_blank">flamingo.expert</a></span>
+					</div>
+					<div class="col-xl-6 col-md-6 text-md-end">
+						<p><a href="">Политика конфеденциальности</a></p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<img class="bg bg1 dz-move" src="/assets/images/background/pic5.png" alt="/">
+	</footer>
+
+	<? require_once 'include/messenger-panel.php'?>
 		
 	<!-- Footer -->
 	<div class="scroltop-progress scroltop-primary">

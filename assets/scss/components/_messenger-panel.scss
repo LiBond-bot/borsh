@@ -1,0 +1,53 @@
+.messenger-panel {
+    display: none;
+    box-shadow: -2px 2px 8px rgba(0, 0, 0, .15);
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+
+    @include respond('phone-land') {
+        display: flex;
+    }
+  
+    & div {
+        position: relative;
+        background-size: auto 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        height: 100%;
+        width: calc(100vw/4);
+        background-color: var(--primary);
+
+        &  a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+
+    &__call {
+        background-image: url(/assets/images/icons/call.png);
+    }
+
+    &__callback {
+        background-image: url(/assets/images/icons/callback.png);
+    }
+
+    &__whatsapp {
+        background: #7acf47;
+        background-image: url(/assets/images/icons/whatsapp.png);
+    }
+
+    &__telegramm {
+        background-image: url(/assets/images/icons/tg.png);
+    }
+
+}
+  
