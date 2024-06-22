@@ -1,4 +1,4 @@
-<section class="delivery content-inner-2 overflow-hidden">
+<section class="delivery content-inner-2 section-wrapper-6 section-wrapper-2 right">
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title">Ежедневная доставка</h2>
@@ -34,4 +34,5 @@
             </div>
         </div>
     </div>
+    <img class="bg bg4 dz-move-down" src="/assets/images/menu/back_10.png" alt="/">
 </section>

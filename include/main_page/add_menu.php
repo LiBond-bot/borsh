@@ -227,6 +227,6 @@
     </div>
     
     <img class="bg bg6 dz-move-down" src="/assets/images/menu/back_04.png" alt="/">
-    <img class="bg bg4 dz-move-down" src="/assets/images/certificates/back_01.png" alt="/">
+    <img class="bg bg4 dz-move-down" src="/assets/images/menu/back_03.png" alt="/">
 </section>
 <!-- Are Menu-->

@@ -4,11 +4,9 @@
 
 	<? require_once '../include/corporate/advantages.php' ?>
 
+	<? require_once '../include/corporate/menu.php' ?>
+
 	<? require_once '../include/corporate/leadform.php' ?>
-
-	<? require_once '../include/menu.php' ?>
-
-	<? require_once '../include/add_menu.php' ?>
 
 	<? require_once '../include/corporate/delivery.php' ?>
 

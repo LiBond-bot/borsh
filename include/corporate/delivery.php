@@ -1,4 +1,4 @@
-<section class="delivery-locations content-inner-4">
+<section class="delivery-locations content-inner-1">
     <div class="container">
 
         <div class="section-head text-center">

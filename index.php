@@ -2,9 +2,9 @@
 			
 	<? require_once 'include/main_page/offer.php' ?>
 
-	<? require_once 'include/menu.php' ?>
+	<? require_once 'include/main_page/menu.php' ?>
 
-	<? require_once 'include/add_menu.php' ?>
+	<? require_once 'include/main_page/add_menu.php' ?>
 
 	<? require_once 'include/main_page/numbers.php' ?>
 

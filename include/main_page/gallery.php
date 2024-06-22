@@ -1,4 +1,4 @@
-<section class="gallery content-inner-2">
+<section class="gallery content-inner-2 section-wrapper-2">
     <div class="container">
 
         <div class="section-head text-center">
@@ -41,4 +41,5 @@
             </div>
         </div>
     </div>
+    <img class="bg bg3 dz-move-down" src="/assets/images/menu/back_06.png" alt="/">
 </section>
