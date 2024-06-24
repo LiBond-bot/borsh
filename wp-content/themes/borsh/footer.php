@@ -40,15 +40,6 @@
 					<div class="col-xl-3 col-lg-2 col-md-6 col-12 mt-md-0 mt-3 wow fadeInUp" data-wow-delay="0.6s">
 						<div class="widget widget_services">
 							<h5 class="footer-title">Меню</h5>
-							<!-- <ul>
-								<li><a href="/"><span>Главная страница</span></a></li>
-								<li><a href="/templates/page-corporate.php"><span>Корпоративное питание</span></a></li>
-								<li><a href="/templates/about-us.php"><span>О компании</span></a></li>
-								<li><a href="/templates/production.php"><span>Производство</span></a></li>
-								<li><a href="/templates/certificates.php"><span>Благодарственные письма</span></a></li>
-								<li><a href="/templates/blog.php"><span>Блог</span></a></li>
-								<li><a href="/templates/contact-us.php">Контакты</a></li>
-							</ul> -->
 							<?php
 								wp_nav_menu( [
 									'theme_location'  => 'menu_main_footer',

@@ -46,5 +46,5 @@
             <p>Гарантируем, что «БОРЩ» станет вашим надежным партнером в сфере организации корпоративного питания. Сосредоточьтесь на профессиональных задачах,  а мы позаботимся о вашей сытости и здоровье!</p>
         </div>
     </div>
-    <img class="bg bg3 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/menu/back_07.png" alt="/">
+    <img class="bg bg3 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/background/back_07.png" alt="/">
 </section>

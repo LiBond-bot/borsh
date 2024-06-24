@@ -35,8 +35,6 @@
                 <div class="img-button-next btn-next-long"><i class="fa-solid fa-arrow-right"></i></div>
             </div>
         </div>
-    </div>
-    <!-- <img class="bg bg2 dz-parallax" data-parallax-speed="0.05" src="<?=get_template_directory_uri()?>/assets/images/background/pic3.png" alt="/"> -->
 </section>
 <!-- Image Box-1 -->
 

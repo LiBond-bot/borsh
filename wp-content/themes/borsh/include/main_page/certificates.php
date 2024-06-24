@@ -87,5 +87,5 @@
             </div>
         </div>
     </div>
-    <img class="bg bg5 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/certificates/back_01.png" alt="/">
+    <img class="bg bg5 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/background/back_02.png" alt="/">
 </section>

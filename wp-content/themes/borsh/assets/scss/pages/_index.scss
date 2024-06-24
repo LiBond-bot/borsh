@@ -110,7 +110,6 @@
 .video-box-sec {
 	&::after {
 		content: "";
-	    background-image: url(../images/background/bg-pattern1.svg);
 	    position: absolute;
 	    left: 10px;
 	    width: 95px;
@@ -120,7 +119,6 @@
 	}
 	&::before {
 		content: "";
-	    background-image: url(../images/background/bg-pattern2.svg);
 	    position: absolute;
 	    right: 100px;
 	    width: 43px;
@@ -132,7 +130,6 @@
 .schedule-section {
 	&::after {
 		content: "";
-	    background-image: url(../images/background/bg-pattern2.svg);
 	    position: absolute;
 	    left: 50px;
 	    width: 43px;
@@ -158,7 +155,6 @@
 .blog-section {
 	&::after {
 		content: "";
-	    background-image: url(../images/background/bg-pattern1.svg);
 	    position: absolute;
 	    right: 30px;
 	    top: 50px;
@@ -194,7 +190,6 @@
 .overlay-section {
 	&::after {
 		content: "";
-	    background-image: url(../images/background/bg-pattern2.svg);
 	    position: absolute;
 	    left: 75px;
 	    top: 200px;
@@ -213,7 +208,6 @@
 	}
 	&::before {
 		content: "";
-	    background-image: url(../images/background/bg-pattern1.svg);
 	    position: absolute;
 	    right: 50px;
 	    animation: move4 4s infinite;

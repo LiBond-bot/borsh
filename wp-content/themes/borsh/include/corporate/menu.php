@@ -36,7 +36,7 @@
             </div>
         </div>
     </div>
-    <img class="bg bg6 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/menu/back_08.png" alt="/">
+    <img class="bg bg6 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/background/back_08.png" alt="/">
 </section>
 <!-- Image Box-1 -->
 

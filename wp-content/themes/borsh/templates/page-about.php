@@ -35,7 +35,7 @@ get_header();
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="about-media dz-media rounded-md">
-						<img src="<?=get_template_directory_uri()?>/assets/images/background/pic11.jpg" alt="/">
+						<img src="<?=get_template_directory_uri()?>/assets/images/patterns/pic11.jpg" alt="/">
 						<a class="video video-btn popup-youtube" href="https://www.youtube.com/watch?v=XJb1G9iRoL4">
 							<i class="fa-solid fa-play"></i>
 						</a>

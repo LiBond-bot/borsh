@@ -42,7 +42,7 @@
     </div>
 </section> -->
 
-<section class="section-wrapper-4 content-inner-1 overflow-hidden bg-parallax" style="background-image:url('<?=get_template_directory_uri()?>/assets/images/background/back_02.png'); background-attachment: fixed; background-size: 800px;">
+<section class="section-wrapper-4 content-inner-1 overflow-hidden bg-parallax" style="background-image:url('<?=get_template_directory_uri()?>/assets/images/patterns/back_02.png'); background-attachment: fixed; background-size: 800px;">
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title wow flipInX" data-wow-delay="0.2s">Накормим персонал<br>и выдадим чеки!</h2>

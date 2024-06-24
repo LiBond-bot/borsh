@@ -19390,7 +19390,7 @@ section {
 }
 
 .dz-bnr-inr.style-1 {
-  background-image: url(assets/images/background/back_03.png);
+  background-image: url(assets/images/patterns/back_03.png);
   background-position: center;
   background-size: 600px;
 }
@@ -27376,7 +27376,7 @@ ul a.rsswidget:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url("assets/images/background/back_03.png");
+  background-image: url("assets/images/patterns/back_03.png");
   background-size: 430px;
   background-position: center;
 }
@@ -27542,7 +27542,6 @@ ul a.rsswidget:hover {
   width: 50px;
   height: 50px;
   display: inline-block;
-  background: url(../images/background/pic19.png);
   cursor: pointer;
   margin: -10px -9px;
   position: absolute;
@@ -29157,7 +29156,7 @@ ul a.rsswidget:hover {
 @media only screen and (max-width: 991px) {
   .main-bnr-two .banner-inner {
     padding: 140px 0 50px;
-    background-image: url("assets/images/background/back_03.png");
+    background-image: url("assets/images/patterns/back_03.png");
     background-size: 500px;
   }
   .main-bnr-two .banner-inner .item-bg {
@@ -32485,7 +32484,7 @@ ul a.rsswidget:hover {
   width: 240px;
   height: auto;
   background-color: var(--primary);
-  background-image: url("assets/images/background/back_05.png");
+  background-image: url("assets/images/patterns/back_05.png");
   background-size: 280px;
 }
 
@@ -33117,7 +33116,6 @@ ul a.rsswidget:hover {
 
 .video-box-sec::after {
   content: "";
-  background-image: url(../images/background/bg-pattern1.svg);
   position: absolute;
   left: 10px;
   width: 95px;
@@ -33129,7 +33127,6 @@ ul a.rsswidget:hover {
 
 .video-box-sec::before {
   content: "";
-  background-image: url(../images/background/bg-pattern2.svg);
   position: absolute;
   right: 100px;
   width: 43px;
@@ -33141,7 +33138,6 @@ ul a.rsswidget:hover {
 
 .schedule-section::after {
   content: "";
-  background-image: url(../images/background/bg-pattern2.svg);
   position: absolute;
   left: 50px;
   width: 43px;
@@ -33175,7 +33171,6 @@ ul a.rsswidget:hover {
 
 .blog-section::after {
   content: "";
-  background-image: url(../images/background/bg-pattern1.svg);
   position: absolute;
   right: 30px;
   top: 50px;
@@ -33221,7 +33216,6 @@ ul a.rsswidget:hover {
 
 .overlay-section::after {
   content: "";
-  background-image: url(../images/background/bg-pattern2.svg);
   position: absolute;
   left: 75px;
   top: 200px;
@@ -33251,7 +33245,6 @@ ul a.rsswidget:hover {
 
 .overlay-section::before {
   content: "";
-  background-image: url(../images/background/bg-pattern1.svg);
   position: absolute;
   right: 50px;
   -webkit-animation: move4 4s infinite;
