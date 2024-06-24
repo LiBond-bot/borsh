@@ -1,8 +1,8 @@
 <section class="certificates content-inner-1 section-wrapper-2 section-wrapper-6 right">
     <div class="container">
         <div class="section-head text-center">
-            <h2 class="title">Наши клиенты</h2>
-            <p class="about-p">Компании, которые кормим</p>
+            <h2 class="title">Наше производство</h2>
+            <p class="about-p">Команда и кухня БОРЩа в деле!</p>
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-4 col-6">

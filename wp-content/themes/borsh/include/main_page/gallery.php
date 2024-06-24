@@ -3,7 +3,7 @@
 
         <div class="section-head text-center">
             <h2 class="title">Наша кухня</h2>
-            <p class="about-p">Тут будет подзаголовок</p>
+            <p class="about-p">Здесь мы готовим для вас!</p>
         </div>
         
         <div class="gallery__block" id="lightgallery">

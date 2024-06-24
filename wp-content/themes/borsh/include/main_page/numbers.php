@@ -3,7 +3,7 @@
     <div class="container">
         <div class="section-head text-center">
            <h2 class="title">Мы в цифрах</h2>
-            <p>Тут будет подзаголовок</p>
+            <p>Наши показатели</p>
         </div>
         <div class="row icon-wrapper2 gx-lg-5 flex-lg-row flex-column align-items-center">
             <div class="col-lg-4 col-10 col-sm-7 col-md-5 mb-5 mb-lg-0">
@@ -14,7 +14,7 @@
                         </div>
                     </div>
                     <div class="icon-content">
-                        <h5 class="dz-title">6 лет</h5>
+                        <h5 class="dz-title">+6 лет</h5>
                         <p>Лет на рынке</p>
                     </div>
                 </div>

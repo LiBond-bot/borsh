@@ -1,4 +1,4 @@
-<section class="content-inner-4 section-wrapper-2">
+<section class="section-wrapper-2">
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title">Наша компания</h2>

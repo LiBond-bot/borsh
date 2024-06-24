@@ -25,8 +25,6 @@ get_header();
 
 	<? get_template_part('include/corporate/about') ?>
 
-	<? get_template_part('include/corporate/certificates') ?>
-
 	<? get_template_part('include/corporate/team') ?>
 
 	<? get_template_part('include/contacts') ?>

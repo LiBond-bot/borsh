@@ -7,7 +7,7 @@
 				<div class="row align-items-center">
 					<div class="col-xl-6 col-lg-7 col-md-7">
 						<div class="banner-content">
-							<h1 class="title wow fadeInUp" data-wow-delay="0.2s">Готовые <span class="text-primary">обеды</span><br>с доставкой<br>по Ростову</h1>
+							<h1 class="title wow fadeInUp" data-wow-delay="0.2s">Корпоративное питание<br><span class="text-primary">с доставкой</span></h1>
 							<p class="wow fadeInUp" data-wow-delay="0.4s">Приготовим и привезем вкусные блюда<br>в офис или на предприятие</p>
 							
 							<div class="banner-btn d-flex align-items-center wow fadeInUp" data-wow-delay="0.6s">

@@ -39,8 +39,8 @@
                         </div>
                     </div>
                     <div class="icon-content">
-                        <h5 class="dz-title">1 000</h5>
-                        <p>Сытых сотрудников в день</p>
+                        <h5 class="dz-title">+1 000</h5>
+                        <p>Довольных работников</p>
                     </div>
                 </div>
             </div>

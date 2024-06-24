@@ -3,7 +3,7 @@
     <div class="container">
         <div class="section-head text-center">
            <h2 class="title">Акции</h2>
-            <p>Тут будет подзаголовок</p>
+            <p>Эксклюзив от БОРЩ</p>
         </div>
         <div class="swiper blog-swiper swiper-visible swiper-btn-lr">
             <div class="swiper-wrapper">
