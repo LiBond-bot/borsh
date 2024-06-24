@@ -1,27 +1,17 @@
-<? require_once 'header.php' ?>
-			
-	<? require_once 'include/main_page/offer.php' ?>
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
 
-	<? require_once 'include/main_page/menu.php' ?>
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define( 'WP_USE_THEMES', true );
 
-	<? require_once 'include/main_page/add_menu.php' ?>
-
-	<? require_once 'include/main_page/numbers.php' ?>
-
-	<? require_once 'include/main_page/delivery.php' ?>
-
-	<? require_once 'include/main_page/sale.php' ?>
-
-	<? require_once 'include/main_page/about.php' ?>
-
-	<? require_once 'include/main_page/partners.php' ?>
-
-	<? require_once 'include/main_page/gallery.php' ?>
-
-	<? require_once 'include/main_page/certificates.php' ?>
-
-	<? require_once 'include/main_page/faq.php' ?>
-
-	<? require_once 'include/contacts.php' ?>
-			
-<? require_once 'footer.php' ?>	
+/** Loads the WordPress Environment and Template */
+require __DIR__ . '/wp-blog-header.php';
