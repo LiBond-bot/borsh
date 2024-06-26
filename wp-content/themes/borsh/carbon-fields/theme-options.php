@@ -31,4 +31,8 @@ Container::make( 'theme_options', __( 'Настроки сайта' ) )
 ))
 ->add_tab( 'Основное меню', array(
   Field::make( 'media_gallery', 'main_menu', 'Основное меню' )
-));
+))
+->add_tab( 'Фото кухни', array(
+  Field::make( 'media_gallery', 'kitchen_gallery', 'Фото кухни' )
+))
+;
