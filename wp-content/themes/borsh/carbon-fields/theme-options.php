@@ -28,4 +28,7 @@ Container::make( 'theme_options', __( 'Настроки сайта' ) )
   
   Field::make( 'rich_text', 'site_map', 'Карта' )->set_width(50),
   Field::make( 'rich_text', 'site_adress', 'Адрес' )->set_width(50),
+))
+->add_tab( 'Основное меню', array(
+  Field::make( 'media_gallery', 'main_menu', 'Основное меню' )
 ));
