@@ -23,36 +23,6 @@
                                     <?
                                 }
                             ?>
-                            <!-- <div class="col-md-4 col-sm-6 col-12 mb-4">
-                                <a href="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg" title="Тут будет подпись" data-src="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg" class="dz-media rounded-md lg-item gallery__img">
-                                    <img src="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg"  alt="/" width="800" height="650">
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-12 mb-4">
-                                <a href="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg" title="Тут будет подпись" data-src="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg" class="dz-media rounded-md lg-item gallery__img">
-                                    <img src="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg"  alt="/" width="800" height="650">
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-12 mb-4">
-                                <a href="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg" title="Тут будет подпись" data-src="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg" class="dz-media rounded-md lg-item gallery__img">
-                                    <img src="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg"  alt="/" width="800" height="650">
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-12 mb-4">
-                                <a href="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg" title="Тут будет подпись" data-src="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg" class="dz-media rounded-md lg-item gallery__img">
-                                    <img src="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg"  alt="/" width="800" height="650">
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-12 mb-4">
-                                <a href="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg" title="Тут будет подпись" data-src="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg" class="dz-media rounded-md lg-item gallery__img">
-                                    <img src="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg"  alt="/" width="800" height="650">
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-12 mb-4">
-                                <a href="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg" title="Тут будет подпись" data-src="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg" class="dz-media rounded-md lg-item gallery__img">
-                                    <img src="<?=get_template_directory_uri()?>/assets/images/gallery/grid5/pic1.jpg"  alt="/" width="800" height="650">
-                                </a>
-                            </div> -->
                         </div>
                     </div>
                 </div>
