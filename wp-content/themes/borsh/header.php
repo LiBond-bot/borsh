@@ -21,7 +21,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     
 	<!-- Favicon icon -->
-    <link rel="icon" type="image/png" href="<?=get_template_directory_uri()?>/assets/images/favicon.png">
+    <link rel="icon" type="image/png" href="<?=wp_get_attachment_image_url(carbon_get_theme_option( 'site_favicon' ), 'full' );?>">
     
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,10 +46,16 @@
 				<div class="main-bar clearfix">
 					<div class="container clearfix d-flex align-items-center">
 						
-						<!-- Website Logo -->
-						<div class="logo-header mostion">
-							<a href="/"><img src="<?=get_template_directory_uri()?>/assets/images/logo3.png" alt="/"></a>
-						</div>
+						<?
+							if(carbon_get_theme_option( 'site_logo_full' )) {
+								?>
+									<div class="logo-header mostion">
+										<a href="/"><img src="<?=wp_get_attachment_image_url(carbon_get_theme_option( 'site_logo_full' ), 'full' );?>" alt="/"></a>
+									</div>
+								<?
+							}
+						?>
+						
 						
 						<!-- Nav Toggle Button -->
 						<button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,9 +67,16 @@
 						
 						<!-- Header Nav -->
 						<div class="header-nav navbar-collapse collapse justify-content-between" id="navbarNavDropdown">
-							<div class="logo-header">
-								<a href="/"><img src="<?=get_template_directory_uri()?>/assets/images/logo3.png" alt="/"></a>
-							</div>
+
+							<?
+								if(carbon_get_theme_option( 'site_logo_full' )) {
+									?>
+										<div class="logo-header">
+											<a href="/"><img src="<?=wp_get_attachment_image_url(carbon_get_theme_option( 'site_logo_full' ), 'full' );?>" alt="/"></a>
+										</div>
+									<?
+								}
+							?>
 
 							<?php
 								wp_nav_menu( [
@@ -74,7 +87,15 @@
 							?>
 
 							<div class="pr-5">
-								<a href="tel:+79281440632" class="btn shadow-primary btn-secondary"><span class="btn-text" data-text="+7 (928) 144-06-32">+7 (928) 144-06-32</span></a>
+
+								<?
+									if(carbon_get_theme_option('site_phone')) {
+										?>
+											<a href="tel:<?=carbon_get_theme_option('site_phone_digits')?>" class="btn shadow-primary btn-secondary"><span class="btn-text" data-text="<?=carbon_get_theme_option('site_phone')?>"><?=carbon_get_theme_option('site_phone')?></span></a>
+										<?
+									}
+								?>
+
 								<a href="#" class="btn btn-outline-primary shadow-primary"><span class="btn-text" data-text="Обратный звонок"><i class="fa fa-phone"></i></span></a>
 							</div>
 

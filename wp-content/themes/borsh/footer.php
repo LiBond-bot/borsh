@@ -11,29 +11,74 @@
 						<div class="widget widget_getintuch">
 							<h5 class="footer-title">Контакты</h5>
 							<ul>
-								<li>
-									<i class="flaticon-placeholder"></i>
-									<p> г. Ростов-на-Дону, пер. Жлобинский, д. 21</p>
-								</li>
-								<li>
-									<i class="flaticon-telephone"></i>
-									<p><a href="tel:+79281440632">+7(928) 144-06-32</a><br>
-										<a href="tel:+79281440660">+7(928) 144-06-60</a>
-									</p>
-								</li>
-								<li>
-									<i class="flaticon-email-1"></i>
-									<p><a href="mailto:borsch-rostov@yandex.ru">borsch-rostov@yandex.ru</a></p>
-								</li>
-								<li>
-									<i class="la la-whatsapp"></i>
-									<p><a href="https://t.me/borsch_rosrov">Whatsapp</a></p>
-								</li>
-								<div class="mb-2 text-light fw-bold mt-5">Наш ТГ-канал<br>с ежедневным актуальным меню:</div>
-								<li>
-									<i class="la la-telegram"></i>
-									<p><a href="https://t.me/borsch_rosrov">t.me/borsch_rosrov</a></p>
-								</li>
+
+									<?
+										if(carbon_get_theme_option('site_adress')) {
+											?>
+												<li>
+													<i class="flaticon-placeholder"></i>
+													<p><?=carbon_get_theme_option('site_adress')?></p>
+												</li>
+											<?
+										}
+									?>
+
+								<?
+									if(carbon_get_theme_option('site_phone') || carbon_get_theme_option('site_phone_2')) {
+										?>
+											<li>
+												<i class="flaticon-telephone"></i>
+												<p>
+													<a href="tel:<?=carbon_get_theme_option('site_phone_digits')?>"><?=carbon_get_theme_option('site_phone')?></a><br>
+													<a href="tel:<?=carbon_get_theme_option('site_phone_digits_2')?>"><?=carbon_get_theme_option('site_phone_2')?></a>
+												</p>
+											</li>
+										<?
+									}
+								?>
+								
+								<?
+									if(carbon_get_theme_option('site_email')) {
+										?>
+											<li>
+												<i class="flaticon-email-1"></i>
+												<p>
+													<a href="mailto:<?=carbon_get_theme_option('site_email')?>"><?=carbon_get_theme_option('site_email')?></a><br>
+													
+												</p>
+											</li>
+										<?
+									}
+								?>
+
+								<?
+									if(carbon_get_theme_option('site_whatsapp')) {
+										?>
+											<li>
+												<i class="la la-whatsapp"></i>
+												<p>
+													<a href="https://api.whatsapp.com/send?phone=<?=carbon_get_theme_option( 'site_whatsapp' )?>">Whatsapp</a><br>
+													
+												</p>
+											</li>
+										<?
+									}
+								?>
+
+								<?
+									if(carbon_get_theme_option('site_telegram')) {
+										?>
+											<div class="mb-2 text-light fw-bold mt-5">Наш ТГ-канал<br>с ежедневным актуальным меню:</div>
+											<li>
+												<i class="la la-telegram"></i>
+												<p>
+													<a href="https://t.me/<?=carbon_get_theme_option('site_telegram')?>">Telegram</a><br>
+												</p>
+											</li>
+										<?
+									}
+								?>
+
 							</ul>
 						</div>
 					</div>
@@ -57,7 +102,7 @@
 			<div class="footer-bottom">
 				<div class="row">
 					<div class="col-xl-6 col-md-6 text-md-start">
-						<span class="copyright-text">Разработка и продвижение сайта <a href="https://flamingo.expert/" target="_blank">flamingo.expert</a></span>
+						<?=carbon_get_theme_option( 'footer_text' )?>			
 					</div>
 					<div class="col-xl-6 col-md-6 text-md-end">
 						<p><a href="<?=get_permalink(38)?>">Политика конфеденциальности</a></p>

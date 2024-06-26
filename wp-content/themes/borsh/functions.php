@@ -33,3 +33,13 @@ function theme_register_nav_menu() {
 	register_nav_menu( 'menu_main_footer', 'Меню в подвале' );
     add_theme_support('post-thumbnails');
 }
+
+
+// Кастомные поля
+add_action('carbon_fields_register_fields', 'register_carbon_fields');
+function register_carbon_fields() {
+    require_once('carbon-fields/theme-options.php');
+	require_once('carbon-fields/post-meta.php');
+	// require_once('carbon-fields/term-meta.php');
+}
+
