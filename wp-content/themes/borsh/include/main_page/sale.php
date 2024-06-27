@@ -14,7 +14,7 @@
             <section class="content-inner-4 overflow-hidden">
                 <div class="container">
                     <div class="section-head text-center">
-                    <h2 class="title">Акции</h2>
+                        <h2 class="title">Акции</h2>
                         <p>Эксклюзив от БОРЩ</p>
                     </div>
                     <div class="swiper blog-swiper swiper-visible swiper-btn-lr">
