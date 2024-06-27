@@ -2,7 +2,7 @@
 
     if($gallery){
         ?>
-            <section class="certificates content-inner-2 section-wrapper-2">
+            <section class="certificates content-inner-2 section-wrapper-6 section-wrapper-2 right">
                 <div class="container">
                     <div class="section-head text-center">
                         <h2 class="title">Наше производство</h2>
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="bg bg3 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/background/back_06.png" alt="/">
+                <img class="bg bg4 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/background/back_10.png" alt="/">
             </section>
         <?
     }
