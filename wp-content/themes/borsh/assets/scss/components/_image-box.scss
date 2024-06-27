@@ -644,6 +644,11 @@
 			p{
 				font-size:14px;
 				margin-bottom:24px;
+
+				& span {
+					font-weight: 600;
+    				color: #000;
+				}
 			}
 			.price{
 				font-weight: 600;

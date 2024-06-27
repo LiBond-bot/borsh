@@ -53,6 +53,7 @@
 					&.active,&:hover{
 						&>a {
 							color:var(--primary);
+							font-weight: 600;
 							@include respond('tab-port-min'){
 								&::before {
 									transform: translateY(0);

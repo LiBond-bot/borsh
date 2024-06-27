@@ -86,12 +86,12 @@
 								] );
 							?>
 
-							<div class="pr-5">
+							<div>
 
 								<?
 									if(carbon_get_theme_option('site_phone')) {
 										?>
-											<a href="tel:<?=carbon_get_theme_option('site_phone_digits')?>" class="btn shadow-primary btn-secondary"><span class="btn-text" data-text="<?=carbon_get_theme_option('site_phone')?>"><?=carbon_get_theme_option('site_phone')?></span></a>
+											<a href="tel:<?=carbon_get_theme_option('site_phone_digits')?>" class="btn shadow-primary btn-secondary me-3"><span class="btn-text" data-text="<?=carbon_get_theme_option('site_phone')?>"><?=carbon_get_theme_option('site_phone')?></span></a>
 										<?
 									}
 								?>

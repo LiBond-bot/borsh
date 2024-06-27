@@ -31,6 +31,6 @@ Template Name: Главная
 
 	require_once 'include/contacts.php'; 
 			
-    require_once 'footer.php'; 
-    
+	get_footer();
+
 ?>	
