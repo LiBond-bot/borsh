@@ -47,7 +47,7 @@ function register_carbon_fields() {
 // Кастомные типы постов
 // Регистрация типа поста - Акции
 require_once 'functions/action_custom_sales.php';
-// Регистрация типа поста - Кейсы
-// require_once 'functions/action_custom_cases.php';
+// Регистрация типа поста - Блог
+require_once 'functions/action_custom_blog.php';
 
 

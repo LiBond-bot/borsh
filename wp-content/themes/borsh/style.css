@@ -24057,6 +24057,43 @@ button:focus {
   bottom: 30%;
 }
 
+.navigation.pagination {
+  padding-bottom: 64px;
+  padding-top: 20px;
+}
+
+.page-numbers.current {
+  background-color: red;
+  color: #fff;
+  padding: 10px 16px;
+  line-height: 1;
+  font-weight: bold;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 15px 55px rgba(34, 34, 34, 0.15);
+          box-shadow: 0px 15px 55px rgba(34, 34, 34, 0.15);
+}
+
+.page-numbers {
+  padding: 10px 16px;
+  line-height: 1;
+  font-weight: bold;
+  border-radius: 6px;
+  color: #000;
+  -webkit-box-shadow: 0px 15px 55px rgba(34, 34, 34, 0.15);
+          box-shadow: 0px 15px 55px rgba(34, 34, 34, 0.15);
+  margin: 0px 2px;
+}
+
+.next.page-numbers {
+  padding: 10px 16px;
+  line-height: 1;
+  font-weight: bold;
+  border-radius: 6px;
+  color: #000;
+  -webkit-box-shadow: 0px 15px 55px rgba(34, 34, 34, 0.15);
+          box-shadow: 0px 15px 55px rgba(34, 34, 34, 0.15);
+}
+
 .list-circle li,
 .list-angle-double li,
 .list-square li,
