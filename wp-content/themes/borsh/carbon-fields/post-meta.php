@@ -18,13 +18,8 @@ use Carbon_Fields\Field;
 //     Field::make( 'media_gallery', 'project_gallery', 'Галерея проекта'),
 // ));
 
-// Дополнительные поля на разделе продуктов
-// Container::make( 'post_meta', __( 'Поля продукта' ))
-// ->show_on_post_type('product')
-// ->add_tab( 'Доп.поля', array(
-//     Field::make( 'media_gallery', 'product_gallery', 'Галерея продукта'),
-// ));
 
+// Доп.поля на оффере
 Container::make( 'post_meta', __( 'Доп.поля' ))
 ->show_on_page(13)
 ->add_tab( 'Оффер', array(
@@ -37,8 +32,6 @@ Container::make( 'post_meta', __( 'Доп.поля' ))
     Field::make( 'text', 'offer_button_2_text', 'Текст кнопки 2' )->set_width( 25 ),
     Field::make( 'text', 'offer_button_2_link', 'Ссылка кнопки 2' )->set_width( 25 ),
 ));
-
-
 Container::make( 'post_meta', __( 'Доп.поля' ))
 ->show_on_page(15)
 ->add_tab( 'Оффер', array(
@@ -50,4 +43,13 @@ Container::make( 'post_meta', __( 'Доп.поля' ))
     Field::make( 'text', 'offer_button_1_link', 'Ссылка кнопки 1' )->set_width( 25 ),
     Field::make( 'text', 'offer_button_2_text', 'Текст кнопки 2' )->set_width( 25 ),
     Field::make( 'text', 'offer_button_2_link', 'Ссылка кнопки 2' )->set_width( 25 ),
+));
+
+
+// Дополнительные поля на разделе акций
+Container::make( 'post_meta', 'Доп. поля')
+->show_on_post_type('sale')
+->add_tab( 'Доп.поля', array(
+    Field::make( 'rich_text', 'sale_title', 'Заголовок для отображения' )->set_width( 50 ),
+    Field::make( 'text', 'sale_date', 'Дата окончания акции' )->set_width( 50 ),
 ));

@@ -43,3 +43,11 @@ function register_carbon_fields() {
 	// require_once('carbon-fields/term-meta.php');
 }
 
+
+// Кастомные типы постов
+// Регистрация типа поста - Акции
+require_once 'functions/action_custom_sales.php';
+// Регистрация типа поста - Кейсы
+// require_once 'functions/action_custom_cases.php';
+
+
