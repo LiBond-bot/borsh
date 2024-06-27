@@ -49,7 +49,9 @@ Container::make( 'theme_options', __( 'Настроки сайта' ) )
         Field::make( 'text', 'answer', 'Ответ')->set_width(50),
     ) )
 ))
+->add_tab( 'Логотипы клиентов', array(
+  Field::make( 'media_gallery', 'clients_gallery', 'Лого клиентов' )
+))
 ->add_tab( 'Фото сотрудников', array(
   Field::make( 'media_gallery', 'staff_gallery', 'Фото сотрудников' )
-))
-;
+));
