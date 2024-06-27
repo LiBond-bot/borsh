@@ -35,12 +35,18 @@ Container::make( 'theme_options', __( 'Настроки сайта' ) )
 ->add_tab( 'Фото кухни', array(
   Field::make( 'media_gallery', 'kitchen_gallery', 'Фото кухни' )
 ))
-
 ->add_tab( 'Сертификаты', array(
   Field::make( 'complex', 'certificates', 'Сертификаты' )
     ->add_fields( array(
         Field::make( 'image', 'certificates_thumb', 'Миниатюра сертификата' )->set_width(50),
         Field::make( 'file', 'certificates_file', 'Файл сертификата' )->set_width(50),
+    ) )
+))
+->add_tab( 'ЧАВО', array(
+  Field::make( 'complex', 'faq', 'ЧАВО' )
+    ->add_fields( array(
+        Field::make( 'text', 'question', 'Вопрос')->set_width(50),
+        Field::make( 'text', 'answer', 'Ответ')->set_width(50),
     ) )
 ))
 ;
