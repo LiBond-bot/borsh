@@ -15,7 +15,7 @@
                                     ?>
                                         <div class="col-md-4 col-sm-6 col-12 mb-4">
                                             <a href="<?=wp_get_attachment_image_url($img, 'full');?>" data-src="<?=wp_get_attachment_image_url($img, 'full');?>" class="dz-media rounded-md lg-item gallery__img">
-                                                <img src="<?=wp_get_attachment_image_url($img, 'large');?>"  alt="/" width="800" height="650">
+                                                <img src="<?=wp_get_attachment_image_url($img, 'large');?>" width="800" height="650">
                                             </a>
                                         </div>
                                     <?
