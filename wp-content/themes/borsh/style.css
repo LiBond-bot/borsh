@@ -31438,6 +31438,24 @@ ul a.rsswidget:hover {
   }
 }
 
+.icon-bx-wraper.style-about .icon-content .dz-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.icon-bx-wraper.style-about .icon-content p {
+  font-size: 15px;
+  font-weight: normal;
+  font-family: var(--font-family-title);
+  color: #666666;
+}
+
+.icon-bx-wraper.style-about .icon-bx > div {
+  width: 64px;
+  height: 64px;
+}
+
 #partners .icon-bx-wraper.style-2 .icon-bx {
   background-color: var(--primary);
   width: 64px;
@@ -31779,7 +31797,7 @@ ul a.rsswidget:hover {
 
 .contacts__map {
   overflow: hidden;
-  height: 400px;
+  height: auto;
   border-radius: 16px;
 }
 
@@ -37468,7 +37486,7 @@ pre {
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 170px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   padding-left: 30px;
   padding-right: 30px;
 }

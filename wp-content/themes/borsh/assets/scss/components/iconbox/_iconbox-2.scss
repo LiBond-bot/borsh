@@ -5,6 +5,8 @@
 		display: flex;
 		align-items: center;
 		@include transitionMedium;
+
+		
 		
 		.icon-bx{
 			background-color:var(--primary);
@@ -43,6 +45,8 @@
 				font-family:var(--font-family-title);
 			}
 		}
+
+		
 		&:hover,
 		&.active{
 			.icon-bx{
@@ -76,6 +80,28 @@
 				}
 			}
 		}
+	}
+
+	&.style-about {
+		.icon-content{
+			.dz-title {
+				color: #fff;
+				font-size: 18px;
+				font-weight: 700;
+			}
+			p{
+				font-size: 15px;
+				font-weight: normal;
+				font-family: var(--font-family-title);
+				color: #666666;
+			}
+		}
+
+		& .icon-bx > div {
+			width: 64px;
+			height: 64px;
+		}
+		
 	}
 }
 

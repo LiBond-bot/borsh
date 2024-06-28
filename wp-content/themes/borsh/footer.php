@@ -4,19 +4,32 @@
 		<div class="footer-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-xl-5 col-lg-5 col-md-12 wow fadeInUp" data-wow-delay="0.4s">
+					<div class="col-xl-5 col-lg-5 col-md-12">
 
 						<?php 
 
-							if(get_the_ID() == 15) {
-								require_once 'include/form_corporate.php' ;
+							if(get_the_ID() != 15 && get_the_ID() != 13) {
+								require_once 'include/form_main.php';
 							} else {
-								require_once 'include/form_main.php' ;
+
+								if(get_the_ID() == 15) {
+									?>
+										<div class="dz-form-card_footer">
+											<?require_once 'include/form_corporate.php';?>
+										</div>
+									<?
+									
+								} else {
+									?>
+										<div class="dz-form-card_footer">
+											<?require_once 'include/form_main.php';?>
+										</div>
+									<?
+								}
 							}
-						
 						?>
 					</div>
-					<div class="col-xl-4 col-lg-3 col-md-6  col-12 wow fadeInUp" data-wow-delay="0.5s">
+					<div class="col-xl-4 col-lg-3 col-md-6 col-12">
 						<div class="widget widget_getintuch">
 							<h5 class="footer-title">Контакты</h5>
 							<ul>
@@ -91,7 +104,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-2 col-md-6 col-12 mt-md-0 mt-3 wow fadeInUp" data-wow-delay="0.6s">
+					<div class="col-xl-3 col-lg-2 col-md-6 col-12 mt-md-0 mt-3">
 						<div class="widget widget_services">
 							<h5 class="footer-title">Меню</h5>
 							<?php
