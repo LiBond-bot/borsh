@@ -21194,10 +21194,6 @@ label.error {
   border-radius: 10px;
 }
 
-.dz-form-card_footer {
-  margin-top: -160px;
-}
-
 .dz-form-card_footer .input-group {
   margin-bottom: 30px;
 }
@@ -21207,6 +21203,10 @@ label.error {
     margin-bottom: 40px;
     margin-top: 0;
   }
+}
+
+.dz-form-card_offset {
+  margin-top: -160px;
 }
 
 .dz-form-card button {
@@ -28184,6 +28184,8 @@ ul a.rsswidget:hover {
 .menu__photo {
   border-radius: 10px;
   overflow: hidden;
+  -webkit-box-shadow: 0px 15px 55px rgba(34, 34, 34, 0.15);
+          box-shadow: 0px 15px 55px rgba(34, 34, 34, 0.15);
 }
 
 .menu.content-inner-1 {

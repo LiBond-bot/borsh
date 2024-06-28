@@ -595,8 +595,6 @@ label.error {
     border-radius: 10px;
 
 	&_footer {
-		margin-top:-160px;
-
 		.input-group {
 			margin-bottom: 30px;
 		}
@@ -605,6 +603,13 @@ label.error {
 			margin-bottom:40px;
 			margin-top:0;
 		}
+	}
+
+	
+
+
+	&_offset {
+		margin-top:-160px;
 	}
 
 	button {

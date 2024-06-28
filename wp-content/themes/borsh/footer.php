@@ -14,15 +14,15 @@
 
 								if(get_the_ID() == 15) {
 									?>
-										<div class="dz-form-card_footer">
-											<?require_once 'include/form_corporate.php';?>
+										<div class="dz-form-card_offset">
+											<? require_once 'include/form_corporate.php';?>
 										</div>
 									<?
 									
 								} else {
 									?>
-										<div class="dz-form-card_footer">
-											<?require_once 'include/form_main.php';?>
+										<div class="dz-form-card_offset">
+											<? require_once 'include/form_main.php';?>
 										</div>
 									<?
 								}

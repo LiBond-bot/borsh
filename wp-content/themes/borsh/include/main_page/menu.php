@@ -10,7 +10,7 @@
                     </div>
 
                     <div class="swiper-btn-lr">
-                        <div class="swiper portfolio-swiper">
+                        <div class="swiper portfolio-swiper swiper-visible">
                             <div class="swiper-wrapper">
                                 <?php
                                     foreach ($menu as $img) {
