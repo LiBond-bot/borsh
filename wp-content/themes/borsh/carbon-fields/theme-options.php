@@ -54,4 +54,8 @@ Container::make( 'theme_options', __( 'Настроки сайта' ) )
 ))
 ->add_tab( 'Фото производства', array(
   Field::make( 'media_gallery', 'staff_gallery', 'Фото производства' )
-));
+))
+->add_tab( 'Фото сотрудников', array(
+  Field::make( 'media_gallery', 'job_gallery', 'Фото сотрудников' )
+))
+;

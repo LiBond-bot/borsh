@@ -126,7 +126,7 @@ get_header();
 		</div>
 	</section>
 
-	<? $gallery = carbon_get_theme_option('kitchen_gallery'); 
+	<? $gallery = carbon_get_theme_option('job_gallery'); 
 
 		if($gallery){
 			?>
