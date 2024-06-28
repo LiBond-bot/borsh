@@ -27419,6 +27419,40 @@ ul a.rsswidget:hover {
   background-position: center;
 }
 
+.dz-img-box.style-7 .dz-media__no-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dz-img-box.style-7 .dz-media__no-photo > div:first-child {
+  width: 120px;
+  height: 120px;
+}
+
+.dz-img-box.style-7 .dz-media__no-photo > div:first-child img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.dz-img-box.style-7 .dz-media__no-photo > div:last-child {
+  font-weight: 600;
+  color: #000;
+  font-size: 14px;
+}
+
 .dz-img-box.style-7 .dz-media > div {
   height: 180px;
 }

@@ -40,7 +40,7 @@ add_action('carbon_fields_register_fields', 'register_carbon_fields');
 function register_carbon_fields() {
     require_once('carbon-fields/theme-options.php');
 	require_once('carbon-fields/post-meta.php');
-	// require_once('carbon-fields/term-meta.php');
+	require_once('carbon-fields/term-meta.php');
 }
 
 
@@ -49,5 +49,8 @@ function register_carbon_fields() {
 require_once 'functions/action_custom_sales.php';
 // Регистрация типа поста - Блог
 require_once 'functions/action_custom_blog.php';
+// Регистрация типа поста - Допы меню
+require_once 'functions/action_custom_addon.php';
+
 
 

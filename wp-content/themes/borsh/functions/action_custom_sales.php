@@ -20,7 +20,7 @@ function register_post_sales(){
         ],
         'public'              => true,
         'menu_position'       => 12,
-        'menu_icon'           => 'dashicons-cart',
+        'menu_icon'           => 'dashicons-megaphone',
         'supports'            => [ 'title', 'editor', 'thumbnail' ], // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'
         'has_archive'         => false,
         'rewrite' => ['slug' => 'sales'],

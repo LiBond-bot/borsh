@@ -53,3 +53,9 @@ Container::make( 'post_meta', 'Доп. поля')
     Field::make( 'rich_text', 'sale_title', 'Заголовок для отображения' )->set_width( 50 ),
     Field::make( 'text', 'sale_date', 'Дата окончания акции' )->set_width( 50 ),
 ));
+
+Container::make( 'post_meta', 'Доп. поля')
+->show_on_post_type('addon')
+->add_tab( 'Доп.поля', array(
+    Field::make( 'text', 'addon_price', 'Цена' ),
+));
