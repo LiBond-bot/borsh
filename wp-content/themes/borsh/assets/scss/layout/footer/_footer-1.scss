@@ -1,5 +1,9 @@
 // ft-clients
 .site-footer {
+
+	@include respond('phone-land'){
+		padding-bottom: 70px;
+	}
 	.bg1,
 	.bg2{
 		position:absolute;

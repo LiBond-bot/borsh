@@ -59,6 +59,6 @@
 			</div>
 		</div>
 	</div>
-    <img class="bg bg4 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/background/back_11.png" alt="/">
+    <img class="bg bg9 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/background/back_11.png" alt="/">
 	
 </section>

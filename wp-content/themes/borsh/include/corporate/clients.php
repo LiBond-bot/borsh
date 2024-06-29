@@ -13,7 +13,7 @@
                             foreach ($gallery as $img) {
                                 ?>
                                     <div class="col-lg-3 col-md-4 col-6">
-                                        <div>
+                                        <div style="background-color:#fff;">
                                             <img src="<?=wp_get_attachment_image_url($img, 'full');?>" alt="">
                                         </div>
                                     </div>
@@ -22,7 +22,7 @@
                         ?>
                     </div>
                 </div>
-                <img class="bg bg4 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/background/back_05.png" alt="/">
+                <img class="bg bg9 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/background/back_05.png" alt="/">
             </section>
         <?
     }

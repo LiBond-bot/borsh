@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="bg bg3 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/background/back_06.png" alt="/">
+                <img class="bg bg8 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/background/back_06.png" alt="/">
             </section>
         <?
     }

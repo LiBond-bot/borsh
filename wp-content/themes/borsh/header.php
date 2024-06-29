@@ -86,7 +86,7 @@
 								] );
 							?>
 
-							<div>
+							<div class="ms-4 mt-3 ms-lg-0 mt-lg-0">
 
 								<?
 									if(carbon_get_theme_option('site_phone')) {
