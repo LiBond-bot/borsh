@@ -9,20 +9,20 @@
 						<?php 
 
 							if(get_the_ID() != 15 && get_the_ID() != 13) {
-								require_once 'include/form_main.php';
+								require_once 'include/form_footer_main.php';
 							} else {
 
 								if(get_the_ID() == 15) {
 									?>
 										<div class="dz-form-card_offset">
-											<? require_once 'include/form_corporate.php';?>
+											<? require_once 'include/form_footer_corporate.php';?>
 										</div>
 									<?
 									
 								} else {
 									?>
 										<div class="dz-form-card_offset">
-											<? require_once 'include/form_main.php';?>
+											<? require_once 'include/form_footer_main.php';?>
 										</div>
 									<?
 								}
@@ -127,9 +127,8 @@
 						<?=carbon_get_theme_option( 'footer_text' )?>			
 					</div>
 					<div class="col-xl-6 col-md-6 text-md-end">
-						<p><a href="<?=get_permalink(38)?>">Политика конфеденциальности</a></p>
+						<p><a href="/privacy-policy/">Политика конфеденциальности</a></p>
 					</div>
-					
 				</div>
 			</div>
 		</div>
@@ -137,6 +136,9 @@
 	</footer>
 
 	<? require_once 'include/messenger-panel.php'?>
+	<? require_once 'include/form_orderlunch.php'?>
+	<? require_once 'include/form_menu.php'?>
+	<? require_once 'include/form_orderlunch_corp.php'?>
 		
 	<!-- Footer -->
 	<div class="scroltop-progress scroltop-primary">

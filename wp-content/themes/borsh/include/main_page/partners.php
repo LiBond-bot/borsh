@@ -67,7 +67,7 @@
                     </div>
                     <div class="row align-items-center">
                         <div class="col-md-9 col-12"><p class="mb-4 mb-md-0">Только свежее и качественное питание под фирменным знаком!</p></div>
-                        <div class="col-md-3 col-12"><a href="contact-us.html" class="btn btn-primary btn-md shadow-primary m-r30 btn-hover-3"><span class="btn-text" data-text="Подробнее">Подробнее</span></a></div>
+                        <div class="col-md-3 col-12"><a href="/partneram/" class="btn btn-primary btn-md shadow-primary m-r30 btn-hover-3"><span class="btn-text" data-text="Подробнее">Подробнее</span></a></div>
                     </div>
                 </div>
             </div>

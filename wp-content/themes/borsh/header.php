@@ -96,7 +96,7 @@
 									}
 								?>
 
-								<a href="#" class="btn btn-outline-primary shadow-primary"><span class="btn-text" data-text="Обратный звонок"><i class="fa fa-phone"></i></span></a>
+								<!-- <a href="#" class="btn btn-outline-primary shadow-primary"><span class="btn-text" data-text="Обратный звонок"><i class="fa fa-phone"></i></span></a> -->
 							</div>
 
 						</div>

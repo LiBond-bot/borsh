@@ -135,7 +135,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 text-center mt-5">
-                        <a href="contact-us.html" class="btn btn-primary btn-md shadow-primary btn-hover-3"><span class="btn-text" data-text="Узнать меню">Узнать меню</span></a>
+                        <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#menu" class="btn btn-primary btn-md shadow-primary btn-hover-3"><span class="btn-text" data-text="Узнать меню">Узнать меню</span></a>
                     </div>
                 </div>
                 

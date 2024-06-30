@@ -34,10 +34,11 @@
 								if($offer_button_text || $offer_button_text_2){
 									?>
 										<div class="banner-btn d-flex align-items-start align-items-lg-center flex-column flex-lg-row wow fadeInUp" data-wow-delay="0.6s">
+											
 											<?
 												if($offer_button_text && $offer_button_link) {
 													?>
-														<a href="<?=$offer_button_link?>" class="btn btn-primary btn-md shadow-primary m-r30 btn-hover-3 mb-3 mb-lg-0 offer__button"><span class="btn-text" data-text="<?=$offer_button_text?>"><?=$offer_button_text?></span></a>
+														<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#orderLunchCorp" class="btn btn-primary btn-md shadow-primary m-r30 btn-hover-3 mb-3 mb-lg-0 offer__button"><span class="btn-text" data-text="<?=$offer_button_text?>"><?=$offer_button_text?></span></a>
 													<?
 												}
 

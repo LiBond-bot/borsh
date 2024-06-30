@@ -231,6 +231,10 @@ get_header();
 						<div class="col-lg-2 col-12">
 							<button type="submit" name="submit" value="submit" class="btn btn-md btn-white btn-hover-1"><span>Отправить</span></button>	
 						</div>
+
+						<div class="mt-3" style="font-size:14px;">
+							Нажимая кнопку <b>"Отправить"</b>, вы соглашаетесь с <b><a href="/privacy-policy/">Политикой конфеденциальности</a></b>
+						</div>
 					</div>
 				</form>
 			</div>
