@@ -53,4 +53,8 @@ require_once 'functions/action_custom_blog.php';
 require_once 'functions/action_custom_addon.php';
 
 
+// Отправка на почту 
+require_once 'functions/send_mail.php';
+
+
 

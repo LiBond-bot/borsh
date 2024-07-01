@@ -1076,10 +1076,26 @@ jQuery(window).on('load',function () {
 		});
 	}
 
-	const sendForm = (data, idForm) => {
-		console.log(data)
+
+	// Отправка данных с формы на сервер
+	const sendForm = (formData, idForm) => {
+		
+		// jQuery.post(
+		// 	window.wp_data.ajax_url,
+		// 	send_data,
+		// 	function (response) {
+		// 		response = JSON.parse(response)
+		// 		if (response.status) {
+		// 			jQuery(idForm).find('.dz-form-card__message').addClass('active');
+		// 		} else {
+		// 			alert('Что-то пошло не так')
+		// 		}
+		// 	}
+		// );
+
+		
 	}
-	
+
 
 	// Проверка данных с формы
 	const formValid = (idForm) => {
@@ -1100,7 +1116,7 @@ jQuery(window).on('load',function () {
 		jQuery(idForm).on('click', 'button', function(e){
 			e.preventDefault();
 
-			let data = {};
+			let formData = {};
 			let invalid = 0;
 			const inputs = jQuery(idForm).find('input');
 
@@ -1108,11 +1124,11 @@ jQuery(window).on('load',function () {
 			jQuery(inputs).map((i,el)=>{
 
 				if(el.value) {
-					data[el.name] = el.value;
+					formData[el.name] = el.value;
 
 					if(el.name == 'phone'){
 						const phoneMask = /_/.test(el.value);
-						if (phoneMask) { invalid++; jQuery(el).addClass('error'); } else {data[el.name] = el.value};
+						if (phoneMask) { invalid++; jQuery(el).addClass('error'); } else {formData[el.name] = el.value;};
 					}
 					
 				} else { 
@@ -1127,8 +1143,25 @@ jQuery(window).on('load',function () {
 
 			// Отправка
 			if(invalid == 0) {
-				jQuery(idForm).find('.dz-form-card__message').addClass('active');
-				sendForm(data, idForm)
+
+				let send_data = {
+					action: 'valid_send_mail',
+					data: formData
+				};
+
+				jQuery.post(
+					window.wp_data.ajax_url, 
+					send_data, 
+					function (response) {
+						response = JSON.parse(response);
+
+						if (response.status) {
+							jQuery(idForm).find('.dz-form-card__message').addClass('active');
+						} else {
+							alert(response.message)
+						}
+					}
+				);
 			}
 		})
 	}

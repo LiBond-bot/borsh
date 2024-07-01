@@ -1,7 +1,12 @@
 <?php
 
-add_action('wp_enqueue_scripts', 'add_scripts');
+function fl_front_data(){
+  $variables = array('ajax_url' => admin_url('admin-ajax.php'));
+  echo('<script type="text/javascript">window.wp_data = '.json_encode($variables).';</script>');
+}
+add_action('wp_head','fl_front_data');
 
+add_action('wp_enqueue_scripts', 'add_scripts');
 
 function add_scripts(){
 
@@ -29,11 +34,5 @@ function add_scripts(){
 	wp_enqueue_script( 'dz-carousel', get_template_directory_uri() . '/assets/js/dz.carousel.js', array(), "0.0.0.0", true );
 	wp_enqueue_script( 'dz-ajax', get_template_directory_uri() . '/assets/js/dz.ajax.js', array(), "0.0.0.0", true );
 	wp_enqueue_script( 'custom', get_template_directory_uri() . '/assets/js/custom.js', array(), "0.0.0.0", true );
-	wp_enqueue_script( 'dznav-init', get_template_directory_uri() . '/assets/js/dznav-init.js', array(), "0.0.0.0", true );
-
-  
-  // wp_localize_script('additional-script','WPJS', [
-  // 'ajaxUrl' => admin_url('admin-ajax.php'),
-  // ]);
-    
+	wp_enqueue_script( 'dznav-init', get_template_directory_uri() . '/assets/js/dznav-init.js', array(), "0.0.0.0", true ); 
 }
