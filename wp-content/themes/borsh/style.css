@@ -20972,6 +20972,13 @@ label.error {
   background-color: transparent;
 }
 
+.input-line .form-control.error, .input-line .wp-block-categories-dropdown select.error, .wp-block-categories-dropdown .input-line select.error,
+.input-line .wp-block-archives-dropdown select.error, .wp-block-archives-dropdown .input-line select.error {
+  border: 2px solid #fff;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
 .input-line textarea::-webkit-input-placeholder {
   font-weight: 400;
   font-size: 18px;
@@ -21199,6 +21206,58 @@ label.error {
   padding: 40px 40px;
   border-radius: 10px;
   color: #fff;
+  position: relative;
+}
+
+.dz-form-card__message {
+  position: absolute;
+  background-color: red;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+}
+
+.dz-form-card__message.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dz-form-card__message-img {
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.dz-form-card__message-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.dz-form-card__message-text {
+  text-align: center;
+}
+
+.dz-form-card__message-text div:first-child {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .dz-form-card a {
@@ -21217,9 +21276,7 @@ label.error {
 }
 
 .dz-form-card__warning-message {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: none;
   background-color: #fff;
   color: #000;
   width: -webkit-max-content;
@@ -21228,6 +21285,12 @@ label.error {
   border-radius: 6px !important;
   padding: 2px 10px;
   font-size: 14px;
+}
+
+.dz-form-card__warning-message.active {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .dz-form-card_offset {
@@ -26383,6 +26446,14 @@ ul a.rsswidget:hover {
   -ms-transform-origin: right;
   -webkit-transform-origin: right;
   -o-transform-origin: right;
+}
+
+.modal {
+  padding-right: 0px !important;
+}
+
+.modal-open {
+  padding-right: 0px !important;
 }
 
 .modal-dialog {

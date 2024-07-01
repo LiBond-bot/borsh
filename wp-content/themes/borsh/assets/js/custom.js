@@ -1035,5 +1035,113 @@ jQuery(window).on('load',function () {
 		}
 	}
 
+	// Маски для форм
+	function MaskValidation() {
+
+		// Маска для поля телефона
+		jQuery('input[name="phone"]').inputmask({
+			mask: "+7 (999) 999-99-99",
+		});
+		// jQuery('input[name="phone"]').mask('+7 (999) 999-99-99');
+	
+		// Маска для поля количество обедов
+		jQuery('input[name="countLunch"]').inputmask({
+			mask: "*{1,4}",
+			placeholder: "",
+			definitions: {
+				'*': {
+					validator: "[1-9]",
+				}
+			}
+		});
+
+		// Маска для поля имя
+		jQuery('input[name="name"]').inputmask({
+			mask: "*{1,50}",
+			placeholder: "",
+			definitions: {
+				'*': {
+					validator: "[A-Za-zА-яЁё]",
+				}
+			}
+		}); 
+		jQuery('input[name="name_company"]').inputmask({
+			mask: "*{1,50}",
+			placeholder: "",
+			definitions: {
+				'*': {
+					validator: "[A-Za-zА-яЁё]",
+				}
+			}
+		});
+	}
+
+	const sendForm = (data, idForm) => {
+		console.log(data)
+	}
+	
+
+	// Проверка данных с формы
+	const formValid = (idForm) => {
+
+		const countLaunch  = jQuery(idForm).find('input[name="countLunch"]');
+
+		// Вывод сообщения о количестве обедов
+		countLaunch.on('input', function(){
+			const val = countLaunch.val();
+			const warningMessage = jQuery(idForm).find('.dz-form-card__warning-message');
+
+			if(val == 1){ jQuery(warningMessage).text('Добавьте еще два, и стоимость обеда будет 300 руб.')}
+			if(val == 2){ jQuery(warningMessage).text('Добавьте еще один, и стоимость обеда будет 300 руб.')}
+
+			val < 3 ? jQuery(warningMessage).addClass('active') : jQuery(warningMessage).removeClass('active');
+		})
+		
+		jQuery(idForm).on('click', 'button', function(e){
+			e.preventDefault();
+
+			let data = {};
+			let invalid = 0;
+			const inputs = jQuery(idForm).find('input');
+
+			// Проверка полей
+			jQuery(inputs).map((i,el)=>{
+
+				if(el.value) {
+					data[el.name] = el.value;
+
+					if(el.name == 'phone'){
+						const phoneMask = /_/.test(el.value);
+						if (phoneMask) { invalid++; jQuery(el).addClass('error'); } else {data[el.name] = el.value};
+					}
+					
+				} else { 
+					jQuery(el).addClass('error');
+					invalid++;
+				}
+
+				jQuery(el).on('click', function(){
+					jQuery(el).removeClass('error');
+				})
+			})
+
+			// Отправка
+			if(invalid == 0) {
+				jQuery(idForm).find('.dz-form-card__message').addClass('active');
+				sendForm(data, idForm)
+			}
+		})
+	}
+
+	MaskValidation()
+	formValid('#formOrderLunch')
+	formValid('#formMenu')
+	formValid('#formFooterMain')
+	formValid('#formFooterCorporate')
+	formValid('#formOrderLunchCorp')
+	formValid('#formTastingCorp')
+	formValid('#formAbout')
+	formValid('#formPartners')
+
 });
 /*  Window Load END */

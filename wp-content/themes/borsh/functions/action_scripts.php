@@ -8,6 +8,8 @@ function add_scripts(){
   wp_enqueue_script("jquery", true);
 
   wp_enqueue_script( 'fl-jquery', get_template_directory_uri() . '/assets/js/jquery.min.js', array(), "0.0.0.0", true );
+  wp_enqueue_script( 'mask', get_template_directory_uri() . '/assets/js/jquery.mask.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'mask-email', get_template_directory_uri() . '/assets/js/jquery.inputmask.bundle.js', array(), '20151215', true );
   wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js', array(), "0.0.0.0", true );
   wp_enqueue_script( 'bootstrap-select', get_template_directory_uri() . '/assets/vendor/bootstrap-select/js/bootstrap-select.min.js', array(), "0.0.0.0", true );
   wp_enqueue_script( 'magnific-popup', get_template_directory_uri() . '/assets/vendor/magnific-popup/magnific-popup.js', array(), "0.0.0.0", true );

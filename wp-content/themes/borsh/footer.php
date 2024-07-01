@@ -4,7 +4,7 @@
 		<div class="footer-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-xl-5 col-lg-5 col-md-12">
+					<div class="col-xl-6 col-lg-5 col-md-12">
 
 						<?php 
 
@@ -104,7 +104,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-2 col-md-6 col-12 mt-md-0 mt-3">
+					<div class="col-xl-2 col-lg-2 col-md-6 col-12 mt-md-0 mt-3">
 						<div class="widget widget_services">
 							<h5 class="footer-title">Меню</h5>
 							<?php
@@ -127,7 +127,7 @@
 						<?=carbon_get_theme_option( 'footer_text' )?>			
 					</div>
 					<div class="col-xl-6 col-md-6 text-md-end">
-						<p><a href="/privacy-policy/">Политика конфеденциальности</a></p>
+						<p><a href="/privacy-policy/">Политика конфиденциальности</a></p>
 					</div>
 				</div>
 			</div>
