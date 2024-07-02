@@ -26460,6 +26460,21 @@ ul a.rsswidget:hover {
   max-width: 750px !important;
 }
 
+@media only screen and (max-width: 767px) {
+  .modal-dialog {
+    max-width: none !important;
+    width: 100%;
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .modal-dialog {
+    max-width: none !important;
+    margin-left: 0 !important;
+  }
+}
+
 .modal-dialog .section-head {
   margin-bottom: 40px;
 }
@@ -26469,8 +26484,28 @@ ul a.rsswidget:hover {
   line-height: 44px;
 }
 
+@media only screen and (max-width: 575px) {
+  .modal-dialog .section-head .title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-dialog .section-head .title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
 .modal-dialog .modal-content {
   background-color: var(--primary);
+}
+
+@media only screen and (max-width: 767px) {
+  .modal-dialog .modal-content {
+    border-radius: inherit;
+  }
 }
 
 .modal-dialog .modal-header {
@@ -26495,16 +26530,9 @@ ul a.rsswidget:hover {
   padding: 0px 40px 50px 40px;
 }
 
-@media only screen and (max-width: 991px) {
-  .modal-dialog {
-    max-width: 750px !important;
-    padding: 15px;
-  }
-}
-
 @media only screen and (max-width: 575px) {
-  .modal-dialog {
-    padding: 10px;
+  .modal-dialog .modal-body .dz-form-card {
+    padding: 0px 24px 0px 24px;
   }
 }
 

@@ -9,17 +9,43 @@
 .modal-dialog{
 	max-width:750px!important;
 
+	@include respond('phone-land'){
+		max-width: none !important;
+		width: 100%;
+		padding: 0 !important;
+	}
+
+	@include respond('phone-land'){
+		max-width: none !important;
+		margin-left: 0 !important;
+	}
+
+
 	& .section-head {
 		margin-bottom: 40px;
 
 		& .title {
 			font-size: 40px;
 			line-height: 44px;
+
+			@include respond('phone'){
+				font-size: 28px;
+				line-height: 32px;
+			}
+
+			@media(max-width:480px){
+				font-size: 24px;
+				line-height: 28px;
+			}
 		}
 	}
 
 	& .modal-content {
 		background-color: var(--primary);
+
+		@include respond('phone-land'){
+			border-radius: inherit;
+		}
 	}
 
 	& .modal-header {
@@ -41,16 +67,13 @@
 
 		& .dz-form-card {
 			padding: 0px 40px 50px 40px;
+
+			@include respond('phone'){
+				padding: 0px 24px 0px 24px;
+			}
 		}
-	}
-	
-	
-	@include respond('tab-port'){
-		max-width: 750px!important;
-		padding: 15px;
-	}
-	@include respond('phone'){
-		padding: 10px;
+
+
 	}
 }
 
