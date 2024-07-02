@@ -9,8 +9,8 @@
         </div>
     </div>
     <div class="section-head">
-        <h4 class="title m-0">Заказать обед</h4>
-        <p class="m-t10">Тут будет подзаголовок</p>
+        <h4 class="title m-0">Ваш вкусный обед здесь!</h4>
+        <p class="m-t10">Просто заполните форму заказа и отправьте нам</p>
     </div>
     <input type="hidden" name="title" value="Заказ обеда розница | Форма с подвала">
     <input type="hidden" name="typeForm" value="retail">
