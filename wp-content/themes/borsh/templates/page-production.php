@@ -41,12 +41,38 @@ get_header();
 					<div class="icon-bx-wraper style-3">
 						<div class="icon-bx">
 							<div>
-								<img src="<?=get_template_directory_uri()?>/assets/images/icons/chef.png" alt="">
+								<img src="<?=get_template_directory_uri()?>/assets/images/icons/maintenance.png" alt="">
 							</div>
 						</div>
 						<div class="icon-content">
-							<h5 class="title">Работаем<br>каждый день</h5>
-							<p>Насладитесь вкусным обедом в любой момент.</p>
+							<h5 class="title">Современное спецоборудование</h5>
+							<p>Сертифицированная техника от надежного производителя.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 m-b30">
+					<div class="icon-bx-wraper style-3">
+						<div class="icon-bx">
+							<div>
+								<img src="<?=get_template_directory_uri()?>/assets/images/icons/regulatory.png" alt="">
+							</div>
+						</div>
+						<div class="icon-content">
+							<h5 class="title">Строгие<br>регламенты</h5>
+							<p>Четко следуем всем сан.нормам и принципам ХАССП.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 m-b30">
+					<div class="icon-bx-wraper style-3">
+						<div class="icon-bx">
+							<div>
+								<img src="<?=get_template_directory_uri()?>/assets/images/icons/cleaning.png" alt="">
+							</div>
+						</div>
+						<div class="icon-content">
+							<h5 class="title">⁠Чистое и светлое помещение</h5>
+							<p>Зонированное пространство профессиональной кухни.</p>
 						</div>
 					</div>
 				</div>
@@ -58,34 +84,8 @@ get_header();
 							</div>
 						</div>
 						<div class="icon-content">
-							<h5 class="title">Собственный<br>штат курьеров</h5>
-							<p>Оперативно и аккуратно доставляем заказы.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6 m-b30">
-					<div class="icon-bx-wraper style-3">
-						<div class="icon-bx">
-							<div>
-								<img src="<?=get_template_directory_uri()?>/assets/images/icons/ingredients.png" alt="">
-							</div>
-						</div>
-						<div class="icon-content">
-							<h5 class="title">Натуральные ингредиенты</h5>
-							<p>Передаем пользу продуктов и сохраняем её в вашей тарелке.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6 m-b30">
-					<div class="icon-bx-wraper style-3">
-						<div class="icon-bx">
-							<div>
-								<img src="<?=get_template_directory_uri()?>/assets/images/icons/healthy-food.png" alt="">
-							</div>
-						</div>
-						<div class="icon-content">
-							<h5 class="title">Разнообразное<br>меню</h5>
-							<p>Более 300 блюд<br>в ассортименте.</p>
+							<h5 class="title">Своя курьерская служба</h5>
+							<p>Доставляют заказы на спецтранспорте, в оговоренное время, соблюдая все условия хранения при перевозке.</p>
 						</div>
 					</div>
 				</div>
