@@ -420,6 +420,7 @@ jQuery(window).on('load', function() {
 				},
 				320: {
 					slidesPerView: 1,
+					speed: 1000,
 				},
 			}
 		});

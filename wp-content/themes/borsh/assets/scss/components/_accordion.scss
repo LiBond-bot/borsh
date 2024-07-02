@@ -140,10 +140,10 @@
 		}
 		@include respond('tab-port'){
 			.accordion-button{
-				padding:20px 25px 20px 25px;
+				padding:20px 50px 20px 20px;
 				font-size:16px;
 				&:not(.collapsed) {
-					padding:20px 25px 0px 25px;
+					padding:20px 50px 0px 20px;
 				}
 				.toggle-close{
 					width:22px;
@@ -158,10 +158,10 @@
 		}
 		@include respond('phone'){
 			.accordion-button{
-				padding: 20px 30px 20px 30px;
+				padding: 20px 50px 20px 20px;
 				font-size:14px;
 				&:not(.collapsed) {
-					padding: 20px 30px 0px 30px;
+					padding: 20px 50px 0px 20px;
 				}
 				
 			}

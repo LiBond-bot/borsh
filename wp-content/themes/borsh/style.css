@@ -21279,9 +21279,7 @@ label.error {
   display: none;
   background-color: #fff;
   color: #000;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
+  width: auto;
   border-radius: 6px !important;
   padding: 2px 10px;
   font-size: 14px;
@@ -23900,11 +23898,11 @@ button:focus {
 
 @media only screen and (max-width: 991px) {
   .dz-accordion .accordion-header .accordion-button {
-    padding: 20px 25px 20px 25px;
+    padding: 20px 50px 20px 20px;
     font-size: 16px;
   }
   .dz-accordion .accordion-header .accordion-button:not(.collapsed) {
-    padding: 20px 25px 0px 25px;
+    padding: 20px 50px 0px 20px;
   }
   .dz-accordion .accordion-header .accordion-button .toggle-close {
     width: 22px;
@@ -23918,11 +23916,11 @@ button:focus {
 
 @media only screen and (max-width: 575px) {
   .dz-accordion .accordion-header .accordion-button {
-    padding: 20px 30px 20px 30px;
+    padding: 20px 50px 20px 20px;
     font-size: 14px;
   }
   .dz-accordion .accordion-header .accordion-button:not(.collapsed) {
-    padding: 20px 30px 0px 30px;
+    padding: 20px 50px 0px 20px;
   }
 }
 
@@ -32782,6 +32780,10 @@ ul a.rsswidget:hover {
     min-width: 100%;
     width: 100%;
     height: 250px;
+  }
+  .dz-card.style-1.blog-half .dz-media img {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 

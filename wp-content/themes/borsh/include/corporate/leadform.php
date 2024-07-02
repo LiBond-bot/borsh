@@ -38,10 +38,13 @@
                             <div class="col-lg-2 col-12">
                                 <button type="submit" name="submit" value="submit" class="btn btn-md btn-white btn-hover-1"><span>Отправить</span></button>	
                             </div>
-                            <div class="dz-form-card__warning-message mt-3">Добавьте еще один, и стоимость обеда будет 300 руб.</div>
-                            <div class="mt-3 p-0" style="font-size:14px;">
-                                Нажимая кнопку <b>"Отправить"</b>, вы соглашаетесь с <b><a href="/privacy-policy/">Политикой конфиденциальности</a></b>
+                            <div class="col-12">
+                                <div class="dz-form-card__warning-message mt-3">Добавьте еще один, и стоимость обеда будет 300 руб.</div>
+                                <div class="mt-3 p-0" style="font-size:14px;">
+                                    Нажимая кнопку <b>"Отправить"</b>, вы соглашаетесь с <b><a href="/privacy-policy/">Политикой конфиденциальности</a></b>
+                                </div>
                             </div>
+                            
                         </div>
                     </form>
                     <input type="hidden" name="title" value="Дегустация меню корпоративный | Форма с блока меню">
