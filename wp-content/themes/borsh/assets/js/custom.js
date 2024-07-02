@@ -1164,5 +1164,95 @@ jQuery(window).on('load',function () {
 	formValid('#formAbout')
 	formValid('#formPartners')
 
+	// Функция отображения стрелок на слайдере в зависимости от разрешения
+	function showArrowsSlider(slider, data) {
+
+		const widthScreen = window.innerWidth;
+		const slides = jQuery(slider).find('.swiper-wrapper .swiper-slide');
+		const arrowPrev = jQuery(slider).find('.pagination .img-button-prev');
+		const arrowNext = jQuery(slider).find('.pagination .img-button-next');
+		
+		if(data){
+			let currentWidthSlider; 
+
+			data.some(
+				function(item) {
+					currentWidthSlider = item;
+					return (widthScreen <= item.fl_width);
+				}
+			);
+	
+			if(slides.length <= currentWidthSlider.fl_viseble_slides) {
+				[...arrowPrev][0].style.display = 'none';
+				[...arrowNext][0].style.display = 'none';
+			} else {
+				[...arrowPrev][0].style.display = 'flex';
+				[...arrowNext][0].style.display = 'flex';
+			}
+		}
+	}
+
+	const menuSlider = [
+		{
+			fl_width: 600,
+			fl_viseble_slides: 1,
+		},
+		{
+			fl_width: 1024,
+			fl_viseble_slides: 2,
+		},
+		{
+			fl_width: 1920,
+			fl_viseble_slides: 4,
+		}
+	]
+
+	const menuAddSlider = [
+		{
+			fl_width: 600,
+			fl_viseble_slides: 1,
+		},
+		{
+			fl_width: 1024,
+			fl_viseble_slides: 2,
+		},
+		{
+			fl_width: 1920,
+			fl_viseble_slides: 3,
+		}
+	]
+
+	const Sales = [
+		{
+			fl_width: 1200,
+			fl_viseble_slides: 1,
+		},
+		{
+			fl_width: 1920,
+			fl_viseble_slides: 2,
+		}
+	]
+
+	const Certificates = [
+		{
+			fl_width: 600,
+			fl_viseble_slides: 1,
+		},
+		{
+			fl_width: 1024,
+			fl_viseble_slides: 2,
+		},
+		{
+			fl_width: 1920,
+			fl_viseble_slides: 4,
+		}
+	]
+
+	showArrowsSlider('#menu-swiper', menuSlider);
+	showArrowsSlider('#menu-add-swiper', menuAddSlider);
+	showArrowsSlider('#sales-swiper', Sales);
+	showArrowsSlider('#certificates-swiper', Certificates);
+	
+
 });
 /*  Window Load END */

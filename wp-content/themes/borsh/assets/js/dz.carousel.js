@@ -186,6 +186,37 @@ jQuery(window).on('load', function() {
 			}
 		});
 	}
+
+
+	if(jQuery('.sale-swiper').length > 0){
+		var swiper = new Swiper('.sale-swiper', {
+			speed: 1000,
+			slidesPerView: 2,
+			loop: true,
+			spaceBetween: 30,
+			centeredSlides: false,
+			watchSlidesVisibility: true,
+			autoplay: {
+			   delay: 1500,
+			}, 
+			navigation:{
+				nextEl: '.img-button-next',
+				prevEl: '.img-button-prev',
+			},
+			pagination: {
+				el: ".swiper-pagination",
+			},
+			breakpoints: {
+				1200: {
+					slidesPerView: 2,
+				},
+				320: {
+					slidesPerView: 1,
+				},
+			}
+		});
+	}
+
 	// testimonial2
 	if(jQuery('.testimonial-two-swiper').length > 0){
 		var swiper = new Swiper('.testimonial-two-swiper', {
@@ -216,8 +247,8 @@ jQuery(window).on('load', function() {
 	}
 	
 	// img slider
-	if(jQuery('.portfolio-swiper').length > 0){
-		var swiper = new Swiper('.portfolio-swiper', {
+	if(jQuery('.menu-swiper').length > 0){
+		var swiper = new Swiper('.menu-swiper', {
 			slidesPerView: 4,
 			spaceBetween: 30,
 			speed: 1000,
@@ -229,6 +260,42 @@ jQuery(window).on('load', function() {
 			navigation: {
 				nextEl: '.img-button-next',
 				prevEl: '.img-button-prev',
+				disabledClass: '.disabled_swiper_button'
+			},
+			breakpoints: {
+				1200: {
+					slidesPerView: 4,
+				},
+				1024: {
+					slidesPerView: 4,
+				},
+				768: {
+					slidesPerView: 2,
+				},
+				600: {
+					slidesPerView: 2,
+				},
+				320: {
+					slidesPerView: 1,
+				},
+			}
+		});
+	}
+
+	if(jQuery('.certificates-swiper').length > 0){
+		var swiper = new Swiper('.certificates-swiper', {
+			slidesPerView: 4,
+			spaceBetween: 30,
+			speed: 1000,
+			parallax: true,
+			loop:true,
+			autoplay: {
+			   delay: 1000,
+			}, 
+			navigation: {
+				nextEl: '.img-button-next',
+				prevEl: '.img-button-prev',
+				disabledClass: '.disabled_swiper_button'
 			},
 			breakpoints: {
 				1200: {
@@ -328,8 +395,8 @@ jQuery(window).on('load', function() {
 	}
 
 	// img slider
-	if(jQuery('.menu-swiper').length > 0){
-		var swiper = new Swiper('.menu-swiper', {
+	if(jQuery('.menu-add-swiper').length > 0){
+		var swiper = new Swiper('.menu-add-swiper', {
 			spaceBetween: 30,
 			speed: 0,
 			parallax: true,

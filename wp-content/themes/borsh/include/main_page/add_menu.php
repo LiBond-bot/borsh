@@ -62,7 +62,7 @@
 
                                     ?>
                                         <div id="<?=$cat->slug?>" class="tab-pane <?=$class?>">
-                                            <div class="swiper menu-swiper swiper-visible swiper-btn-lr">
+                                            <div class="swiper menu-add-swiper swiper-visible swiper-btn-lr"  id="menu-add-swiper">
                                                 <div class="swiper-wrapper">
                                                     <?php
                                                         foreach ($addons as $data) {

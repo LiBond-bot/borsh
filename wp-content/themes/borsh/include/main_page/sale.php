@@ -17,7 +17,7 @@
                         <h2 class="title">Акции</h2>
                         <p>Эксклюзив от БОРЩ</p>
                     </div>
-                    <div class="swiper blog-swiper swiper-visible swiper-btn-lr">
+                    <div class="swiper sale-swiper swiper-visible swiper-btn-lr" id="sales-swiper">
                         <div class="swiper-wrapper">
                             <?php
                                 foreach ($sales as $data) {
@@ -63,8 +63,8 @@
                             ?>
                         </div>
                         <div class="pagination mt-xl-0 m-t40">
-                            <div class="blog-button-prev btn-prev-long"><i class="fa-solid fa-arrow-left"></i></div>
-                            <div class="blog-button-next btn-next-long"><i class="fa-solid fa-arrow-right"></i></div>
+                            <div class="img-button-prev btn-prev-long"><i class="fa-solid fa-arrow-left"></i></div>
+                            <div class="img-button-next btn-next-long"><i class="fa-solid fa-arrow-right"></i></div>
                         </div>
                     </div>
                 </div>

@@ -3,8 +3,8 @@
     if($certificates){
         ?>
 
-            <div class="swiper-btn-lr">
-                <div class="swiper portfolio-swiper swiper-visible">
+            <div class="swiper-btn-lr" id="certificates-swiper">
+                <div class="swiper certificates-swiper swiper-visible">
                     <div class="swiper-wrapper">
                         <?php
                             foreach ($certificates as $img) {

@@ -9,8 +9,8 @@
                         <p>Вкусные, сытные, свежие</p>
                     </div>
 
-                    <div class="swiper-btn-lr">
-                        <div class="swiper portfolio-swiper swiper-visible">
+                    <div class="swiper-btn-lr" id="menu-swiper">
+                        <div class="swiper menu-swiper swiper-visible">
                             <div class="swiper-wrapper">
                                 <?php
                                     foreach ($menu as $img) {
