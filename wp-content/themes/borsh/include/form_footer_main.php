@@ -13,5 +13,6 @@
         <p class="m-t10">Тут будет подзаголовок</p>
     </div>
     <input type="hidden" name="title" value="Заказ обеда розница | Форма с подвала">
+    <input type="hidden" name="typeForm" value="retail">
     <? get_template_part('include/form_main') ?>
 </div>

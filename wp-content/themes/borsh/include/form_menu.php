@@ -20,6 +20,7 @@
                         <p class="m-t10">Доставка от двух обедов БЕСПЛАТНО. Принимаем заказы ежедневно</p>
                     </div>
                     <input type="hidden" name="title" value="Узнать меню розница | Форма с блока меню">
+                    <input type="hidden" name="typeForm" value="retail">
                     <? get_template_part('include/form_main') ?>
                 </div>
             </div>

@@ -242,6 +242,7 @@ get_header();
 					</div>
 				</form>
 				<input type="hidden" name="title" value="Обратный звонок | Форма с страницы о компании">
+				<input type="hidden" name="typeForm" value="callback">
 			</div>
 		</div>
 	</section>

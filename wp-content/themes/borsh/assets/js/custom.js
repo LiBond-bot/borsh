@@ -1055,43 +1055,44 @@ jQuery(window).on('load',function () {
 			}
 		});
 
-		// Маска для поля имя
-		jQuery('input[name="name"]').inputmask({
-			mask: "*{1,50}",
-			placeholder: "",
-			definitions: {
-				'*': {
-					validator: "[A-Za-zА-яЁё]",
-				}
-			}
-		}); 
-		jQuery('input[name="name_company"]').inputmask({
-			mask: "*{1,50}",
-			placeholder: "",
-			definitions: {
-				'*': {
-					validator: "[A-Za-zА-яЁё]",
-				}
-			}
-		});
+		// // Маска для поля имя
+		// jQuery('input[name="name"]').inputmask({
+		// 	mask: "*{1,50}",
+		// 	placeholder: "",
+		// 	definitions: {
+		// 		'*': {
+		// 			validator: "[A-Za-zА-яЁё]",
+		// 		}
+		// 	}
+		// }); 
+		// jQuery('input[name="name_company"]').inputmask({
+		// 	mask: "*{1,50}",
+		// 	placeholder: "",
+		// 	definitions: {
+		// 		'*': {
+		// 			validator: "[A-Za-zА-яЁё]",
+		// 		}
+		// 	}
+		// });
 	}
 
 
 	// Отправка данных с формы на сервер
 	const sendForm = (formData, idForm) => {
-		
-		// jQuery.post(
-		// 	window.wp_data.ajax_url,
-		// 	send_data,
-		// 	function (response) {
-		// 		response = JSON.parse(response)
-		// 		if (response.status) {
-		// 			jQuery(idForm).find('.dz-form-card__message').addClass('active');
-		// 		} else {
-		// 			alert('Что-то пошло не так')
-		// 		}
-		// 	}
-		// );
+
+		jQuery.post(
+			window.wp_data.ajax_url, 
+			formData, 
+			function (response) {
+				response = JSON.parse(response);
+
+				if (response.status) {
+					jQuery(idForm).find('.dz-form-card__message').addClass('active');
+				} else {
+					alert(response.message)
+				}
+			}
+		);
 
 		
 	}
@@ -1143,25 +1144,12 @@ jQuery(window).on('load',function () {
 
 			// Отправка
 			if(invalid == 0) {
-
+				console.log(formData)
 				let send_data = {
 					action: 'valid_send_mail',
 					data: formData
 				};
-
-				jQuery.post(
-					window.wp_data.ajax_url, 
-					send_data, 
-					function (response) {
-						response = JSON.parse(response);
-
-						if (response.status) {
-							jQuery(idForm).find('.dz-form-card__message').addClass('active');
-						} else {
-							alert(response.message)
-						}
-					}
-				);
+				sendForm(send_data, idForm)
 			}
 		})
 	}

@@ -38,6 +38,67 @@ function fl_send_mail($subject,$message, $email = false) {
 }
 
 
+function fl_send_database($data){
+
+    global $wpdb;
+
+    if($data['typeForm'] == 'retail') {
+        $wpdb->insert(
+            'wp_fl_retail_orders',
+            array( 
+                'name' => $data['name'],
+                'phone' => $data['phone'],
+                'count_launch' => $data['countLunch'],
+                'adress' => $data['adress'],
+                'date' => current_time('Y-m-d H:i:s'),
+            ),
+            array( '%s', '%s', '%s', '%s')
+        );
+    }
+
+    if($data['typeForm'] == 'corporate') {
+        $name_company = !$data['name_company'] ? '' : $data['name_company'];
+        $wpdb->insert(
+            'wp_fl_corporate_orders',
+            array( 
+                'name' => $data['name'],
+                'name_company' => $name_company,
+                'phone' => $data['phone'],
+                'count_launch' => $data['countLunch'],
+                'adress' => $data['adress'],
+                'date' => current_time('Y-m-d H:i:s'),
+            ),
+            array( '%s', '%s', '%s', '%s', '%s')
+        );
+    }
+
+    if($data['typeForm'] == 'callback') {
+        $wpdb->insert(
+            'wp_fl_callback',
+            array( 
+                'name' => $data['name'],
+                'phone' => $data['phone'],
+                'date' => current_time('Y-m-d H:i:s'),
+            ),
+            array( '%s', '%s')
+        );
+    }
+
+    if($data['typeForm'] == 'partners') {
+        $wpdb->insert(
+            'wp_fl_partners',
+            array( 
+                'name' => $data['name'],
+                'phone' => $data['phone'],
+                'date' => current_time('Y-m-d H:i:s'),
+            ),
+            array( '%s', '%s')
+        );
+    }
+
+    
+}
+
 
 // Функция валидация и формирования письма
 
@@ -68,6 +129,8 @@ function fl_valid_send($data) {
     }
 
     $send_mail = fl_send_mail($subject, $message, $order_email);
+    
+    fl_send_database($_POST['data']);
 
     if ($send_mail) {
         echo json_encode([

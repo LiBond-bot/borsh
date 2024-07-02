@@ -45,6 +45,7 @@
                         </div>
                     </form>
                     <input type="hidden" name="title" value="Дегустация меню корпоративный | Форма с блока меню">
+                    <input type="hidden" name="typeForm" value="corporate">
                 </div>
             </div>
         </div>

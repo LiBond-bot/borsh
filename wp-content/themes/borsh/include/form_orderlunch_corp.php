@@ -20,6 +20,7 @@
                         <p class="m-t10">Обслуживаем коллективы от 10 человек. По договору.<br>С отсрочкой платежа на специальных условиях</p>
                     </div>
                     <input type="hidden" name="title" value="Заказ обеда коорпоративный | Форма с оффера">
+                    <input type="hidden" name="typeForm" value="corporate">
                     <? get_template_part('include/form_corporate') ?>
                 </div>
             </div>
