@@ -8,7 +8,7 @@
                 <div class="container inner-section-wrapper">
                     <div class="section-head text-center">
                         <h2 class="title">Добавьте к заказу</h2>
-                        <p>В дополнение к основе</p>
+                        <p>Салаты, закуски, десерты для Вас</p>
                     </div>
                     <div class="row">
                         <ul class="nav nav-tabs tabs-style-1">
