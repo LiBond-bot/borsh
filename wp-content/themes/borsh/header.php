@@ -3,18 +3,21 @@
 <head>
 	
 	<!-- Title -->
-	<title>БОРЩ - Доставка вкусных обедов в Ростове-на-Дону</title>
+	<title>
+		БОРЩ - Доставка вкусных обедов в Ростове-на-Дону
+		<? if(get_the_id() != 13) { wp_title(); } ?>
+	</title>	
+	
 	
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="author" content="DexignZone">
-	<meta name="robots" content="">
-	<meta name="keywords" content="restaurant, restaurant website templates, restaurant template, food, restro, hotel, bootstrap 5, bootstrap, html, frontend, swigo, responsive template, shop, cart, menu, taste, blog, service, cook, customers, website, hungry, shop cart, fast food, table booking, website templates for restaurants, food website templates">
-	<meta name="description" content="Boost your food business with Swigo's restaurant website templates. Our professionally designed templates cater specifically to the needs of restaurants, offering visually stunning and functional designs. Choose from a variety of food website templates that are perfect for showcasing your menu, promoting your services, and attracting hungry customers. Partner with DexignZone to create an impressive online presence for your restaurant. Start driving more traffic and growing your business today.">
-	<meta property="og:title" content="Swigo - Empowering Your Restaurant Website Templates | DexignZone">
-	<meta property="og:description" content="Boost your food business with Swigo's restaurant website templates. Our professionally designed templates cater specifically to the needs of restaurants, offering visually stunning and functional designs. Choose from a variety of food website templates that are perfect for showcasing your menu, promoting your services, and attracting hungry customers. Partner with DexignZone to create an impressive online presence for your restaurant. Start driving more traffic and growing your business today.">
-	<meta property="og:image" content="https://swigo.dexignzone.com/xhtml/social-home.png">
+	<meta name="author" content="borsch">
+	<meta name="keywords" content="доставка, обеды, доставка обедов, борщ, ростов, ростов-на-дону, ростовсквя область, ">
+	<meta name="description" content="Доставка вкусных обедов в Ростове-на-Дону. Сосредоточьтесь на профессиональных задачах, а мы позаботимся о вашей сытости и здоровье!">
+	<meta property="og:title" content="БОРЩ - Доставка вкусных обедов в Ростове-на-Дону">
+	<meta property="og:description" content="Доставка вкусных обедов в Ростове-на-Дону. Сосредоточьтесь на профессиональных задачах, а мы позаботимся о вашей сытости и здоровье!">
+	<meta property="og:image" content="<?=get_template_directory_uri()?>/assets/images/social-home.png">
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- Mobile Specific -->
