@@ -9,8 +9,9 @@
                         <h2 class="title">Наши обеды</h2>
                         <p>Вкусные, сытные, свежие</p>
                     </div>
+
                     <div class="swiper-btn-lr" id="menu-swiper">
-                        <div class="swiper menu-swiper">
+                        <div class="swiper menu-swiper swiper-visible">
                             <div class="swiper-wrapper">
                                 <?php
                                     foreach ($menu as $img) {
@@ -25,11 +26,12 @@
                                 ?>
                             </div>
                         </div>
+
                         <div class="pagination mt-xl-0 m-t40">
                             <div class="img-button-prev btn-prev-long"><i class="fa-solid fa-arrow-left"></i></div>
                             <div class="img-button-next btn-next-long"><i class="fa-solid fa-arrow-right"></i></div>
                         </div>
-                    </div>
+
                 </div>
                 <img class="bg bg6 dz-move-down" src="<?=get_template_directory_uri()?>/assets/images/background/back_08.png" alt="/">
             </section>

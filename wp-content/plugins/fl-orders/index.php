@@ -34,6 +34,13 @@ function fl_food_menu_activation(){
             phone varchar(255) NOT NULL default '',
             count_launch varchar(255) NOT NULL default '',
             adress varchar(255) NOT NULL default '',
+            url_page varchar(255) NOT NULL default '',
+            name_form varchar(255) NOT NULL default '',
+            utm_source varchar(255) NOT NULL default '',
+            utm_medium varchar(255) NOT NULL default '',
+            utm_term varchar(255) NOT NULL default '',
+            utm_content varchar(255) NOT NULL default '',
+            utm_campaign varchar(255) NOT NULL default '',
             date DATETIME NOT NULL default '0000-00-00 00:00:00',
             PRIMARY KEY (id)
         )
@@ -58,6 +65,13 @@ function fl_food_menu_activation(){
             phone varchar(255) NOT NULL default '',
             count_launch varchar(255) NOT NULL default '',
             adress varchar(255) NOT NULL default '',
+            url_page varchar(255) NOT NULL default '',
+            name_form varchar(255) NOT NULL default '',
+            utm_source varchar(255) NOT NULL default '',
+            utm_medium varchar(255) NOT NULL default '',
+            utm_term varchar(255) NOT NULL default '',
+            utm_content varchar(255) NOT NULL default '',
+            utm_campaign varchar(255) NOT NULL default '',
             date DATETIME NOT NULL default '0000-00-00 00:00:00',
             PRIMARY KEY (id)
         )
@@ -79,6 +93,13 @@ function fl_food_menu_activation(){
             id  bigint(20) unsigned NOT NULL auto_increment,
             name varchar(255) NOT NULL default '',
             phone varchar(255) NOT NULL default '',
+            url_page varchar(255) NOT NULL default '',
+            name_form varchar(255) NOT NULL default '',
+            utm_source varchar(255) NOT NULL default '',
+            utm_medium varchar(255) NOT NULL default '',
+            utm_term varchar(255) NOT NULL default '',
+            utm_content varchar(255) NOT NULL default '',
+            utm_campaign varchar(255) NOT NULL default '',
             date DATETIME NOT NULL default '0000-00-00 00:00:00',
             PRIMARY KEY (id)
         )
@@ -100,6 +121,13 @@ function fl_food_menu_activation(){
             id  bigint(20) unsigned NOT NULL auto_increment,
             name varchar(255) NOT NULL default '',
             phone varchar(255) NOT NULL default '',
+            url_page varchar(255) NOT NULL default '',
+            name_form varchar(255) NOT NULL default '',
+            utm_source varchar(255) NOT NULL default '',
+            utm_medium varchar(255) NOT NULL default '',
+            utm_term varchar(255) NOT NULL default '',
+            utm_content varchar(255) NOT NULL default '',
+            utm_campaign varchar(255) NOT NULL default '',
             date DATETIME NOT NULL default '0000-00-00 00:00:00',
             PRIMARY KEY (id)
         )

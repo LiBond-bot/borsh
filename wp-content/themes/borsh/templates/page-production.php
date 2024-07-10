@@ -157,7 +157,8 @@ get_header();
 						</div>
 					</div>
 				</form>
-				<input type="hidden" name="title" value="Дегустация блюд | Форма с страницы партнёрам">
+				<input type="hidden" name="title" value="Дегустация блюд">
+				<input type="hidden" name="WhereForm" value="Форма с страницы партнёрам">
 				<input type="hidden" name="typeForm" value="partners">
 			</div>
 		</div>

@@ -5,12 +5,19 @@
         <table class="wp-list-table widefat fixed striped table-view-list posts">
             <thead>
                 <tr>
-                    <th scope="col" id="fl-corporate-orders-name" class="manage-column"><span>Контактное лицо</span></span></th>
-                    <th scope="col" id="fl-corporate-orders-company" class="manage-column">Название компании</th>
-                    <th scope="col" id="fl-corporate-orders-phone" class="manage-column">Телефон</th>
-                    <th scope="col" id="fl-corporate-orders-count" class="manage-column">Количество обедов</th>
-                    <th scope="col" id="fl-corporate-orders-adress" class="manage-column">Адрес</th>
-                    <th scope="col" id="fl-corporate-orders-date" class="manage-column">Дата заказа</th>
+                    <th width="8%" scope="col" id="fl-corporate-orders-name" class="manage-column"><span>Контактное лицо</span></span></th>
+                    <th width="9%" scope="col" id="fl-corporate-orders-company" class="manage-column">Название компании</th>
+                    <th width="9%" scope="col" id="fl-corporate-orders-phone" class="manage-column">Телефон</th>
+                    <th width="9%" scope="col" id="fl-corporate-orders-count" class="manage-column">Количество обедов</th>
+                    <th width="9%" scope="col" id="fl-corporate-orders-adress"  class="manage-column">Адрес</th>
+                    <th width="10%" scope="col" id="fl-corporate-orders-adress"  class="manage-column">Url страницы заказа</th>
+                    <th width="9%" scope="col" id="fl-corporate-orders-adress"  class="manage-column">Форма</th>
+                    <th width="7%" scope="col" id="fl-corporate-orders-date"  class="manage-column">Дата заказа</th>
+                    <th width="6%" scope="col" id="fl-corporate-orders-adress"  class="manage-column">utm_source</th>
+                    <th width="6%" scope="col" id="fl-corporate-orders-adress"  class="manage-column">utm_medium</th>
+                    <th width="6%" scope="col" id="fl-corporate-orders-adress"  class="manage-column">utm_term</th>
+                    <th width="6%" scope="col" id="fl-corporate-orders-adress"  class="manage-column">utm_content</th>
+                    <th width="7%" scope="col" id="fl-corporate-orders-adress"  class="manage-column">utm_campaign</th>
                 </tr>
             </thead>
             <tbody id="the-list">
@@ -29,7 +36,14 @@
                     <td><a href="tel:<?=$order->phone?>"><?=$order->phone?></a></td>
                     <td><?=$order->count_launch?></td>
                     <td><?=$order->adress?></td>
+                    <td><a target="_bank" href="<?=$order->url_page?>"><?=$order->url_page?></a></td>
+                    <td><?=$order->name_form?></td>
                     <td><?=$order->date?></td>
+                    <td><?=$order->utm_source?></td>
+                    <td><?=$order->utm_medium?></td>
+                    <td><?=$order->utm_term?></td>
+                    <td><?=$order->utm_content?></td>
+                    <td><?=$order->utm_campaign?></td>
                 </tr>
                 <? } ?>
             </tbody>

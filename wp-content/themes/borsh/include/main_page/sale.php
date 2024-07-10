@@ -55,6 +55,9 @@
                                                         }
                                                     ?>
                                                     <?=$data -> post_content?>
+                                                    <div>
+                                                        <a data-title="<?=$data -> post_title?>" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#sale" class="btn btn-primary shadow-primary btn-hover-3 mt-2 sale_button"><span class="btn-text" data-text="Получить">Получить</span></a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

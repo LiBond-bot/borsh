@@ -5,9 +5,16 @@
     <table class="wp-list-table widefat fixed striped table-view-list posts">
         <thead>
             <tr>
-                <th scope="col" id="fl-callbacks-name" class="manage-column">Контактное лицо</th>
-                <th scope="col" id="fl-callbacks-phone" class="manage-column">Телефон</th>
-                <th scope="col" id="fl-callbacks-date" class="manage-column">Дата заказа</th>
+                <th width="15%" scope="col" id="fl-callbacks-name" class="manage-column">Контактное лицо</th>
+                <th width="15%" scope="col" id="fl-callbacks-phone" class="manage-column">Телефон</th>
+                <th width="12%" scope="col" id="fl-callbacks-url"  class="manage-column">Url страницы заказа</th>
+                <th width="11%" scope="col" id="fl-callbacks-form"  class="manage-column">Форма</th>
+                <th width="8%" scope="col" id="fl-callbacks-date"  class="manage-column">Дата заказа</th>
+                <th width="6%" scope="col" id="fl-callbacks-utm_source"  class="manage-column">utm_source</th>
+                <th width="6%" scope="col" id="fl-callbacks-utm_medium"  class="manage-column">utm_medium</th>
+                <th width="6%" scope="col" id="fl-callbacks-utm_term"  class="manage-column">utm_term</th>
+                <th width="6%" scope="col" id="fl-callbacks-utm_content"  class="manage-column">utm_content</th>
+                <th width="7%" scope="col" id="fl-callbacks-utm_campaign"  class="manage-column">utm_campaign</th>
             </tr>
         </thead>
         <tbody id="the-list">
@@ -24,7 +31,15 @@
                     
                 </td>
                 <td><a href="tel:<?=$callback->phone?>"><?=$callback->phone?></a></td>
+                
+                <td><a target="_bank" href="<?=$callback->url_page?>"><?=$callback->url_page?></a></td>
+                <td><?=$callback->name_form?></td>
                 <td><?=$callback->date?></td>
+                <td><?=$callback->utm_source?></td>
+                <td><?=$callback->utm_medium?></td>
+                <td><?=$callback->utm_term?></td>
+                <td><?=$callback->utm_content?></td>
+                <td><?=$callback->utm_campaign?></td>
             </tr>
             
             <? } ?>

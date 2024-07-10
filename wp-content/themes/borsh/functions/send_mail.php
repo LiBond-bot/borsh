@@ -40,9 +40,16 @@ function fl_send_mail($subject,$message, $email = false) {
 
 function fl_send_database($data){
 
+    $utm_source = $data['utm']['utm_source'] ? $data['utm']['utm_source'] : '';
+    $utm_medium = $data['utm']['utm_medium'] ? $data['utm']['utm_medium'] : '';
+    $utm_term = $data['utm']['utm_term'] ? $data['utm']['utm_term'] : '';
+    $utm_content = $data['utm']['utm_content'] ? $data['utm']['utm_content'] : '';
+    $utm_campaign = $data['utm']['utm_campaign'] ? $data['utm']['utm_campaign'] : '';
+
     global $wpdb;
 
     if($data['typeForm'] == 'retail') {
+
         $wpdb->insert(
             'wp_fl_retail_orders',
             array( 
@@ -50,6 +57,13 @@ function fl_send_database($data){
                 'phone' => $data['phone'],
                 'count_launch' => $data['countLunch'],
                 'adress' => $data['adress'],
+                'url_page' => $data['url_page'],
+                'name_form' => $data['WhereForm'],
+                'utm_source' => $utm_source,
+                'utm_medium' => $utm_medium,
+                'utm_term' => $utm_term,
+                'utm_content' => $utm_content,
+                'utm_campaign' =>  $utm_campaign,
                 'date' => current_time('Y-m-d H:i:s'),
             ),
             array( '%s', '%s', '%s', '%s')
@@ -66,6 +80,13 @@ function fl_send_database($data){
                 'phone' => $data['phone'],
                 'count_launch' => $data['countLunch'],
                 'adress' => $data['adress'],
+                'url_page' => $data['url_page'],
+                'name_form' => $data['WhereForm'],
+                'utm_source' => $utm_source,
+                'utm_medium' => $utm_medium,
+                'utm_term' => $utm_term,
+                'utm_content' => $utm_content,
+                'utm_campaign' =>  $utm_campaign,
                 'date' => current_time('Y-m-d H:i:s'),
             ),
             array( '%s', '%s', '%s', '%s', '%s')
@@ -78,6 +99,13 @@ function fl_send_database($data){
             array( 
                 'name' => $data['name'],
                 'phone' => $data['phone'],
+                'url_page' => $data['url_page'],
+                'name_form' => $data['WhereForm'],
+                'utm_source' => $utm_source,
+                'utm_medium' => $utm_medium,
+                'utm_term' => $utm_term,
+                'utm_content' => $utm_content,
+                'utm_campaign' =>  $utm_campaign,
                 'date' => current_time('Y-m-d H:i:s'),
             ),
             array( '%s', '%s')
@@ -90,6 +118,13 @@ function fl_send_database($data){
             array( 
                 'name' => $data['name'],
                 'phone' => $data['phone'],
+                'url_page' => $data['url_page'],
+                'name_form' => $data['WhereForm'],
+                'utm_source' => $utm_source,
+                'utm_medium' => $utm_medium,
+                'utm_term' => $utm_term,
+                'utm_content' => $utm_content,
+                'utm_campaign' =>  $utm_campaign,
                 'date' => current_time('Y-m-d H:i:s'),
             ),
             array( '%s', '%s')
@@ -101,7 +136,6 @@ function fl_send_database($data){
 
 
 // Функция валидация и формирования письма
-
 add_action('wp_ajax_valid_send_mail', 'fl_valid_send');
 add_action('wp_ajax_nopriv_valid_send_mail', 'fl_valid_send');
 
@@ -125,7 +159,30 @@ function fl_valid_send($data) {
     }
 
     if ($data['name_company']) {
-        $message .= "Название компании: ".$data['adress']."<br>";
+        $message .= "Название компании: ".$data['name_company']."<br>";
+    }
+
+    $message .= "Url-страницы формы заказа: ".$data['url_page']."<br>";
+    $message .= "Форма: ".$data['WhereForm']."<br>";
+
+    if ($data['utm']['utm_campaign']) {
+        $message .= "utm_campaign: ".$data['utm']['utm_campaign']."<br>";
+    }
+
+    if ($data['utm']['utm_content']) {
+        $message .= "utm_content: ".$data['utm']['utm_content']."<br>";
+    }
+
+    if ($data['utm']['utm_medium']) {
+        $message .= "utm_medium: ".$data['utm']['utm_medium']."<br>";
+    }
+
+    if ($data['utm']['utm_source']) {
+        $message .= "utm_source: ".$data['utm']['utm_source']."<br>";
+    }
+
+    if ($data['utm']['utm_term']) {
+        $message .= "utm_term: ".$data['utm']['utm_term']."<br>";
     }
 
     $send_mail = fl_send_mail($subject, $message, $order_email);

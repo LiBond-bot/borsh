@@ -31,7 +31,7 @@
                             <div class="img-button-next btn-next-long"><i class="fa-solid fa-arrow-right"></i></div>
                         </div>
 
-                    </div>
+                </div>
             </section>
         <?
     }

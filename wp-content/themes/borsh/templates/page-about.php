@@ -241,7 +241,8 @@ get_header();
 						</div>
 					</div>
 				</form>
-				<input type="hidden" name="title" value="Обратный звонок | Форма с страницы о компании">
+				<input type="hidden" name="title" value="Обратный звонок">
+				<input type="hidden" name="WhereForm" value="Форма с страницы о компании">
 				<input type="hidden" name="typeForm" value="callback">
 			</div>
 		</div>

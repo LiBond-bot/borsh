@@ -9,20 +9,20 @@
 						<?php 
 
 							if(get_the_ID() != 15 && get_the_ID() != 13) {
-								require_once 'include/form_footer_main.php';
+								require_once 'include/forms/block_footer_main.php';
 							} else {
 
 								if(get_the_ID() == 15) {
 									?>
 										<div class="dz-form-card_offset">
-											<? require_once 'include/form_footer_corporate.php';?>
+											<? require_once 'include/forms/block_footer_corporate.php';?>
 										</div>
 									<?
 									
 								} else {
 									?>
 										<div class="dz-form-card_offset">
-											<? require_once 'include/form_footer_main.php';?>
+											<? require_once 'include/forms/block_footer_main.php';?>
 										</div>
 									<?
 								}
@@ -33,7 +33,6 @@
 						<div class="widget widget_getintuch">
 							<h5 class="footer-title">Контакты</h5>
 							<ul>
-
 									<?
 										if(carbon_get_theme_option('site_adress')) {
 											?>
@@ -136,9 +135,13 @@
 	</footer>
 
 	<? require_once 'include/messenger-panel.php'?>
-	<? require_once 'include/form_orderlunch.php'?>
-	<? require_once 'include/form_menu.php'?>
-	<? require_once 'include/form_orderlunch_corp.php'?>
+	<? require_once 'include/forms/modal_orderlunch.php'?>
+	<? require_once 'include/forms/modal_orderlunch_corp.php'?>
+	<? require_once 'include/forms/modal_menu.php'?>
+	<? require_once 'include/forms/modal_order.php'?>
+	<? require_once 'include/forms/modal_sale.php'?>
+	<? require_once 'include/forms/modal_menuOrder.php'?>
+	
 		
 	<!-- Footer -->
 	<div class="scroltop-progress scroltop-primary">

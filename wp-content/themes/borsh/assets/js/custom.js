@@ -1097,13 +1097,33 @@ jQuery(window).on('load',function () {
 		
 	}
 
+	// Функция получения utm метки из get запроса
+	function getUtm(name){
+		if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
+		   return decodeURIComponent(name[1]);
+	}
+
+	const getSaleTitle = () => {
+		jQuery('.sale_button').on('click', function(){
+			const titleSale = jQuery(this).data('title');
+
+			const inputTitle = [...jQuery('#sale').find('input[name="title"]')][0];
+			const inputFormName = [...jQuery('#sale').find('input[name="WhereForm"]')][0];
+			const modalSubtitle = [...jQuery('#sale .section-head').find('p')][0];
+			
+			inputTitle.value ='Получить акцию ' + titleSale + '';
+			inputFormName.value ='Форма с акции ' + titleSale + '';
+			modalSubtitle.innerHTML = titleSale;
+		})
+	}
+
+	getSaleTitle();
 
 	// Проверка данных с формы
 	const formValid = (idForm) => {
 
-		const countLaunch  = jQuery(idForm).find('input[name="countLunch"]');
-
 		// Вывод сообщения о количестве обедов
+		const countLaunch  = jQuery(idForm).find('input[name="countLunch"]');
 		countLaunch.on('input', function(){
 			const val = countLaunch.val();
 			const warningMessage = jQuery(idForm).find('.dz-form-card__warning-message');
@@ -1121,6 +1141,19 @@ jQuery(window).on('load',function () {
 			let invalid = 0;
 			const inputs = jQuery(idForm).find('input');
 
+			const utm = {
+				utm_source: getUtm('utm_source'),
+				utm_medium: getUtm('utm_medium'),
+				utm_term: getUtm('utm_term'),
+				utm_content: getUtm('utm_content'),
+				utm_campaign: getUtm('utm_campaign'),
+			}
+
+			const urlPageForm = window.location.origin + window.location.pathname;
+
+			formData['utm'] = utm;
+			formData['url_page'] = urlPageForm;
+			
 			// Проверка полей
 			jQuery(inputs).map((i,el)=>{
 
@@ -1144,7 +1177,6 @@ jQuery(window).on('load',function () {
 
 			// Отправка
 			if(invalid == 0) {
-				console.log(formData)
 				let send_data = {
 					action: 'valid_send_mail',
 					data: formData
@@ -1156,14 +1188,18 @@ jQuery(window).on('load',function () {
 
 	MaskValidation()
 	formValid('#formOrderLunch')
+	formValid('#fastOrder')
 	formValid('#formMenu')
+	formValid('#FormMenuOrder')
+	formValid('#formSale')
+	formValid('#formAbout')
 	formValid('#formFooterMain')
-	formValid('#formFooterCorporate')
 	formValid('#formOrderLunchCorp')
 	formValid('#formTastingCorp')
-	formValid('#formAbout')
+	formValid('#formFooterCorporate')
 	formValid('#formPartners')
-
+	
+	
 	// Функция отображения стрелок на слайдере в зависимости от разрешения
 	function showArrowsSlider(slider, data) {
 

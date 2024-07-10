@@ -5,9 +5,16 @@
     <table class="wp-list-table widefat fixed striped table-view-list posts">
         <thead>
             <tr>
-                <th scope="col" id="fl-partners-name" class="manage-column">Контактное лицо</th>
-                <th scope="col" id="fl-partners-phone" class="manage-column">Телефон</th>
-                <th scope="col" id="fl-partners-date" class="manage-column">Дата заказа</th>
+                <th width="15%" scope="col" id="fl-partners-name" class="manage-column">Контактное лицо</th>
+                <th width="15%" scope="col" id="fl-partners-phone" class="manage-column">Телефон</th>
+                <th width="12%" scope="col" id="fl-partners-url"  class="manage-column">Url страницы заказа</th>
+                <th width="11%" scope="col" id="fl-partners-form"  class="manage-column">Форма</th>
+                <th width="8%" scope="col" id="fl-partners-date"  class="manage-column">Дата заказа</th>
+                <th width="6%" scope="col" id="fl-partners-utm_source"  class="manage-column">utm_source</th>
+                <th width="6%" scope="col" id="fl-partners-utm_medium"  class="manage-column">utm_medium</th>
+                <th width="6%" scope="col" id="fl-partners-utm_term"  class="manage-column">utm_term</th>
+                <th width="6%" scope="col" id="fl-partners-utm_content"  class="manage-column">utm_content</th>
+                <th width="7%" scope="col" id="fl-partners-utm_campaign"  class="manage-column">utm_campaign</th>
             </tr>
         </thead>
         <tbody id="the-list">
@@ -24,7 +31,14 @@
                     
                 </td>
                 <td><a href="tel:<?=$partner->phone?>"><?=$partner->phone?></a></td>
+                <td><a target="_bank" href="<?=$partner->url_page?>"><?=$partner->url_page?></a></td>
+                <td><?=$partner->name_form?></td>
                 <td><?=$partner->date?></td>
+                <td><?=$partner->utm_source?></td>
+                <td><?=$partner->utm_medium?></td>
+                <td><?=$partner->utm_term?></td>
+                <td><?=$partner->utm_content?></td>
+                <td><?=$partner->utm_campaign?></td>
             </tr>
             
             <? } ?>
