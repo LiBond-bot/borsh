@@ -141,6 +141,7 @@
 	<? require_once 'include/forms/modal_order.php'?>
 	<? require_once 'include/forms/modal_sale.php'?>
 	<? require_once 'include/forms/modal_menuOrder.php'?>
+	<? require_once 'include/forms/modal_partners.php'?>
 	<? require_once 'include/banner.php'?>
 	
 	

@@ -2,7 +2,7 @@
 <section id="partners" class="partners section-wrapper-4 content-inner-1 overflow-hidden bg-parallax" style="background-image:url('<?=get_template_directory_uri()?>/assets/images/patterns/back_02.png'); background-attachment: fixed; background-size: 800px;">
     <div class="container">
         <div class="section-head text-center">
-           <h2 class="title">"БОРЩ" — ваш надежный поставщик готовых обедов</h2>
+           <h2 class="title">"БОРЩ" — ваш<br>надежный поставщик</h2>
             <p>Производим и доставляем блюда для дальнейшей реализации</p>
         </div>
         <div class="row">
@@ -67,7 +67,7 @@
                     </div>
                     <div class="row align-items-center">
                         <div class="col-md-9 col-12"><p class="mb-4 mb-md-0">Только свежее и качественное питание под фирменным знаком!</p></div>
-                        <div class="col-md-3 col-12"><a href="/partneram/" class="btn btn-primary btn-md shadow-primary m-r30 btn-hover-3"><span class="btn-text" data-text="Подробнее">Подробнее</span></a></div>
+                        <div class="col-md-3 col-12"><a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#blockpartners" class="btn btn-primary btn-md shadow-primary m-r30 btn-hover-3"><span class="btn-text" data-text="Хочу!">Хочу!</span></a></div>
                     </div>
                 </div>
             </div>

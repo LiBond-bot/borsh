@@ -1198,6 +1198,8 @@ jQuery(window).on('load',function () {
 	formValid('#formTastingCorp')
 	formValid('#formFooterCorporate')
 	formValid('#formPartners')
+	formValid('#partnersForm')
+	
 	
 	
 	// Функция отображения стрелок на слайдере в зависимости от разрешения
