@@ -1,0 +1,227 @@
+@keyframes top-banner {
+
+    0% {
+        bottom: -100%;
+    }
+
+    75% {
+        bottom: 95px;
+    }
+
+    100% {
+        bottom:60px;
+    }
+
+}
+
+@keyframes bottom-banner {
+
+    0% {
+        bottom:60px;
+    }
+
+    25% {
+        bottom: 95px;
+    }
+
+    100% {
+        bottom: -100%;
+    }
+
+}
+
+@keyframes top-banner-mob {
+
+    0% {
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    75% {
+        top: calc(50% - 50px);
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    100% {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+@keyframes bottom-banner-mob {
+
+    0% {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    25% {
+        top: calc(50% - 50px);
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    100% {
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+}
+
+
+.banner {
+    display:none;
+    position: fixed;
+    bottom: 60px;
+    left: 55px;
+    width: 100%;
+    max-width:240px;
+    height: 100%;
+    background-image: url("<?=get_template_directory_uri()?>/assets/images/patterns/back_05.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 99999;
+    background-color: #f00;
+    border-radius: 14px;
+    transition: all 1s ease;
+    box-shadow: 0px 0px 24px 0px rgba(0,0,0,.2);
+    max-height:230px;
+
+    &__container {
+        width: 100%;
+        height:100%;
+        position:relative;
+    }
+
+    &__content {
+        text-align: center;
+        padding: 0px 28px 28px 28px;
+        width: 100%;
+    }
+
+    &__title {
+        font-family: 'Roboto-Bold';
+        color: #e6213c;
+        font-weight: bold;
+        margin-bottom: 14px;
+        font-size:20px;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        font-size: 14px;
+        color: #fff;
+        margin-bottom: 14px;
+    }
+
+    &__block {
+        display: flex;
+        height: 100%;
+        position: relative;
+        align-items: flex-end;  
+    }
+
+    /* Кнопка закрыть */
+    &__button-close {
+        position: absolute;
+        right: -32px;
+        top: -7px;
+        z-index: 99;
+
+        & .button-close {
+            background-color: #fff;
+            width: 48px;
+            height: 48px;
+            border-radius: 10px;
+            background-image: url("assets/images/icons/close.png");
+            background-size: 18px;
+            background-repeat: no-repeat;
+            background-position: center;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            box-shadow: 0 0 0px rgba(0,0,0,0.25);
+        }
+
+        &:hover {
+            transform: scale(0.85);
+            box-shadow: 0 0 25px rgba(0,0,0,0.25);
+        }
+    }
+
+    &.active {
+        animation: top-banner 1s ease-out 1;
+        display:block;
+    }
+    
+    &.remove {
+        animation: bottom-banner 1s ease-out 1;
+    }
+
+    &__img {
+        position: absolute;
+        top: -226px;
+        left: -15px;
+        z-index: 2;
+        width: 115%;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    &__ribbon-main {
+        position: absolute;
+        top: 50px;
+        left: -20px;
+        height: 45px;
+        background-color: #000;
+        width: calc(100% + 40px);
+        color: #fff;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius:6px;
+        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    &__mobile {
+        display:none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        z-index: 9999;
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        transition: all 0.5s ease;
+    }
+
+    @media(max-width:991px){
+
+        &.active {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: top-banner-mob 1s ease-out 1;
+            display:block;
+        }
+    
+        &.remove {
+            animation: bottom-banner-mob 1s ease-out 1;
+        }
+    
+    }
+    
+}
