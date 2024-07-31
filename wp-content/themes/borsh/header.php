@@ -37,9 +37,9 @@
 
 </head>
 <body id="bg">
-	<div id="loading-area" class="loading-page-3">
-		<img src="<?=get_template_directory_uri()?>/assets/images/load.png" alt="">
-	</div>
+	<!-- <div id="loading-area" class="loading-page-3">
+		<img src="<?//=get_template_directory_uri()?>/assets/images/load.png" alt="">
+	</div> -->
 	<div class="page-wraper">
 		
 		<!-- Header -->
