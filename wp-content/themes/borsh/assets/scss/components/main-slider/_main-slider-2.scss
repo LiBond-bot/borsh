@@ -274,6 +274,42 @@
 
 		}
 	}
+
+	&__launch-1-mob {
+		display: none;
+		width: 300px !important;
+		position: absolute !important;
+		bottom: -60px !important;
+
+		@include respond('tab-port'){
+			display: block;
+		}
+
+		@media(max-width:860px) {
+			width: 260px !important;
+    		bottom: -90px !important;
+		}
+
+		@include respond('phone-land'){
+			width: 250px !important;
+			bottom: -33px !important;
+			left: 0px !important;
+		}
+
+		@media(max-width:500px) {
+			width: 225px !important;
+			bottom: -20px !important;
+			left: 9px !important;
+		}
+
+		@media(max-width:440px) {
+			width: 190px !important;
+        	bottom: -41px !important;
+        	left: 9px !important;
+		}
+
+		
+	}
 }
 
 .main-thumb2-area{

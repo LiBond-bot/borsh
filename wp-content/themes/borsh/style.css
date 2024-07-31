@@ -29779,6 +29779,50 @@ ul a.rsswidget:hover {
   }
 }
 
+.offer__launch-1-mob {
+  display: none;
+  width: 300px !important;
+  position: absolute !important;
+  bottom: -60px !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .offer__launch-1-mob {
+    display: block;
+  }
+}
+
+@media (max-width: 860px) {
+  .offer__launch-1-mob {
+    width: 260px !important;
+    bottom: -90px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .offer__launch-1-mob {
+    width: 250px !important;
+    bottom: -33px !important;
+    left: 0px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .offer__launch-1-mob {
+    width: 225px !important;
+    bottom: -20px !important;
+    left: 9px !important;
+  }
+}
+
+@media (max-width: 440px) {
+  .offer__launch-1-mob {
+    width: 190px !important;
+    bottom: -41px !important;
+    left: 9px !important;
+  }
+}
+
 .main-thumb2-area {
   display: -webkit-box;
   display: -ms-flexbox;

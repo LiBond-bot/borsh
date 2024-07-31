@@ -14,7 +14,7 @@
 ?>
 
 
-<div class="main-bnr-two offer">
+<div class="main-bnr-two offer offer_corporate">
 	<div class="main-slider-2">
 		<div class="banner-inner">
 			<div class="primary-box"></div>
@@ -62,6 +62,15 @@
 									?>
 										<div class="item-media wow fadeInRight dz-move-down" data-wow-delay="1s" data-speed-x="-2" data-speed-scale="-1">
 											<img src="<?=wp_get_attachment_image_url( $offer_img_2, 'full' );?>" class="img2" alt="/">
+										</div>
+									<?
+								}
+							?>
+							<?
+								if($offer_img_1){
+									?>
+										<div class="offer__launch-1-mob item-media wow fadeInRight dz-move-down" data-wow-delay="1s" data-speed-x="-2" data-speed-scale="-1">
+											<img src="<?=wp_get_attachment_image_url( $offer_img_1, 'full' );?>" class="img2" alt="/">
 										</div>
 									<?
 								}
