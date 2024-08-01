@@ -2,7 +2,7 @@
     <div class="container">
         <div class="section-head text-center">
             <h2 class="title wow flipInX" data-wow-delay="0.2s">Хотим дегустацию!</h2>
-            <p>Выберите понравившиеся блюда из наших готовых сетов</p>
+            <p>Для оценки блюд наш представитель привезет несколько вариантов</p>
         </div>
         <div class="row">
             <div class="col-12">

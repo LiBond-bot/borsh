@@ -6,7 +6,7 @@
                 <div class="container">
                     <div class="section-head text-center">
                         <h2 class="title">Часто задаваемые вопросы</h2>
-                        <p class="about-p">Частые вопросы клиентов</p>
+                        <p class="about-p">Собрали для вас ответы на популярные вопросы</p>
                     </div>
                     <div class="row">
                         <div class="col-12">
