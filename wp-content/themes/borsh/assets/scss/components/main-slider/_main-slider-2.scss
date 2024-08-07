@@ -79,8 +79,8 @@
 		}
 		.item-media{
 			position: absolute;
-			bottom: 50px;
-			margin-left: -50px;
+			bottom: -90px;
+			margin-left: -100px;
 			width: 53vw;
 			
 			img:not(.crown){
@@ -145,10 +145,19 @@
 				right: 50px;
 			}
 			.item-media{
-				bottom: 20px;
-				margin-left: -30px;
+				bottom: -100px;
+				margin-left: -100px;
 			}
 		}
+
+		@include respond('tab-land'){
+			.item-media{
+				bottom: -40px;
+				margin-left: -80px;
+			}
+		}
+
+		
 		@include respond('laptop'){
 			.primary-box{
 				&::before{
@@ -191,8 +200,8 @@
 			}
 			.item-media{
 				margin-left: 0;
-				left: -60px;
-				bottom: 50px;
+				left: 0;
+				bottom: 0;
 			}
 		}
 		@include respond('tab-port'){
@@ -207,7 +216,9 @@
 				transform: unset;
 			}
 			.item-media{
-				position: static;
+				position: absolute;
+				bottom: -255px;
+				left: 30px;
 			}
 		}
 		
@@ -219,10 +230,10 @@
 			}
 			.item-media{
 				position: initial;
-				margin-left: auto;
-				margin-right: auto;
 				margin-top: 30px;
 				width: 100%;
+				margin-bottom: -45px;
+				margin-right: -50px;
 				
 				img{
 					width:100%;
@@ -310,7 +321,24 @@
 
 		
 	}
+
+	&_main {
+		& .offer__launch-1-mob {
+			@include respond('tab-port'){
+				z-index: -1;
+				bottom: -145px !important;
+				margin-left: 16px;
+				left:0 !important;
+			}
+			@include respond('phone-land'){
+				bottom: 85px !important;
+				margin-left: 16px;
+			}
+		}
+	}
 }
+
+
 
 .main-thumb2-area{
 	display: flex;

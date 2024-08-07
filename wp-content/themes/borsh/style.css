@@ -29568,8 +29568,8 @@ ul a.rsswidget:hover {
 
 .main-bnr-two .banner-inner .item-media {
   position: absolute;
-  bottom: 50px;
-  margin-left: -50px;
+  bottom: -90px;
+  margin-left: -100px;
   width: 53vw;
 }
 
@@ -29642,8 +29642,15 @@ ul a.rsswidget:hover {
     right: 50px;
   }
   .main-bnr-two .banner-inner .item-media {
-    bottom: 20px;
-    margin-left: -30px;
+    bottom: -100px;
+    margin-left: -100px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .main-bnr-two .banner-inner .item-media {
+    bottom: -40px;
+    margin-left: -80px;
   }
 }
 
@@ -29688,8 +29695,8 @@ ul a.rsswidget:hover {
   }
   .main-bnr-two .banner-inner .item-media {
     margin-left: 0;
-    left: -60px;
-    bottom: 50px;
+    left: 0;
+    bottom: 0;
   }
 }
 
@@ -29707,7 +29714,9 @@ ul a.rsswidget:hover {
             transform: unset;
   }
   .main-bnr-two .banner-inner .item-media {
-    position: static;
+    position: absolute;
+    bottom: -255px;
+    left: 30px;
   }
 }
 
@@ -29720,10 +29729,10 @@ ul a.rsswidget:hover {
   }
   .main-bnr-two .banner-inner .item-media {
     position: initial;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 30px;
     width: 100%;
+    margin-bottom: -45px;
+    margin-right: -50px;
   }
   .main-bnr-two .banner-inner .item-media img {
     width: 100%;
@@ -29820,6 +29829,22 @@ ul a.rsswidget:hover {
     width: 190px !important;
     bottom: -41px !important;
     left: 9px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .offer_main .offer__launch-1-mob {
+    z-index: -1;
+    bottom: -145px !important;
+    margin-left: 16px;
+    left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .offer_main .offer__launch-1-mob {
+    bottom: 85px !important;
+    margin-left: 16px;
   }
 }
 
