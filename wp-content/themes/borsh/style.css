@@ -29482,6 +29482,63 @@ ul a.rsswidget:hover {
   overflow: hidden;
 }
 
+.main-bnr-two.offer_corporate .banner-inner .offer__launch-1-mob {
+  z-index: -1 !important;
+}
+
+.main-bnr-two.offer_corporate .banner-inner .item-media {
+  position: absolute;
+  bottom: 85px;
+  margin-left: -30px;
+  width: 53vw;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 1680px) {
+  .main-bnr-two.offer_corporate .banner-inner .item-media {
+    bottom: 85px;
+    margin-left: -50px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .main-bnr-two.offer_corporate .banner-inner .item-media {
+    bottom: 100px;
+    margin-left: -100px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-bnr-two.offer_corporate .banner-inner .item-media {
+    margin-left: 0;
+    left: -100px;
+    bottom: -150px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .main-bnr-two.offer_corporate .banner-inner .item-media {
+    margin-left: 0;
+    left: -100px;
+    bottom: -150px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main-bnr-two.offer_corporate .banner-inner .item-media {
+    position: static;
+    margin-left: 28px;
+    padding-bottom: 80px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .main-bnr-two.offer_corporate .banner-inner .item-media {
+    margin-left: 0;
+  }
+}
+
 .main-bnr-two .banner-inner {
   position: relative;
   z-index: 1;
@@ -29698,6 +29755,11 @@ ul a.rsswidget:hover {
     left: 0;
     bottom: 0;
   }
+  .main-bnr-two .banner-inner.offer_corporate .item-media {
+    margin-left: 0;
+    left: -100px;
+    bottom: 85px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -29717,6 +29779,11 @@ ul a.rsswidget:hover {
     position: absolute;
     bottom: -255px;
     left: 30px;
+  }
+  .main-bnr-two .banner-inner.offer_corporate .item-media {
+    margin-left: 0;
+    left: -100px;
+    bottom: 85px;
   }
 }
 
